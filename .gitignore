@@ -1,9 +1,70 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.csr
+*.asc
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+*_rsa
+*_ed25519
+*.kdbx
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Codex, MCP, and local agent state
+.codex/
+.codex-*/
+codex-*/
+*.codex.*
+CODEX_HOME/
+.codex-cache/
+.agent/
+.agents/
+.mcp/
+.mcp.json
+claude_desktop_config.json
+
+# Python and test tooling
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+
+# Node and coverage artifacts
 node_modules/
 .cache/
 coverage/
+
+# Editor, OS, and transient logs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
 *.log
-__pycache__/
-*.pyc
+
+# Generated intelligence outputs and fetch caches
 data/raw/*_cache/
 data/*.full.csv
 data/pool_sites.csv
