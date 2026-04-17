@@ -1,0 +1,87 @@
+name: Collect Intelligence
+
+on:
+  workflow_dispatch:
+    inputs:
+      miningpoolstats_coins:
+        description: "MiningPoolStats coin pages to collect. Use 0 for all sitemap coin pages."
+        required: true
+        default: "80"
+      site_limit:
+        description: "Official website domains to shallow-crawl. Use 0 for all collected sites."
+        required: true
+        default: "60"
+      pages_per_site:
+        description: "Maximum same-site pages to crawl per official website domain."
+        required: true
+        default: "4"
+      run_github:
+        description: "Run GitHub Code Search candidate collection."
+        type: boolean
+        required: true
+        default: false
+  schedule:
+    - cron: "30 2 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  collect:
+    name: Collect public mining-pool intelligence
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Resolve collection parameters
+        id: params
+        shell: bash
+        run: |
+          echo "miningpoolstats_coins=${{ github.event.inputs.miningpoolstats_coins || '80' }}" >> "$GITHUB_OUTPUT"
+          echo "site_limit=${{ github.event.inputs.site_limit || '60' }}" >> "$GITHUB_OUTPUT"
+          echo "pages_per_site=${{ github.event.inputs.pages_per_site || '4' }}" >> "$GITHUB_OUTPUT"
+          echo "run_github=${{ github.event.inputs.run_github || 'false' }}" >> "$GITHUB_OUTPUT"
+
+      - name: Collect pool website directory
+        run: |
+          python scripts/collect_pool_sites.py --max-miningpoolstats-coins "${{ steps.params.outputs.miningpoolstats_coins }}"
+
+      - name: Discover endpoints from official websites
+        shell: bash
+        run: |
+          if [ "${{ steps.params.outputs.site_limit }}" = "0" ]; then
+            python scripts/discover_from_pool_sites.py --max-pages-per-site "${{ steps.params.outputs.pages_per_site }}"
+          else
+            python scripts/discover_from_pool_sites.py --max-sites "${{ steps.params.outputs.site_limit }}" --max-pages-per-site "${{ steps.params.outputs.pages_per_site }}"
+          fi
+
+      - name: Collect priority documentation sources
+        run: python scripts/collect_intel.py
+
+      - name: Collect GitHub code-search candidates
+        if: ${{ steps.params.outputs.run_github == 'true' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/collect_github_intel.py
+
+      - name: Run quality checks
+        run: python -m unittest discover -s tests
+
+      - name: Upload collection artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: mining-pool-intel-collection
+          path: |
+            data/*.csv
+            data/*.json
+            data/raw/*.json
+            !data/raw/*_cache/**
+

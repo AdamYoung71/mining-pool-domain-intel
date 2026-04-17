@@ -1,0 +1,18 @@
+[
+  {
+    "domain": "195.3.222.105",
+    "port": 3380,
+    "scheme": "stratum+tcp",
+    "pool_name": "195.3.222.105",
+    "coin": "ANONYMOUS",
+    "algorithm": "UNKNOWN",
+    "region": "UNKNOWN",
+    "source_type": "aggregator",
+    "source_url": "https://miningpoolstats.stream/anonymous",
+    "confidence": "candidate",
+    "status": "unknown",
+    "first_seen": "2026-04-17",
+    "last_seen": "2026-04-17",
+    "notes": "IP:port pool URL extracted from MiningPoolStats data file for anonymous; verify protocol before promotion."
+  }
+]

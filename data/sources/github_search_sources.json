@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "fetch_policy": {
+    "timeout_seconds": 25,
+    "delay_seconds": 1,
+    "per_page": 30,
+    "max_results_per_query": 50,
+    "user_agent": "mining-pool-domain-intel/0.1 (+defensive-osint; github-code-search)"
+  },
+  "auth": {
+    "env": "GITHUB_TOKEN"
+  },
+  "queries": [
+    {
+      "id": "stratum_tcp_json",
+      "enabled": true,
+      "query": "\"stratum+tcp://\" filename:config.json",
+      "notes": "Common miner config samples with explicit TCP Stratum URLs."
+    },
+    {
+      "id": "stratum_ssl_json",
+      "enabled": true,
+      "query": "\"stratum+ssl://\" filename:config.json",
+      "notes": "Common miner config samples with explicit SSL Stratum URLs."
+    },
+    {
+      "id": "xmrig_pools_json",
+      "enabled": true,
+      "query": "\"xmrig\" \"pools\" filename:config.json",
+      "notes": "XMRig configs often store pool host:port values without scheme."
+    },
+    {
+      "id": "mining_subscribe",
+      "enabled": true,
+      "query": "\"mining.subscribe\" \"stratum\"",
+      "notes": "Code and docs mentioning Stratum protocol pools."
+    },
+    {
+      "id": "docker_compose_stratum",
+      "enabled": true,
+      "query": "\"stratum+tcp://\" filename:docker-compose.yml",
+      "notes": "Containerized miner examples."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "fetch_policy": {
+    "timeout_seconds": 25,
+    "delay_seconds": 0.8,
+    "max_retries": 1,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36 mining-pool-domain-intel/0.1"
+  },
+  "sources": [
+    {
+      "id": "minerstat_pools_directory",
+      "enabled": true,
+      "name": "minerstat mining pools directory",
+      "url": "https://minerstat.com/pools",
+      "source_type": "directory",
+      "confidence": "candidate",
+      "method": "minerstat_directory_profiles",
+      "base_url": "https://minerstat.com",
+      "notes": "Public directory used to enumerate pool profiles and official website links."
+    },
+    {
+      "id": "miningpoolstats_sitemap_data",
+      "enabled": true,
+      "name": "MiningPoolStats coin sitemap and data files",
+      "url": "https://miningpoolstats.stream/sitemap.xml",
+      "source_type": "directory",
+      "confidence": "candidate",
+      "method": "miningpoolstats_sitemap_data",
+      "base_url": "https://miningpoolstats.stream",
+      "data_origin": "https://miningpoolstats.stream",
+      "max_coin_pages": 80,
+      "notes": "Public sitemap enumerates coin pages; each coin page references data.miningpoolstats.stream data files containing pool website URLs."
+    }
+  ]
+}

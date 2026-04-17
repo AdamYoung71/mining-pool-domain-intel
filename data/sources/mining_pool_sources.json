@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "fetch_policy": {
+    "timeout_seconds": 25,
+    "delay_seconds": 1,
+    "max_retries": 1,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36 mining-pool-domain-intel/0.1"
+  },
+  "sources": [
+    {
+      "id": "f2pool_pool_info",
+      "enabled": true,
+      "name": "F2Pool mining pools info",
+      "url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
+      "source_type": "official",
+      "confidence": "confirmed",
+      "pool_name": "F2Pool",
+      "allowed_domain_suffixes": ["f2pool.com"],
+      "method": "html_stratum_extract",
+      "notes": "Official multi-coin pool URL table."
+    },
+    {
+      "id": "f2pool_btc_guide",
+      "enabled": true,
+      "name": "F2Pool BTC mining guide",
+      "url": "https://f2pool.zendesk.com/hc/en-us/articles/360058669631-BTC-mining-guide",
+      "source_type": "official",
+      "confidence": "confirmed",
+      "pool_name": "F2Pool",
+      "default_coin": "BTC",
+      "default_algorithm": "SHA-256",
+      "allowed_domain_suffixes": ["f2pool.com"],
+      "method": "html_stratum_extract",
+      "notes": "Official BTC-specific setup guide."
+    },
+    {
+      "id": "viabtc_pool_info",
+      "enabled": true,
+      "name": "ViaBTC mining pools information",
+      "url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
+      "source_type": "official",
+      "confidence": "confirmed",
+      "pool_name": "ViaBTC",
+      "allowed_domain_suffixes": ["viabtc.io", "viabtc.cc", "viabtc.top", "powhashing.com"],
+      "method": "html_stratum_extract",
+      "notes": "Official multi-coin pool URL table."
+    },
+    {
+      "id": "viabtc_btc_guide",
+      "enabled": true,
+      "name": "ViaBTC BTC mining guide",
+      "url": "https://support.viabtc.com/hc/en-us/articles/7207401012879-BTC-Mining",
+      "source_type": "official",
+      "confidence": "confirmed",
+      "pool_name": "ViaBTC",
+      "default_coin": "BTC",
+      "default_algorithm": "SHA-256",
+      "allowed_domain_suffixes": ["viabtc.io"],
+      "method": "html_stratum_extract",
+      "notes": "Official BTC-specific setup guide."
+    },
+    {
+      "id": "antpool_btc_bch",
+      "enabled": true,
+      "name": "AntPool BTC/BCH tutorial",
+      "url": "https://antpoolsupport-hc.zendesk.com/hc/en-us/articles/5984340865177-BTC-BCH-Mining-Tutorial",
+      "source_type": "official",
+      "confidence": "confirmed",
+      "pool_name": "AntPool",
+      "default_coin": "BTC/BCH",
+      "default_algorithm": "SHA-256",
+      "allowed_domain_suffixes": ["antpool.com"],
+      "method": "html_stratum_extract",
+      "notes": "Official BTC/BCH setup guide."
+    },
+    {
+      "id": "antpool_etc",
+      "enabled": true,
+      "name": "AntPool ETC instruction",
+      "url": "https://antpoolsupport-hc.zendesk.com/hc/en-us/articles/5984283054745-ETC-Mining-Instruction",
+      "source_type": "official",
+      "confidence": "confirmed",
+      "pool_name": "AntPool",
+      "default_coin": "ETC",
+      "default_algorithm": "Etchash",
+      "allowed_domain_suffixes": ["antpool.com"],
+      "method": "html_stratum_extract",
+      "notes": "Official ETC setup guide."
+    },
+    {
+      "id": "luxor_getting_started",
+      "enabled": true,
+      "name": "Luxor getting started",
+      "url": "https://docs.luxor.tech/mining/getting-started",
+      "source_type": "official",
+      "confidence": "confirmed",
+      "pool_name": "Luxor",
+      "allowed_domain_suffixes": ["luxor.tech"],
+      "method": "html_stratum_extract",
+      "notes": "Official global stratum table."
+    },
+    {
+      "id": "2miners_erg_help",
+      "enabled": true,
+      "name": "2Miners ERG help",
+      "url": "https://erg.2miners.com/help",
+      "source_type": "official",
+      "confidence": "confirmed",
+      "pool_name": "2Miners",
+      "default_coin": "ERG",
+      "default_algorithm": "Autolykos v2",
+      "allowed_domain_suffixes": ["2miners.com"],
+      "method": "html_stratum_extract",
+      "notes": "Official ERG setup and server table."
+    },
+    {
+      "id": "2miners_ethw_help",
+      "enabled": true,
+      "name": "2Miners ETHW help",
+      "url": "https://ethw.2miners.com/help",
+      "source_type": "official",
+      "confidence": "confirmed",
+      "pool_name": "2Miners",
+      "default_coin": "ETHW",
+      "default_algorithm": "Ethash",
+      "allowed_domain_suffixes": ["2miners.com"],
+      "method": "html_stratum_extract",
+      "notes": "Official ETHW setup and server table."
+    },
+    {
+      "id": "ravenminer_rvn_howto",
+      "enabled": true,
+      "name": "RavenMiner RVN howto",
+      "url": "https://www.ravenminer.com/ravencoin/howto",
+      "source_type": "official",
+      "confidence": "confirmed",
+      "pool_name": "RavenMiner",
+      "default_coin": "RVN",
+      "default_algorithm": "KawPoW",
+      "allowed_domain_suffixes": ["ravenminer.com"],
+      "method": "html_stratum_extract",
+      "notes": "Official RVN setup guide with TCP, regional, static, and TLS ports."
+    },
+    {
+      "id": "minerstat_nicehash_help",
+      "enabled": true,
+      "name": "minerstat NiceHash setup help",
+      "url": "https://minerstat.com/help/how-to-set-up-nicehash-mining",
+      "source_type": "aggregator",
+      "confidence": "candidate",
+      "pool_name": "NiceHash",
+      "default_coin": "AUTO",
+      "allowed_domain_suffixes": ["nicehash.com"],
+      "method": "html_stratum_extract",
+      "notes": "Public aggregator/help source; outputs candidate records only."
+    }
+  ],
+  "optional_sources": [
+    {
+      "id": "minerstat_pools_api",
+      "enabled": false,
+      "name": "minerstat Pools API",
+      "url": "https://api.minerstat.com/v2/pools",
+      "source_type": "aggregator",
+      "confidence": "candidate",
+      "method": "authenticated_json_api",
+      "auth": "MINERSTAT_API_KEY",
+      "notes": "Requires X-API-Key; useful for pool metadata, not always direct Stratum addresses."
+    }
+  ]
+}

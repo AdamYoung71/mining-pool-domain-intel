@@ -1,0 +1,6 @@
+[project]
+name = "mining-pool-domain-intel"
+version = "0.1.0"
+description = "Pure public-intelligence workflow for mining pool domain monitoring."
+requires-python = ">=3.10"
+dependencies = []

@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Test and build seed outputs
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.13"]
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Run unit tests
+        run: python -m unittest discover -s tests
+
+      - name: Build stable intelligence outputs
+        run: python scripts/build_intel.py
+
+      - name: Upload stable outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: stable-intel-python-${{ matrix.python-version }}
+          path: |
+            data/mining_pool_domains.json
+            data/mining_pool_domains.csv
+            data/watchlist.json
+
