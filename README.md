@@ -30,8 +30,8 @@
 完整运行顺序和复核规则见 `docs/runbook.md`。
 
 ```powershell
-python3 scripts/collect_pool_sites.py
-python3 scripts/discover_from_pool_sites.py --max-sites 60 --max-pages-per-site 4
+python3 scripts/collect_pool_sites.py --max-miningpoolstats-coins 0
+python3 scripts/discover_from_pool_sites.py --max-pages-per-site 4 --delay-between-sites 2.0 --delay-between-pages 1.0
 python3 scripts/collect_intel.py
 python3 scripts/collect_github_intel.py
 python3 scripts/promote_discovered.py

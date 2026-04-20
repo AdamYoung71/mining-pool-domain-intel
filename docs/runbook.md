@@ -22,11 +22,11 @@ $env:GITHUB_TOKEN = "github_pat_or_classic_token"
 按下面顺序运行，能覆盖“公共目录官网域名 -> 官网浅爬接入端点 -> 重点官方文档源 -> GitHub 公开代码候选 -> 稳定库”的完整链路。
 
 ```powershell
-# 1. 从公共目录抓矿池官网域名
-python scripts/collect_pool_sites.py
+# 1. 从公共目录抓矿池官网域名；0 表示全量 MiningPoolStats sitemap
+python scripts/collect_pool_sites.py --max-miningpoolstats-coins 0
 
-# 2. 从官网浅层发现矿池接入端点
-python scripts/discover_from_pool_sites.py --max-pages-per-site 4
+# 2. 从官网浅层发现矿池接入端点；默认建议加请求间隔，降低被限速概率
+python scripts/discover_from_pool_sites.py --max-pages-per-site 4 --delay-between-sites 2.0 --delay-between-pages 1.0
 
 # 3. 从重点官方文档和聚合帮助页补充端点
 python scripts/collect_intel.py
@@ -68,8 +68,10 @@ python scripts/collect_pool_sites.py --max-miningpoolstats-coins 0
 全量官网浅爬：
 
 ```powershell
-python scripts/discover_from_pool_sites.py --max-pages-per-site 4
+python scripts/discover_from_pool_sites.py --max-pages-per-site 4 --delay-between-sites 2.0 --delay-between-pages 1.0
 ```
+
+GitHub Actions 定时任务默认使用全量参数：`miningpoolstats_coins=0`、`site_limit=0`、`pages_per_site=4`，并在官网浅爬时使用 `site_delay_seconds=2.0`、`page_delay_seconds=1.0` 做节流。手动验证脚本是否正常时，可以继续使用前 25 个币种页或前 60 个官网的受控批次。
 
 ## 4. 输出文件
 
@@ -179,6 +181,8 @@ python scripts/build_intel.py
 - `miningpoolstats_coins`：MiningPoolStats 抓取币种页数量，`0` 表示全量 sitemap。
 - `site_limit`：官网浅爬站点数量，`0` 表示全量。
 - `pages_per_site`：每个官网最多浅爬页面数。
+- `site_delay_seconds`：官网浅爬时两个网站之间的等待秒数。
+- `page_delay_seconds`：同一官网内两个页面之间的等待秒数。
 - `run_github`：是否运行 GitHub Code Search 候选采集。
 
 GitHub Actions 里运行 GitHub Code Search 时使用仓库自带的 `${{ secrets.GITHUB_TOKEN }}`。如果 API 权限不足，可以额外配置一个只读 token，并把工作流里的 `GITHUB_TOKEN` 环境变量改为该 secret。

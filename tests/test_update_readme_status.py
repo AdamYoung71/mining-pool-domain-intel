@@ -125,6 +125,8 @@ class UpdateReadmeStatusTests(unittest.TestCase):
                 miningpoolstats_coins="80",
                 site_limit="60",
                 pages_per_site="4",
+                site_delay_seconds="2.0",
+                page_delay_seconds="1.0",
                 run_github="false",
             )
             baseline = {
@@ -198,6 +200,8 @@ class UpdateReadmeStatusTests(unittest.TestCase):
                     "miningpoolstats_coins": "80",
                     "site_limit": "60",
                     "pages_per_site": "4",
+                    "site_delay_seconds": "2.0",
+                    "page_delay_seconds": "1.0",
                     "run_github": "false",
                 },
                 "metrics": {

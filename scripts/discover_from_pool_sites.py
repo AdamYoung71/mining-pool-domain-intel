@@ -294,6 +294,7 @@ def discover_site(
     site: dict[str, Any],
     max_pages: int,
     timeout: int,
+    page_delay_seconds: float,
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
     reports: list[dict[str, Any]] = []
     records: list[dict[str, Any]] = []
@@ -335,7 +336,7 @@ def discover_site(
             "error": page_error,
         })
         if index < len(page_urls) - 1:
-            time.sleep(0.5)
+            time.sleep(page_delay_seconds)
     return records, blockchain_node_records, reports
 
 
@@ -395,6 +396,8 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--max-sites", type=int, default=0, help="Limit sites for smoke tests; 0 means all.")
     parser.add_argument("--max-pages-per-site", type=int, default=6)
     parser.add_argument("--timeout", type=int, default=25)
+    parser.add_argument("--delay-between-sites", type=float, default=0.8)
+    parser.add_argument("--delay-between-pages", type=float, default=0.5)
     args = parser.parse_args(argv)
 
     sites = load_pool_sites(args.pool_sites)
@@ -405,12 +408,17 @@ def main(argv: list[str] | None = None) -> int:
     blockchain_node_records: list[dict[str, Any]] = []
     reports: list[dict[str, Any]] = []
     for index, site in enumerate(sites):
-        site_records, site_blockchain_nodes, site_reports = discover_site(site, args.max_pages_per_site, args.timeout)
+        site_records, site_blockchain_nodes, site_reports = discover_site(
+            site,
+            args.max_pages_per_site,
+            args.timeout,
+            args.delay_between_pages,
+        )
         records.extend(site_records)
         blockchain_node_records.extend(site_blockchain_nodes)
         reports.extend(site_reports)
         if index < len(sites) - 1:
-            time.sleep(0.8)
+            time.sleep(args.delay_between_sites)
 
     write_outputs(records, blockchain_node_records, reports)
     print(f"Crawled {len(sites)} official website domains.")

@@ -215,6 +215,8 @@ def build_status_payload(
             "miningpoolstats_coins": args.miningpoolstats_coins,
             "site_limit": args.site_limit,
             "pages_per_site": args.pages_per_site,
+            "site_delay_seconds": args.site_delay_seconds,
+            "page_delay_seconds": args.page_delay_seconds,
             "run_github": args.run_github,
         },
         "metrics": {
@@ -244,6 +246,8 @@ def status_block(status: dict[str, Any]) -> str:
         f"MiningPoolStats={params['miningpoolstats_coins']}, "
         f"官网={params['site_limit']}, "
         f"每站页面={params['pages_per_site']}, "
+        f"站点间隔={params.get('site_delay_seconds', 'n/a')}s, "
+        f"页面间隔={params.get('page_delay_seconds', 'n/a')}s, "
         f"GitHub={params['run_github']}"
     )
     lines = [
@@ -336,6 +340,8 @@ def build_parser() -> argparse.ArgumentParser:
     update.add_argument("--miningpoolstats-coins", default="")
     update.add_argument("--site-limit", default="")
     update.add_argument("--pages-per-site", default="")
+    update.add_argument("--site-delay-seconds", default="")
+    update.add_argument("--page-delay-seconds", default="")
     update.add_argument("--run-github", default="")
     update.set_defaults(func=update_command)
     return parser
