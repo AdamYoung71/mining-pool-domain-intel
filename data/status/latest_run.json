@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T06:10:42Z",
+  "generated_at": "2026-04-20T07:24:19Z",
   "run": {
     "conclusion": "success",
     "started_at": "2026-04-20T05:26:34Z",
@@ -34,6 +34,14 @@
     "ip_endpoint_records": {
       "total": 1,
       "new": 1
+    },
+    "blockchain_nodes": {
+      "total": 0,
+      "new": 0
+    },
+    "stable_records": {
+      "total": 18,
+      "new": 18
     },
     "watchlist_records": {
       "total": 17,
@@ -2073,6 +2081,27 @@
       "stratum.ravenminer.com|3838|stratum+tcp|rvn",
       "us-erg.2miners.com|8888|stratum+tcp|erg",
       "us.ravenminer.com|3838|stratum+tcp|rvn"
-    ]
+    ],
+    "stable_records": [
+      "bitcoin.viabtc.io|3333|stratum+tcp|btc",
+      "btc-asia.f2pool.com|1314|stratum+tcp|btc",
+      "btc.f2pool.com|3333|stratum+tcp|btc",
+      "btc.global.luxor.tech|700|stratum+tcp|btc",
+      "btc.viabtc.io|3333|stratum+tcp|btc",
+      "btcssl.f2pool.com|1300|stratum+ssl|btc",
+      "erg.2miners.com|18888|stratum+ssl|erg",
+      "erg.2miners.com|8888|stratum+tcp|erg",
+      "etchash.auto.nicehash.com|9200|stratum+tcp|auto",
+      "ethw.2miners.com|2020|stratum+tcp|ethw",
+      "kas.f2pool.com|1430|stratum+tcp|kas",
+      "ltc.f2pool.com|8888|stratum+tcp|ltc",
+      "ltc.global.luxor.tech|700|stratum+tcp|ltc/doge",
+      "ss.antpool.com|3333|stratum+tcp|btc/bch",
+      "stratum-etc.antpool.com|8008|stratum+tcp|etc",
+      "stratum.ravenminer.com|3838|stratum+tcp|rvn",
+      "us-erg.2miners.com|8888|stratum+tcp|erg",
+      "us.ravenminer.com|3838|stratum+tcp|rvn"
+    ],
+    "blockchain_nodes": []
   }
 }

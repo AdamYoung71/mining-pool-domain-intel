@@ -26,6 +26,8 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_POOL_SITES = ROOT / "data" / "raw" / "pool_sites.json"
 DEFAULT_DISCOVERED_JSON = ROOT / "data" / "raw" / "site_discovered_pool_domains.json"
 DEFAULT_DISCOVERED_CSV = ROOT / "data" / "site_discovered_pool_domains.csv"
+DEFAULT_BLOCKCHAIN_NODES_JSON = ROOT / "data" / "raw" / "blockchain_node_candidates.json"
+DEFAULT_BLOCKCHAIN_NODES_CSV = ROOT / "data" / "blockchain_node_candidates.csv"
 DEFAULT_REPORT = ROOT / "data" / "raw" / "site_discovery_report.json"
 DEFAULT_CACHE_DIR = ROOT / "data" / "raw" / "site_discovery_cache"
 
@@ -57,8 +59,23 @@ IP_PORT_RE = re.compile(
     r"(?<![\w.-])((?:\d{1,3}\.){3}\d{1,3})\s*:\s*(\d{2,5})\b",
     flags=re.I,
 )
+BLOCKCHAIN_NODE_RE = re.compile(
+    r"\b(addnode|seednode)\b\s*[=:]?\s*((?:\d{1,3}\.){3}\d{1,3})\s*:\s*(\d{2,5})\b",
+    flags=re.I,
+)
 TAG_RE = re.compile(r"<[^>]+>")
 SCRIPT_STYLE_RE = re.compile(r"<(script|style)\b.*?</\1>", flags=re.I | re.S)
+NODE_FIELDS = [
+    "node_host",
+    "port",
+    "node_type",
+    "pool_name",
+    "coin",
+    "source_url",
+    "first_seen",
+    "last_seen",
+    "notes",
+]
 
 
 def load_pool_sites(path: Path = DEFAULT_POOL_SITES) -> list[dict[str, Any]]:
@@ -133,7 +150,54 @@ def page_urls_for_site(site: dict[str, Any], homepage_html: str, max_pages: int)
     return urls
 
 
-def extract_site_endpoints(text: str, site: dict[str, Any]) -> list[dict[str, Any]]:
+def infer_node_coin(port: int, site: dict[str, Any]) -> str:
+    port_map = {
+        8333: "BTC",
+        18333: "BTC-TESTNET",
+        9333: "LTC",
+        22556: "DOGE",
+    }
+    return port_map.get(port, site.get("coin", "UNKNOWN") or "UNKNOWN")
+
+
+def extract_blockchain_node_candidates(
+    text: str,
+    site: dict[str, Any],
+    source_url: str,
+    fetched_on: str,
+) -> list[dict[str, Any]]:
+    nodes: dict[tuple[str, int, str], dict[str, Any]] = {}
+    for match in BLOCKCHAIN_NODE_RE.finditer(text):
+        node_type, host, port_text = match.groups()
+        port = int(port_text)
+        key = (host, port, node_type.lower())
+        nodes[key] = {
+            "node_host": host,
+            "port": port,
+            "node_type": node_type.lower(),
+            "pool_name": site["pool_name"],
+            "coin": infer_node_coin(port, site),
+            "source_url": source_url,
+            "first_seen": fetched_on,
+            "last_seen": fetched_on,
+            "notes": (
+                f"Blockchain peer node candidate extracted from {node_type.lower()} directive while "
+                f"crawling {site['website_domain']}; not a mining pool Stratum endpoint."
+            ),
+        }
+    return sorted(nodes.values(), key=lambda item: (item["node_host"], item["port"], item["node_type"]))
+
+
+def node_endpoint_keys(nodes: list[dict[str, Any]]) -> set[tuple[str, int]]:
+    return {(node["node_host"], int(node["port"])) for node in nodes}
+
+
+def extract_site_endpoints(
+    text: str,
+    site: dict[str, Any],
+    excluded_ip_ports: set[tuple[str, int]] | None = None,
+) -> list[dict[str, Any]]:
+    excluded_ip_ports = excluded_ip_ports or set()
     endpoints: dict[tuple[str, int, str], dict[str, Any]] = {}
     for match in STRATUM_RE.finditer(text):
         scheme, domain, port = match.groups()
@@ -150,6 +214,8 @@ def extract_site_endpoints(text: str, site: dict[str, Any]) -> list[dict[str, An
 
     for match in IP_PORT_RE.finditer(text):
         domain, port_text = match.groups()
+        if (domain, int(port_text)) in excluded_ip_ports:
+            continue
         parsed = parse_endpoint(f"{domain}:{port_text}", fallback_scheme="stratum+tcp")
         endpoints[(parsed["domain"], parsed["port"], parsed["scheme"])] = parsed
 
@@ -224,9 +290,14 @@ def fetch_with_cache(url: str, timeout: int) -> tuple[dict[str, Any] | None, boo
         return None, False, str(exc)
 
 
-def discover_site(site: dict[str, Any], max_pages: int, timeout: int) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+def discover_site(
+    site: dict[str, Any],
+    max_pages: int,
+    timeout: int,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
     reports: list[dict[str, Any]] = []
     records: list[dict[str, Any]] = []
+    blockchain_node_records: list[dict[str, Any]] = []
     fetched_on = date.today().isoformat()
     homepage_response, used_cache, error = fetch_with_cache(site["website_url"], timeout)
     if not homepage_response:
@@ -238,17 +309,20 @@ def discover_site(site: dict[str, Any], max_pages: int, timeout: int) -> tuple[l
             "records": 0,
             "error": error,
         })
-        return records, reports
+        return records, blockchain_node_records, reports
 
     homepage_html = decode_body(homepage_response["body"], homepage_response["content_type"])
     page_urls = page_urls_for_site(site, homepage_html, max_pages)
     for index, page_url in enumerate(page_urls):
         response, page_used_cache, page_error = (homepage_response, used_cache, error) if page_url == site["website_url"] else fetch_with_cache(page_url, timeout)
         page_records: list[dict[str, Any]] = []
+        page_blockchain_nodes: list[dict[str, Any]] = []
         if response:
             html_text = decode_body(response["body"], response["content_type"])
             text = html_to_text(html_text)
-            endpoints = extract_site_endpoints(text, site)
+            page_blockchain_nodes = extract_blockchain_node_candidates(text, site, response["url"], fetched_on)
+            blockchain_node_records.extend(page_blockchain_nodes)
+            endpoints = extract_site_endpoints(text, site, node_endpoint_keys(page_blockchain_nodes))
             page_records = [endpoint_to_record(endpoint, site, response["url"], fetched_on) for endpoint in endpoints]
             records.extend(page_records)
         reports.append({
@@ -257,11 +331,12 @@ def discover_site(site: dict[str, Any], max_pages: int, timeout: int) -> tuple[l
             "ok": bool(response),
             "used_cache": page_used_cache,
             "records": len(page_records),
+            "blockchain_nodes": len(page_blockchain_nodes),
             "error": page_error,
         })
         if index < len(page_urls) - 1:
             time.sleep(0.5)
-    return records, reports
+    return records, blockchain_node_records, reports
 
 
 def unique_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -276,11 +351,41 @@ def unique_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return list(best.values())
 
 
-def write_outputs(records: list[dict[str, Any]], reports: list[dict[str, Any]]) -> None:
+def unique_blockchain_node_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    best: dict[tuple[str, int, str], dict[str, Any]] = {}
+    for record in records:
+        key = (record["node_host"], int(record["port"]), record["node_type"])
+        current = best.get(key)
+        if current is None:
+            best[key] = record
+        elif record["source_url"] not in current["source_url"]:
+            current["source_url"] = f"{current['source_url']}; {record['source_url']}"
+            current["last_seen"] = max(current["last_seen"], record["last_seen"])
+    return sorted(best.values(), key=lambda item: (item["node_host"], item["port"], item["node_type"]))
+
+
+def write_node_csv(records: list[dict[str, Any]], path: Path) -> None:
+    with path.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=NODE_FIELDS)
+        writer.writeheader()
+        writer.writerows(records)
+
+
+def write_outputs(
+    records: list[dict[str, Any]],
+    blockchain_node_records: list[dict[str, Any]],
+    reports: list[dict[str, Any]],
+) -> None:
     DEFAULT_DISCOVERED_JSON.parent.mkdir(parents=True, exist_ok=True)
     normalized = build_library(unique_records(records))
+    normalized_blockchain_nodes = unique_blockchain_node_records(blockchain_node_records)
     DEFAULT_DISCOVERED_JSON.write_text(json.dumps(normalized, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     write_csv(normalized, DEFAULT_DISCOVERED_CSV)
+    DEFAULT_BLOCKCHAIN_NODES_JSON.write_text(
+        json.dumps(normalized_blockchain_nodes, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    write_node_csv(normalized_blockchain_nodes, DEFAULT_BLOCKCHAIN_NODES_CSV)
     DEFAULT_REPORT.write_text(json.dumps(reports, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
@@ -297,17 +402,20 @@ def main(argv: list[str] | None = None) -> int:
         sites = sites[: args.max_sites]
 
     records: list[dict[str, Any]] = []
+    blockchain_node_records: list[dict[str, Any]] = []
     reports: list[dict[str, Any]] = []
     for index, site in enumerate(sites):
-        site_records, site_reports = discover_site(site, args.max_pages_per_site, args.timeout)
+        site_records, site_blockchain_nodes, site_reports = discover_site(site, args.max_pages_per_site, args.timeout)
         records.extend(site_records)
+        blockchain_node_records.extend(site_blockchain_nodes)
         reports.extend(site_reports)
         if index < len(sites) - 1:
             time.sleep(0.8)
 
-    write_outputs(records, reports)
+    write_outputs(records, blockchain_node_records, reports)
     print(f"Crawled {len(sites)} official website domains.")
     print(f"Discovered {len(build_library(unique_records(records)) if records else [])} normalized mining pool endpoint records.")
+    print(f"Separated {len(unique_blockchain_node_records(blockchain_node_records))} blockchain node candidates.")
     print(f"Wrote {DEFAULT_DISCOVERED_JSON.relative_to(ROOT)} and {DEFAULT_DISCOVERED_CSV.relative_to(ROOT)}.")
     return 0
 

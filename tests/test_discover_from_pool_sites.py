@@ -1,6 +1,12 @@
 import unittest
 
-from scripts.discover_from_pool_sites import extract_site_endpoints, likely_help_link, page_urls_for_site
+from scripts.discover_from_pool_sites import (
+    extract_blockchain_node_candidates,
+    extract_site_endpoints,
+    likely_help_link,
+    node_endpoint_keys,
+    page_urls_for_site,
+)
 
 
 class DiscoverFromPoolSitesTests(unittest.TestCase):
@@ -29,6 +35,47 @@ class DiscoverFromPoolSitesTests(unittest.TestCase):
                 {"domain": "stratum.other.example", "port": 1443, "scheme": "stratum+ssl"},
             ],
         )
+
+    def test_addnode_ip_port_is_split_from_pool_endpoints(self):
+        site = {"pool_name": "Example", "website_domain": "pool.example"}
+        text = "Wallet peers: addnode=192.0.2.10:8333 seednode 192.0.2.11:9333. Pool backup 192.0.2.12:4444."
+        nodes = extract_blockchain_node_candidates(text, site, "https://pool.example/help", "2026-04-20")
+        endpoints = extract_site_endpoints(text, site, node_endpoint_keys(nodes))
+
+        self.assertEqual(
+            nodes,
+            [
+                {
+                    "node_host": "192.0.2.10",
+                    "port": 8333,
+                    "node_type": "addnode",
+                    "pool_name": "Example",
+                    "coin": "BTC",
+                    "source_url": "https://pool.example/help",
+                    "first_seen": "2026-04-20",
+                    "last_seen": "2026-04-20",
+                    "notes": (
+                        "Blockchain peer node candidate extracted from addnode directive while "
+                        "crawling pool.example; not a mining pool Stratum endpoint."
+                    ),
+                },
+                {
+                    "node_host": "192.0.2.11",
+                    "port": 9333,
+                    "node_type": "seednode",
+                    "pool_name": "Example",
+                    "coin": "LTC",
+                    "source_url": "https://pool.example/help",
+                    "first_seen": "2026-04-20",
+                    "last_seen": "2026-04-20",
+                    "notes": (
+                        "Blockchain peer node candidate extracted from seednode directive while "
+                        "crawling pool.example; not a mining pool Stratum endpoint."
+                    ),
+                },
+            ],
+        )
+        self.assertEqual(endpoints, [{"domain": "192.0.2.12", "port": 4444, "scheme": "stratum+tcp"}])
 
 
 if __name__ == "__main__":

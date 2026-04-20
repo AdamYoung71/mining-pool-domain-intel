@@ -34,10 +34,13 @@ python scripts/collect_intel.py
 # 4. 从 GitHub 公开代码和配置样例补充候选端点
 python scripts/collect_github_intel.py
 
-# 5. 从人工维护的 seed 生成稳定情报库和 watchlist
+# 5. 按自动晋升规则把 discovered 结果合并进 seed
+python scripts/promote_discovered.py
+
+# 6. 从 seed 生成稳定情报库和 watchlist
 python scripts/build_intel.py
 
-# 6. 运行质量检查
+# 7. 运行质量检查
 python -m unittest discover -s tests
 ```
 
@@ -82,6 +85,8 @@ python scripts/discover_from_pool_sites.py --max-pages-per-site 4
 
 - `data/raw/site_discovered_pool_domains.json`
 - `data/site_discovered_pool_domains.csv`
+- `data/raw/blockchain_node_candidates.json`
+- `data/blockchain_node_candidates.csv`
 - `data/raw/site_discovery_report.json`
 
 重点源采集阶段：
@@ -96,6 +101,11 @@ GitHub 采集阶段：
 - `data/github_pool_endpoint_candidates.csv`
 - `data/raw/github_fetch_report.json`
 
+自动晋升阶段：
+
+- `data/raw/promotion_report.json`
+- `data/raw/mining_pool_domains.seed.json`
+
 稳定库阶段：
 
 - `data/raw/mining_pool_domains.seed.json`
@@ -105,19 +115,22 @@ GitHub 采集阶段：
 
 ## 5. 复核和入库
 
-采集脚本产生的是 discovered/candidate 结果，不会自动合并进稳定库。人工复核后，把确认后的记录合并到：
+采集脚本产生的是 discovered/candidate 结果，默认通过 `scripts/promote_discovered.py` 按自动晋升规则合并到：
 
 ```text
 data/raw/mining_pool_domains.seed.json
 ```
 
-合并规则：
+自动晋升规则：
 
-- 官方文档明确列出的端点可标记为 `confirmed`。
-- 多个独立公开来源交叉确认的端点可标记为 `probable`。
+- 重点官方文档源和官网浅爬结果可按来源配置保留 `confirmed` / `probable`。
+- 两个以上独立来源命中同一 `domain + port + scheme + coin` 的候选记录可升为 `probable`。
 - GitHub、MiningPoolStats、教程、配置样例、裸 IP:port 默认保留为 `candidate`。
-- `coin=UNKNOWN`、`algorithm=UNKNOWN` 的记录必须补充或保留为候选，不要直接提升置信度。
-- 裸 IP:port 可以保存为矿池端点候选，但不要放入官网目录。
+- `coin=UNKNOWN`、`algorithm=UNKNOWN` 或裸 IP 字面量记录保持 `candidate` / `unknown`，不进入 watchlist。
+- 官网浅爬中识别到的 `addnode=IP:port` / `seednode=IP:port` 属于区块链接入节点候选，会写入 `data/raw/blockchain_node_candidates.json`，不合并进矿池端点库。
+- 同一 `domain + port + scheme + coin` 会合并 `source_url`，并保留更高置信度。
+
+自动晋升不是人工事实确认。高风险变化仍应查看 `data/raw/promotion_report.json` 和对应 `source_url`。
 
 复核后重新生成稳定库：
 

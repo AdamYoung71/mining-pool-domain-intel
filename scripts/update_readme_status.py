@@ -26,8 +26,14 @@ ENDPOINT_FILES = [
 IP_ENDPOINT_FILES = [
     "data/raw/ip_pool_endpoint_candidates.json",
 ]
+BLOCKCHAIN_NODE_FILES = [
+    "data/raw/blockchain_node_candidates.json",
+]
 WATCHLIST_FILES = [
     "data/watchlist.json",
+]
+STABLE_LIBRARY_FILES = [
+    "data/mining_pool_domains.json",
 ]
 REPORT_FILES = [
     "data/raw/pool_site_fetch_report.json",
@@ -83,6 +89,15 @@ def pool_site_key(record: dict[str, Any]) -> str | None:
     return domain or None
 
 
+def blockchain_node_key(record: dict[str, Any]) -> str | None:
+    node_host = normalize_text(record.get("node_host"))
+    port = str(record.get("port") or "").strip()
+    node_type = normalize_text(record.get("node_type"))
+    if not node_host or not port:
+        return None
+    return "|".join([node_host, port, node_type or "node"])
+
+
 def keys_from_files(root: Path, file_names: list[str], key_func) -> set[str]:
     keys: set[str] = set()
     for file_name in file_names:
@@ -111,12 +126,16 @@ def collect_snapshot(root: Path = ROOT) -> dict[str, Any]:
     ip_endpoint_records = keys_from_files(root, IP_ENDPOINT_FILES, endpoint_record_key)
     pool_site_domains = keys_from_files(root, POOL_SITE_FILES, pool_site_key)
     watchlist_records = keys_from_files(root, WATCHLIST_FILES, endpoint_record_key)
+    stable_records = keys_from_files(root, STABLE_LIBRARY_FILES, endpoint_record_key)
+    blockchain_nodes = keys_from_files(root, BLOCKCHAIN_NODE_FILES, blockchain_node_key)
     return {
         "pool_site_domains": sorted(pool_site_domains),
         "endpoint_domains": sorted(endpoint_domains),
         "endpoint_records": sorted(endpoint_records),
         "ip_endpoint_records": sorted(ip_endpoint_records),
         "watchlist_records": sorted(watchlist_records),
+        "stable_records": sorted(stable_records),
+        "blockchain_nodes": sorted(blockchain_nodes),
     }
 
 
@@ -203,6 +222,8 @@ def build_status_payload(
             "endpoint_domains": count_delta(current, baseline, "endpoint_domains"),
             "endpoint_records": count_delta(current, baseline, "endpoint_records"),
             "ip_endpoint_records": count_delta(current, baseline, "ip_endpoint_records"),
+            "blockchain_nodes": count_delta(current, baseline, "blockchain_nodes"),
+            "stable_records": count_delta(current, baseline, "stable_records"),
             "watchlist_records": count_delta(current, baseline, "watchlist_records"),
             "source_reports": report_summary(root),
         },
@@ -240,6 +261,8 @@ def status_block(status: dict[str, Any]) -> str:
         f"| Stratum 域名/IP | 总数 {metrics['endpoint_domains']['total']}，新增 {metrics['endpoint_domains']['new']} |",
         f"| Stratum 记录 | 总数 {metrics['endpoint_records']['total']}，新增 {metrics['endpoint_records']['new']} |",
         f"| 裸 IP:port 候选 | 总数 {metrics['ip_endpoint_records']['total']}，新增 {metrics['ip_endpoint_records']['new']} |",
+        f"| 区块链接入节点候选 | 总数 {metrics['blockchain_nodes']['total']}，新增 {metrics['blockchain_nodes']['new']} |",
+        f"| 最终情报库 | 总数 {metrics['stable_records']['total']}，新增 {metrics['stable_records']['new']} |",
         f"| 告警建议集 | 总数 {metrics['watchlist_records']['total']} |",
         f"| 源抓取状态 | 成功 {source_reports['ok']}，失败 {source_reports['failed']}，使用缓存 {source_reports['used_cache']} |",
         f"| 运行链接 | {run_label} |",
