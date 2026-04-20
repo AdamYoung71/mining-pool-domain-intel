@@ -2,6 +2,27 @@
 
 这是一个零依赖的公共矿池域名情报库项目，用于持续收集、校验、分级和导出公共虚拟货币矿池 Stratum 接入域名。
 
+## 运行状态
+
+<!-- intel-status:start -->
+> 本区块由采集工作流自动更新，用于快速查看最近一次公共情报采集结果。
+
+| 指标 | 上次结果 |
+| --- | --- |
+| 运行状态 | `success` |
+| 上次运行时间 | 2026-04-20 13:26:34 北京时间 |
+| 耗时 | 9分46秒 |
+| 触发方式 | `schedule` |
+| 参数 | MiningPoolStats=80, 官网=60, 每站页面=4, GitHub=false |
+| 官网域名 | 总数 448，新增 448 |
+| Stratum 域名/IP | 总数 602，新增 602 |
+| Stratum 记录 | 总数 949，新增 949 |
+| 裸 IP:port 候选 | 总数 1，新增 1 |
+| 告警建议集 | 总数 17 |
+| 源抓取状态 | 成功 410，失败 36，使用缓存 0 |
+| 运行链接 | [GitHub Actions](https://github.com/AdamYoung71/mining-pool-domain-intel/actions/runs/24649968475) |
+<!-- intel-status:end -->
+
 ## 快速开始
 
 完整运行顺序和复核规则见 `docs/runbook.md`。

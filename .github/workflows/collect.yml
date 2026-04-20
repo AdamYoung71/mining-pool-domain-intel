@@ -24,7 +24,7 @@ on:
     - cron: "30 2 * * 1"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   collect:
@@ -41,6 +41,11 @@ jobs:
         with:
           python-version: "3.13"
 
+      - name: Capture run start
+        id: clock
+        shell: bash
+        run: echo "started_at=$(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> "$GITHUB_OUTPUT"
+
       - name: Resolve collection parameters
         id: params
         shell: bash
@@ -49,6 +54,9 @@ jobs:
           echo "site_limit=${{ github.event.inputs.site_limit || '60' }}" >> "$GITHUB_OUTPUT"
           echo "pages_per_site=${{ github.event.inputs.pages_per_site || '4' }}" >> "$GITHUB_OUTPUT"
           echo "run_github=${{ github.event.inputs.run_github || 'false' }}" >> "$GITHUB_OUTPUT"
+
+      - name: Snapshot previous status totals
+        run: python scripts/update_readme_status.py snapshot --output "${{ runner.temp }}/status-baseline.json"
 
       - name: Collect pool website directory
         run: |
@@ -75,7 +83,43 @@ jobs:
       - name: Run quality checks
         run: python -m unittest discover -s tests
 
+      - name: Update README collection status
+        if: always()
+        shell: bash
+        run: |
+          ended_at="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          python scripts/update_readme_status.py update \
+            --baseline "${{ runner.temp }}/status-baseline.json" \
+            --started-at "${{ steps.clock.outputs.started_at }}" \
+            --ended-at "$ended_at" \
+            --conclusion "${{ job.status }}" \
+            --event "${{ github.event_name }}" \
+            --branch "${{ github.ref_name }}" \
+            --commit "${{ github.sha }}" \
+            --run-id "${{ github.run_id }}" \
+            --run-url "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            --miningpoolstats-coins "${{ steps.params.outputs.miningpoolstats_coins }}" \
+            --site-limit "${{ steps.params.outputs.site_limit }}" \
+            --pages-per-site "${{ steps.params.outputs.pages_per_site }}" \
+            --run-github "${{ steps.params.outputs.run_github }}"
+
+      - name: Commit README collection status
+        if: always() && github.ref == 'refs/heads/main'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md data/status/latest_run.json
+          if git diff --cached --quiet; then
+            echo "No README status changes to commit."
+          else
+            git commit -m "docs: update collection status"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+            git push
+          fi
+
       - name: Upload collection artifacts
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: mining-pool-intel-collection
@@ -83,5 +127,5 @@ jobs:
             data/*.csv
             data/*.json
             data/raw/*.json
+            data/status/*.json
             !data/raw/*_cache/**
-
