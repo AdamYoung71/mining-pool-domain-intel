@@ -1,0 +1,2 @@
+domain,port,scheme,pool_name,coin,algorithm,region,source_type,source_url,confidence,status,first_seen,last_seen,notes
+195.3.222.105,3380,stratum+tcp,195.3.222.105,ANONYMOUS,UNKNOWN,UNKNOWN,aggregator,https://miningpoolstats.stream/anonymous,candidate,unknown,2026-04-17,2026-04-17,IP:port pool URL extracted from MiningPoolStats data file for anonymous; verify protocol before promotion.

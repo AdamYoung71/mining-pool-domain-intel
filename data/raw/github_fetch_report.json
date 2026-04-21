@@ -1,0 +1,7 @@
+[
+  {
+    "ok": false,
+    "records": 0,
+    "error": "GITHUB_TOKEN is not set. GitHub Code Search API requires an authenticated token."
+  }
+]

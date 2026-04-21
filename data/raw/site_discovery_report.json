@@ -1,0 +1,762 @@
+[
+  {
+    "pool_name": "0xPool",
+    "url": "https://0xpool.me/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for '0xpool.me'. (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "2Miners",
+    "url": "https://2miners.com/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "2Miners",
+    "url": "https://2miners.com/#pools",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "2Miners",
+    "url": "https://2miners.com/faq",
+    "ok": true,
+    "used_cache": false,
+    "records": 6,
+    "error": null
+  },
+  {
+    "pool_name": "2Miners",
+    "url": "https://2miners.com/blog/2cryptocalc-major-update-sha-256-bitcoin-mining-and-mcp-for-ai/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "51pool",
+    "url": "https://51pool.online/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "6Block",
+    "url": "https://6block.com/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "6Block",
+    "url": "https://zkp.6block.com",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "AAPool",
+    "url": "https://aapool.cn/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "acc-pool",
+    "url": "https://acc-pool.pw/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "acc-pool",
+    "url": "https://kaspa.acc-pool.pw/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "acc-pool",
+    "url": "https://nexa.acc-pool.pw/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "acc-pool",
+    "url": "https://warthog.acc-pool.pw/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "AceMining",
+    "url": "https://acemining.co/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "Acepool",
+    "url": "https://acepool.top/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Acepool",
+    "url": "https://beam.acepool.top",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "pool_name": "Adon",
+    "url": "https://adon.network/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Adon",
+    "url": "https://adon.network/faq",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "AikaPool",
+    "url": "https://aikapool.com/",
+    "ok": true,
+    "used_cache": false,
+    "records": 121,
+    "error": null
+  },
+  {
+    "pool_name": "AikaPool",
+    "url": "https://aikapool.com/rentals/miningrigrentals",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "AikaPool",
+    "url": "https://aikapool.com/mineros/hiveos",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "AikaPool",
+    "url": "https://aikapool.com/dms/index.php?page=dashboard",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "pool_name": "Aion Pool",
+    "url": "https://aionpool.tech/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Aion Pool",
+    "url": "https://aionpool.tech/connect.html",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "pool_name": "Aion Pool",
+    "url": "https://aionpool.tech/stats.html",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Aion Pool",
+    "url": "https://aionpool.tech/miners.html",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Aionmine",
+    "url": "https://aionmine.org/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "Alephium pool",
+    "url": "https://alephium-pool.com/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "All Coins Pool",
+    "url": "https://allcoinspool.com/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "Anomp",
+    "url": "https://anomp.com/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "AntPool",
+    "url": "https://antpool.com/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "AroPool",
+    "url": "https://aropool.com/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "AroPool",
+    "url": "https://aropool.com/info",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "BaikalMine",
+    "url": "https://baikalmine.com/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Binance",
+    "url": "https://pool.binance.com/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "bliksempool",
+    "url": "https://bliksempool.com/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "Blockhunts",
+    "url": "https://blockhunts.com/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Blocksmith",
+    "url": "https://bsmith.io/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'bsmith.io'. (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "Blockware Pools",
+    "url": "https://blockwarepool.com/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "pool_name": "Bluenose",
+    "url": "https://bluenose.link/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "Bohemian Pool",
+    "url": "https://bohemianpool.com/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "BTC Pool",
+    "url": "https://btc.com/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "BTCMill",
+    "url": "https://btcmill.cc/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "BwiPool",
+    "url": "https://bwipool.com/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "Bytecoin Pool",
+    "url": "https://bytecoin-pool.org/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "c0banPool",
+    "url": "https://c0banpool.com/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "c3pool",
+    "url": "https://c3pool.com/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "C4 Pool",
+    "url": "https://c4pool.org/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Cash2 Mining Pool",
+    "url": "https://cash2pool.us/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'cash2pool.us'. (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "ChickenPool",
+    "url": "https://chickenpool.com/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "ChickenPool",
+    "url": "https://chickenpool.com/#faq",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Clona Network",
+    "url": "https://clona.ru/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Cminor's Pool",
+    "url": "https://cminors-pool.com/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Cminor's Pool",
+    "url": "https://eu-merged-mine.cminors-pool.com",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Cminor's Pool",
+    "url": "https://au-merged-mine.cminors-pool.com",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "pool_name": "coin-pool",
+    "url": "https://coin-pool.eu/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "CoinMine",
+    "url": "https://coinmine.pl/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "CoinMine",
+    "url": "https://coinmine.pl/kryptowaluty/rocket-pool-eth/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "CoinMine",
+    "url": "https://coinmine.pl/kryptowaluty/jpool-staked-sol/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "CoinMine",
+    "url": "https://coinmine.pl/jak-budowac-dochod-pasywny-dzieki-sprzedazy-opcji-na-gieldzie/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "CoinMinerz",
+    "url": "https://coinminerz.com/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Community Pool",
+    "url": "https://communitypool.org/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "CoolMine",
+    "url": "https://coolmine.top/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "CoolMine",
+    "url": "https://coolmine.top/howtostart.php?coin=1",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "pool_name": "CoolMine",
+    "url": "https://coolmine.top/howtostart.php?coin=6",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "pool_name": "CoolMine",
+    "url": "https://coolmine.top/howtostart.php?coin=4",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "pool_name": "CoolPool",
+    "url": "https://coolpool.top/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Cortex Pool",
+    "url": "https://cortexmint.com/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "CrazyPool",
+    "url": "https://crazypool.org/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Cruxpool",
+    "url": "https://cruxpool.com/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Cruxpool",
+    "url": "https://cruxpool.com/start-mining",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Cruxpool",
+    "url": "https://cruxpool.com//blog/how-to-start-mining/",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "pool_name": "Cruxpool",
+    "url": "https://cruxpool.com//blog/top-gpus-for-mining-altcoins-in-2023/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Cruzbit",
+    "url": "https://cruzb.it/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Cruzbit",
+    "url": "https://cruzb.it/#guides",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Cruzbit",
+    "url": "https://cruzb.it/#docs",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Cruzbit",
+    "url": "https://cruzb.it/mining",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "pool_name": "CryPit",
+    "url": "https://crypit.net/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "Cryptonote Club",
+    "url": "https://cryptonote.club/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "Cryptonote Social",
+    "url": "https://cryptonote.social/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "CYBERPOOL",
+    "url": "https://cyberpool.space/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "DAEPOOL",
+    "url": "https://www.daepool.com/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "daPool",
+    "url": "https://dapool.io/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "DarkFiberMines",
+    "url": "https://neox.darkfibermines.com/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "DarkFiberMines",
+    "url": "https://neox.darkfibermines.com/miners.html",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "DarkFiberMines",
+    "url": "https://neox.darkfibermines.com/connect.html",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "DarkFiberMines",
+    "url": "https://neox.darkfibermines.com/faq.html",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Deep Fields",
+    "url": "https://deepfields.io/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "dgb256",
+    "url": "https://dgb256.online/",
+    "ok": true,
+    "used_cache": false,
+    "records": 7,
+    "error": null
+  },
+  {
+    "pool_name": "dgb256",
+    "url": "https://odo.dgb256.online/",
+    "ok": true,
+    "used_cache": false,
+    "records": 7,
+    "error": null
+  },
+  {
+    "pool_name": "DigiPools",
+    "url": "https://digipools.org/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "Dogpool",
+    "url": "https://dogpool.co/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "Dpool",
+    "url": "https://dpool.top/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "pool_name": "Dragon Pool",
+    "url": "https://dragonpool.vip/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  },
+  {
+    "pool_name": "DxPool",
+    "url": "https://dxpool.com/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  }
+]
