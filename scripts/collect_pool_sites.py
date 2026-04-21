@@ -440,7 +440,7 @@ def collect_miningpoolstats_coin(
                     parsed = urllib.parse.urlparse(url)
                     if is_ip_endpoint_url(url):
                         port = parsed.port
-                        if port:
+                        if isinstance(port, int) and 1 <= port <= 65535:
                             ip_endpoint_records.append({
                                 "domain": website_domain,
                                 "port": port,

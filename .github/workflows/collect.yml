@@ -156,11 +156,10 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
             README.md \
-            data/status/latest_run.json \
-            data/raw/mining_pool_domains.seed.json \
-            data/mining_pool_domains.json \
-            data/mining_pool_domains.csv \
-            data/watchlist.json
+            data/status/*.json \
+            data/*.csv \
+            data/*.json \
+            data/raw/*.json
           if git diff --cached --quiet; then
             echo "No README status changes to commit."
           else

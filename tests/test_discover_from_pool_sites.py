@@ -39,6 +39,16 @@ class DiscoverFromPoolSitesTests(unittest.TestCase):
             ],
         )
 
+    def test_extract_site_endpoints_skips_invalid_zero_ports(self):
+        site = {"pool_name": "Example", "website_domain": "pool.example"}
+        text = (
+            "Bad ports: stratum+tcp://bad.pool.example:0, "
+            "pool.example:0000, 192.0.2.10:0. "
+            "Good port: pool.example:3333."
+        )
+        endpoints = extract_site_endpoints(text, site)
+        self.assertEqual(endpoints, [{"domain": "pool.example", "port": 3333, "scheme": "stratum+tcp"}])
+
     def test_addnode_ip_port_is_split_from_pool_endpoints(self):
         site = {"pool_name": "Example", "website_domain": "pool.example"}
         text = "Wallet peers: addnode=192.0.2.10:8333 seednode 192.0.2.11:9333. Pool backup 192.0.2.12:4444."

@@ -195,6 +195,12 @@ def node_endpoint_keys(nodes: list[dict[str, Any]]) -> set[tuple[str, int]]:
     return {(node["node_host"], int(node["port"])) for node in nodes}
 
 
+def is_valid_endpoint(endpoint: dict[str, Any]) -> bool:
+    port = endpoint.get("port")
+    scheme = str(endpoint.get("scheme") or "").lower()
+    return isinstance(port, int) and 1 <= port <= 65535 and scheme in {"stratum+tcp", "stratum+ssl"}
+
+
 def extract_site_endpoints(
     text: str,
     site: dict[str, Any],
@@ -205,6 +211,8 @@ def extract_site_endpoints(
     for match in STRATUM_RE.finditer(text):
         scheme, domain, port = match.groups()
         parsed = parse_endpoint(f"{scheme.lower()}://{domain}:{port}")
+        if not is_valid_endpoint(parsed):
+            continue
         endpoints[(parsed["domain"], parsed["port"], parsed["scheme"])] = parsed
 
     for match in HOST_PORT_RE.finditer(text):
@@ -213,6 +221,8 @@ def extract_site_endpoints(
             continue
         scheme = infer_host_port_scheme(domain, int(port_text), {"pool_name": site["pool_name"]})
         parsed = parse_endpoint(f"{domain}:{port_text}", fallback_scheme=scheme)
+        if not is_valid_endpoint(parsed):
+            continue
         endpoints[(parsed["domain"], parsed["port"], parsed["scheme"])] = parsed
 
     for match in IP_PORT_RE.finditer(text):
@@ -220,6 +230,8 @@ def extract_site_endpoints(
         if (domain, int(port_text)) in excluded_ip_ports:
             continue
         parsed = parse_endpoint(f"{domain}:{port_text}", fallback_scheme="stratum+tcp")
+        if not is_valid_endpoint(parsed):
+            continue
         endpoints[(parsed["domain"], parsed["port"], parsed["scheme"])] = parsed
 
     return sorted(endpoints.values(), key=lambda item: (item["domain"], item["port"], item["scheme"]))
