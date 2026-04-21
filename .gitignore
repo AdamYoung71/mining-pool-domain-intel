@@ -67,14 +67,3 @@ desktop.ini
 # Generated intelligence outputs and fetch caches
 data/raw/*_cache/
 data/*.full.csv
-data/pool_sites.csv
-data/discovered_pool_domains.csv
-data/site_discovered_pool_domains.csv
-data/github_pool_endpoint_candidates.csv
-data/ip_pool_endpoint_candidates.csv
-data/blockchain_node_candidates.csv
-data/raw/*report.json
-data/raw/discovered_pool_domains.json
-data/raw/site_discovered_pool_domains.json
-data/raw/github_pool_endpoint_candidates.json
-data/raw/blockchain_node_candidates.json

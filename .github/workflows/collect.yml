@@ -161,7 +161,7 @@ jobs:
             data/*.json \
             data/raw/*.json
           if git diff --cached --quiet; then
-            echo "No README status changes to commit."
+            echo "No generated output changes to commit."
           else
             git commit -m "docs: update collection status"
             git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
