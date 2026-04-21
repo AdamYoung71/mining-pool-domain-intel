@@ -11,8 +11,24 @@
     "source_url": "https://miningpoolstats.stream/anonymous",
     "confidence": "candidate",
     "status": "unknown",
-    "first_seen": "2026-04-17",
-    "last_seen": "2026-04-17",
+    "first_seen": "2026-04-21",
+    "last_seen": "2026-04-21",
     "notes": "IP:port pool URL extracted from MiningPoolStats data file for anonymous; verify protocol before promotion."
+  },
+  {
+    "domain": "43.134.225.33",
+    "port": 8305,
+    "scheme": "stratum+tcp",
+    "pool_name": "43.134.225.33",
+    "coin": "HACASH",
+    "algorithm": "UNKNOWN",
+    "region": "UNKNOWN",
+    "source_type": "aggregator",
+    "source_url": "https://miningpoolstats.stream/hacash",
+    "confidence": "candidate",
+    "status": "unknown",
+    "first_seen": "2026-04-21",
+    "last_seen": "2026-04-21",
+    "notes": "IP:port pool URL extracted from MiningPoolStats data file for hacash; verify protocol before promotion."
   }
 ]

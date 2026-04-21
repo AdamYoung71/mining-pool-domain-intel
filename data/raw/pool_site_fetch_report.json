@@ -1,5 +1,2095 @@
 [
   {
+    "source_id": "minerstat_pools_directory",
+    "url": "https://minerstat.com/pools",
+    "ok": true,
+    "used_cache": false,
+    "status": 200,
+    "sha256": "15ed8a03487f5cbc3f6b4adb572b299193276bea53675d4524e3d8dd010625cb",
+    "bytes": 325733,
+    "records": 231,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "0xpool",
+    "url": "https://minerstat.com/pools/0xpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "2miners",
+    "url": "https://minerstat.com/pools/2miners",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "51pool",
+    "url": "https://minerstat.com/pools/51pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "6block",
+    "url": "https://minerstat.com/pools/6block",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "aapool",
+    "url": "https://minerstat.com/pools/aapool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "acc-pool",
+    "url": "https://minerstat.com/pools/acc-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "acemining",
+    "url": "https://minerstat.com/pools/acemining",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "acepoo",
+    "url": "https://minerstat.com/pools/acepoo",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "adon",
+    "url": "https://minerstat.com/pools/adon",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "aikapool",
+    "url": "https://minerstat.com/pools/aikapool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "aion-pool",
+    "url": "https://minerstat.com/pools/aion-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "aionmine",
+    "url": "https://minerstat.com/pools/aionmine",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "alephium-pool",
+    "url": "https://minerstat.com/pools/alephium-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "all-coins-pool",
+    "url": "https://minerstat.com/pools/all-coins-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "anomp",
+    "url": "https://minerstat.com/pools/anomp",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "antpool",
+    "url": "https://minerstat.com/pools/antpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "aropool",
+    "url": "https://minerstat.com/pools/aropool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "baikalmine",
+    "url": "https://minerstat.com/pools/baikalmine",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "binance",
+    "url": "https://minerstat.com/pools/binance",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "bliksempool",
+    "url": "https://minerstat.com/pools/bliksempool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "blockhunts",
+    "url": "https://minerstat.com/pools/blockhunts",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "blocksmith",
+    "url": "https://minerstat.com/pools/blocksmith",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "blockware-pools",
+    "url": "https://minerstat.com/pools/blockware-pools",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "bluenose",
+    "url": "https://minerstat.com/pools/bluenose",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "bohemian-pool",
+    "url": "https://minerstat.com/pools/bohemian-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "btc-pool",
+    "url": "https://minerstat.com/pools/btc-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "btcmill",
+    "url": "https://minerstat.com/pools/btcmill",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "bwipool",
+    "url": "https://minerstat.com/pools/bwipool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "bytecoin-pool",
+    "url": "https://minerstat.com/pools/bytecoin-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "c0banpool",
+    "url": "https://minerstat.com/pools/c0banpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "c3pool",
+    "url": "https://minerstat.com/pools/c3pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "c4-pool",
+    "url": "https://minerstat.com/pools/c4-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "cash2-mining-pool",
+    "url": "https://minerstat.com/pools/cash2-mining-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "chickenpool",
+    "url": "https://minerstat.com/pools/chickenpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "clona-network",
+    "url": "https://minerstat.com/pools/clona-network",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "cminors-pool",
+    "url": "https://minerstat.com/pools/cminors-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "coin-pool",
+    "url": "https://minerstat.com/pools/coin-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "coinmine",
+    "url": "https://minerstat.com/pools/coinmine",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "coinminerz",
+    "url": "https://minerstat.com/pools/coinminerz",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "community-pool",
+    "url": "https://minerstat.com/pools/community-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "coolmine",
+    "url": "https://minerstat.com/pools/coolmine",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "coolpool",
+    "url": "https://minerstat.com/pools/coolpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "cortex-pool",
+    "url": "https://minerstat.com/pools/cortex-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "crazypool",
+    "url": "https://minerstat.com/pools/crazypool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "cruxpool",
+    "url": "https://minerstat.com/pools/cruxpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "cruzbit",
+    "url": "https://minerstat.com/pools/cruzbit",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "crypit",
+    "url": "https://minerstat.com/pools/crypit",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "crypticwizardy",
+    "url": "https://minerstat.com/pools/crypticwizardy",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "cryptonote-club",
+    "url": "https://minerstat.com/pools/cryptonote-club",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "cryptonote-social",
+    "url": "https://minerstat.com/pools/cryptonote-social",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "cyberpool",
+    "url": "https://minerstat.com/pools/cyberpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "daepool",
+    "url": "https://minerstat.com/pools/daepool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "dapool",
+    "url": "https://minerstat.com/pools/dapool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "darkfibermines",
+    "url": "https://minerstat.com/pools/darkfibermines",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "deep-fields",
+    "url": "https://minerstat.com/pools/deep-fields",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "dgb256",
+    "url": "https://minerstat.com/pools/dgb256",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "digipools",
+    "url": "https://minerstat.com/pools/digipools",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "dogpool",
+    "url": "https://minerstat.com/pools/dogpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "dpool",
+    "url": "https://minerstat.com/pools/dpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "dragon-pool",
+    "url": "https://minerstat.com/pools/dragon-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "dxpool",
+    "url": "https://minerstat.com/pools/dxpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "easyhash",
+    "url": "https://minerstat.com/pools/easyhash",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "ehpro",
+    "url": "https://minerstat.com/pools/ehpro",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "emcd",
+    "url": "https://minerstat.com/pools/emcd",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "enigma-pool",
+    "url": "https://minerstat.com/pools/enigma-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "ens-today",
+    "url": "https://minerstat.com/pools/ens-today",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "epicmine",
+    "url": "https://minerstat.com/pools/epicmine",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "ergominers",
+    "url": "https://minerstat.com/pools/ergominers",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "ethashpool",
+    "url": "https://minerstat.com/pools/ethashpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "ether-core",
+    "url": "https://minerstat.com/pools/ether-core",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "ethermine",
+    "url": "https://minerstat.com/pools/ethermine",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "expmine",
+    "url": "https://minerstat.com/pools/expmine",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "f2pool",
+    "url": "https://minerstat.com/pools/f2pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "fairhash",
+    "url": "https://minerstat.com/pools/fairhash",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "fastpool",
+    "url": "https://minerstat.com/pools/fastpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "firepool",
+    "url": "https://minerstat.com/pools/firepool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "flexpool",
+    "url": "https://minerstat.com/pools/flexpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "flockpool",
+    "url": "https://minerstat.com/pools/flockpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "flux-pools",
+    "url": "https://minerstat.com/pools/flux-pools",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "freshgarlic",
+    "url": "https://minerstat.com/pools/freshgarlic",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "frogpool",
+    "url": "https://minerstat.com/pools/frogpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "getblok",
+    "url": "https://minerstat.com/pools/getblok",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "gmp",
+    "url": "https://minerstat.com/pools/gmp",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "gntl-mining-pools",
+    "url": "https://minerstat.com/pools/gntl-mining-pools",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "gopool",
+    "url": "https://minerstat.com/pools/gopool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "grft-pool",
+    "url": "https://minerstat.com/pools/grft-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "gteh-pool",
+    "url": "https://minerstat.com/pools/gteh-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "hash-express",
+    "url": "https://minerstat.com/pools/hash-express",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "hashalot-net",
+    "url": "https://minerstat.com/pools/hashalot-net",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "hashblue",
+    "url": "https://minerstat.com/pools/hashblue",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "hashcity",
+    "url": "https://minerstat.com/pools/hashcity",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "hashpool",
+    "url": "https://minerstat.com/pools/hashpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "hashrent",
+    "url": "https://minerstat.com/pools/hashrent",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "hathor-pool",
+    "url": "https://minerstat.com/pools/hathor-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "hellominer",
+    "url": "https://minerstat.com/pools/hellominer",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "herominers",
+    "url": "https://minerstat.com/pools/herominers",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "hiveon",
+    "url": "https://minerstat.com/pools/hiveon",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "humpool",
+    "url": "https://minerstat.com/pools/humpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "hyperdonkey",
+    "url": "https://minerstat.com/pools/hyperdonkey",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "icemining",
+    "url": "https://minerstat.com/pools/icemining",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "jjpool",
+    "url": "https://minerstat.com/pools/jjpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "just4miners",
+    "url": "https://minerstat.com/pools/just4miners",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "k1-pool",
+    "url": "https://minerstat.com/pools/k1-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "kanopool",
+    "url": "https://minerstat.com/pools/kanopool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "kryptex",
+    "url": "https://minerstat.com/pools/kryptex",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "kucoin-pool",
+    "url": "https://minerstat.com/pools/kucoin-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "l5k",
+    "url": "https://minerstat.com/pools/l5k",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "leaf-pool",
+    "url": "https://minerstat.com/pools/leaf-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "lets-hash",
+    "url": "https://minerstat.com/pools/lets-hash",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "litecoinpool",
+    "url": "https://minerstat.com/pools/litecoinpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "luckpool",
+    "url": "https://minerstat.com/pools/luckpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "luckypool",
+    "url": "https://minerstat.com/pools/luckypool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "luxor",
+    "url": "https://minerstat.com/pools/luxor",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "maxhash",
+    "url": "https://minerstat.com/pools/maxhash",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "mike-rs",
+    "url": "https://minerstat.com/pools/mike-rs",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "minafacil",
+    "url": "https://minerstat.com/pools/minafacil",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "mine2gether",
+    "url": "https://minerstat.com/pools/mine2gether",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "minebarn",
+    "url": "https://minerstat.com/pools/minebarn",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "miner-rocks",
+    "url": "https://minerstat.com/pools/miner-rocks",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "minerall",
+    "url": "https://minerstat.com/pools/minerall",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "minermore",
+    "url": "https://minerstat.com/pools/minermore",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "minernode",
+    "url": "https://minerstat.com/pools/minernode",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "minerpool",
+    "url": "https://minerstat.com/pools/minerpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "minexmr",
+    "url": "https://minerstat.com/pools/minexmr",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "mining-fool",
+    "url": "https://minerstat.com/pools/mining-fool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "mining-france",
+    "url": "https://minerstat.com/pools/mining-france",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "mining-ocean",
+    "url": "https://minerstat.com/pools/mining-ocean",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "mining-pool-hub",
+    "url": "https://minerstat.com/pools/mining-pool-hub",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "mining-dutch",
+    "url": "https://minerstat.com/pools/mining-dutch",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "mining4people",
+    "url": "https://minerstat.com/pools/mining4people",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "miningcore-pro",
+    "url": "https://minerstat.com/pools/miningcore-pro",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "miningpoolfun",
+    "url": "https://minerstat.com/pools/miningpoolfun",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "mintpond",
+    "url": "https://minerstat.com/pools/mintpond",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "mmpool",
+    "url": "https://minerstat.com/pools/mmpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "mnshare",
+    "url": "https://minerstat.com/pools/mnshare",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "mofumofu",
+    "url": "https://minerstat.com/pools/mofumofu",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "molepool",
+    "url": "https://minerstat.com/pools/molepool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "monerohash",
+    "url": "https://minerstat.com/pools/monerohash",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "mpool",
+    "url": "https://minerstat.com/pools/mpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "myminers",
+    "url": "https://minerstat.com/pools/myminers",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "myminingpool",
+    "url": "https://minerstat.com/pools/myminingpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "nanopool",
+    "url": "https://minerstat.com/pools/nanopool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "newpool",
+    "url": "https://minerstat.com/pools/newpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "ninjanode",
+    "url": "https://minerstat.com/pools/ninjanode",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "novablock",
+    "url": "https://minerstat.com/pools/novablock",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "ontopool",
+    "url": "https://minerstat.com/pools/ontopool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "p2poolmining",
+    "url": "https://minerstat.com/pools/p2poolmining",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "pearpool",
+    "url": "https://minerstat.com/pools/pearpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "pega-pool",
+    "url": "https://minerstat.com/pools/pega-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "phoenixmax",
+    "url": "https://minerstat.com/pools/phoenixmax",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "piratepool",
+    "url": "https://minerstat.com/pools/piratepool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "pokemongomongo",
+    "url": "https://minerstat.com/pools/pokemongomongo",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "pool-gold",
+    "url": "https://minerstat.com/pools/pool-gold",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "pool-pay",
+    "url": "https://minerstat.com/pools/pool-pay",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "pool-express",
+    "url": "https://minerstat.com/pools/pool-express",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "pool4ever",
+    "url": "https://minerstat.com/pools/pool4ever",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "poolflare",
+    "url": "https://minerstat.com/pools/poolflare",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "poolin",
+    "url": "https://minerstat.com/pools/poolin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "popablock",
+    "url": "https://minerstat.com/pools/popablock",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "powerpool",
+    "url": "https://minerstat.com/pools/powerpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "prohashing",
+    "url": "https://minerstat.com/pools/prohashing",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "prosperpool",
+    "url": "https://minerstat.com/pools/prosperpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "pukkapool",
+    "url": "https://minerstat.com/pools/pukkapool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "raptoreum-zone",
+    "url": "https://minerstat.com/pools/raptoreum-zone",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "ravenmine",
+    "url": "https://minerstat.com/pools/ravenmine",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "rawpool",
+    "url": "https://minerstat.com/pools/rawpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "rplant-xyz",
+    "url": "https://minerstat.com/pools/rplant-xyz",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "rupool",
+    "url": "https://minerstat.com/pools/rupool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "ryo-pool",
+    "url": "https://minerstat.com/pools/ryo-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "semipool",
+    "url": "https://minerstat.com/pools/semipool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "siamining",
+    "url": "https://minerstat.com/pools/siamining",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "sigmanauts-pool",
+    "url": "https://minerstat.com/pools/sigmanauts-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "sigmapool",
+    "url": "https://minerstat.com/pools/sigmapool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "skypool",
+    "url": "https://minerstat.com/pools/skypool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "slush-pool",
+    "url": "https://minerstat.com/pools/slush-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "snowflake-pool",
+    "url": "https://minerstat.com/pools/snowflake-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "solopool",
+    "url": "https://minerstat.com/pools/solopool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "spaceworks",
+    "url": "https://minerstat.com/pools/spaceworks",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "spiderpool",
+    "url": "https://minerstat.com/pools/spiderpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "sumcoin-mining-pool",
+    "url": "https://minerstat.com/pools/sumcoin-mining-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "sunpool",
+    "url": "https://minerstat.com/pools/sunpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "supportxmr",
+    "url": "https://minerstat.com/pools/supportxmr",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "suprnova",
+    "url": "https://minerstat.com/pools/suprnova",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "svpool",
+    "url": "https://minerstat.com/pools/svpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "talleo",
+    "url": "https://minerstat.com/pools/talleo",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "tg-pool",
+    "url": "https://minerstat.com/pools/tg-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "the-miners-haven",
+    "url": "https://minerstat.com/pools/the-miners-haven",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "thunderhash",
+    "url": "https://minerstat.com/pools/thunderhash",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "token-mining-pool",
+    "url": "https://minerstat.com/pools/token-mining-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "ton-coin-pool",
+    "url": "https://minerstat.com/pools/ton-coin-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "ton-pool",
+    "url": "https://minerstat.com/pools/ton-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "ton-whales",
+    "url": "https://minerstat.com/pools/ton-whales",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "trustpool",
+    "url": "https://minerstat.com/pools/trustpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "tsf-mining-pool",
+    "url": "https://minerstat.com/pools/tsf-mining-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "turtle-turtle-club",
+    "url": "https://minerstat.com/pools/turtle-turtle-club",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "ubiqpool",
+    "url": "https://minerstat.com/pools/ubiqpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "ukrainepool",
+    "url": "https://minerstat.com/pools/ukrainepool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "ukrpool",
+    "url": "https://minerstat.com/pools/ukrpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "unicorn-pool",
+    "url": "https://minerstat.com/pools/unicorn-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "uplexa-pool",
+    "url": "https://minerstat.com/pools/uplexa-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "upool",
+    "url": "https://minerstat.com/pools/upool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "uu-pool",
+    "url": "https://minerstat.com/pools/uu-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "vbk-ultra",
+    "url": "https://minerstat.com/pools/vbk-ultra",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "veopool",
+    "url": "https://minerstat.com/pools/veopool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "verge-mining-pool",
+    "url": "https://minerstat.com/pools/verge-mining-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "viabtc",
+    "url": "https://minerstat.com/pools/viabtc",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "viport",
+    "url": "https://minerstat.com/pools/viport",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "volt-mine",
+    "url": "https://minerstat.com/pools/volt-mine",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "walemo",
+    "url": "https://minerstat.com/pools/walemo",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "wattpool",
+    "url": "https://minerstat.com/pools/wattpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "whalesburg",
+    "url": "https://minerstat.com/pools/whalesburg",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "wienchain",
+    "url": "https://minerstat.com/pools/wienchain",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "wowne",
+    "url": "https://minerstat.com/pools/wowne",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "xdag-org",
+    "url": "https://minerstat.com/pools/xdag-org",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "xdagmine",
+    "url": "https://minerstat.com/pools/xdagmine",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "xenixpool",
+    "url": "https://minerstat.com/pools/xenixpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "xmr-pool",
+    "url": "https://minerstat.com/pools/xmr-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "xmrfast",
+    "url": "https://minerstat.com/pools/xmrfast",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "xmrmining",
+    "url": "https://minerstat.com/pools/xmrmining",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "xmrvsbeast",
+    "url": "https://minerstat.com/pools/xmrvsbeast",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "xnpool",
+    "url": "https://minerstat.com/pools/xnpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "xpool",
+    "url": "https://minerstat.com/pools/xpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "xpoolx",
+    "url": "https://minerstat.com/pools/xpoolx",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "yatespool",
+    "url": "https://minerstat.com/pools/yatespool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "yunpools",
+    "url": "https://minerstat.com/pools/yunpools",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "zano-mining-pool",
+    "url": "https://minerstat.com/pools/zano-mining-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "zergpool",
+    "url": "https://minerstat.com/pools/zergpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "zeropool",
+    "url": "https://minerstat.com/pools/zeropool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "zet-mining-pool",
+    "url": "https://minerstat.com/pools/zet-mining-pool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "zhash",
+    "url": "https://minerstat.com/pools/zhash",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "minerstat_pools_directory",
+    "profile": "zsolo",
+    "url": "https://minerstat.com/pools/zsolo",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
     "source_id": "miningpoolstats_sitemap_data",
     "url": "https://miningpoolstats.stream/sitemap.xml",
     "ok": true,
@@ -7,7 +2097,7 @@
     "status": 200,
     "sha256": "84017c763c31382debbb3726018513a7d19b34e16ca312be6ea405b40832a541",
     "bytes": 61874,
-    "records": 25,
+    "records": 661,
     "error": null
   },
   {
@@ -233,6 +2323,5730 @@
     "ok": true,
     "used_cache": false,
     "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "argentum-argon2d",
+    "url": "https://miningpoolstats.stream/argentum-argon2d",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "argentum-groestl",
+    "url": "https://miningpoolstats.stream/argentum-groestl",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "argentum-lyra",
+    "url": "https://miningpoolstats.stream/argentum-lyra",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "argentum-scrypt",
+    "url": "https://miningpoolstats.stream/argentum-scrypt",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "argentum-sha",
+    "url": "https://miningpoolstats.stream/argentum-sha",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "argentum-yescrypt",
+    "url": "https://miningpoolstats.stream/argentum-yescrypt",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "argoneum",
+    "url": "https://miningpoolstats.stream/argoneum",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "arielcoin",
+    "url": "https://miningpoolstats.stream/arielcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "arionum-cpu",
+    "url": "https://miningpoolstats.stream/arionum-cpu",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "arionum-gpu",
+    "url": "https://miningpoolstats.stream/arionum-gpu",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "arqma",
+    "url": "https://miningpoolstats.stream/arqma",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "arsagility",
+    "url": "https://miningpoolstats.stream/arsagility",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "artbyte",
+    "url": "https://miningpoolstats.stream/artbyte",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "arto",
+    "url": "https://miningpoolstats.stream/arto",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "arweave",
+    "url": "https://miningpoolstats.stream/arweave",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "astrix",
+    "url": "https://miningpoolstats.stream/astrix",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "aureus",
+    "url": "https://miningpoolstats.stream/aureus",
+    "ok": true,
+    "used_cache": false,
+    "records": 14,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "auroracoin-groestl",
+    "url": "https://miningpoolstats.stream/auroracoin-groestl",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "auroracoin-qubit",
+    "url": "https://miningpoolstats.stream/auroracoin-qubit",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "auroracoin-scrypt",
+    "url": "https://miningpoolstats.stream/auroracoin-scrypt",
+    "ok": true,
+    "used_cache": false,
+    "records": 13,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "auroracoin-sha",
+    "url": "https://miningpoolstats.stream/auroracoin-sha",
+    "ok": true,
+    "used_cache": false,
+    "records": 15,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "auroracoin-skein",
+    "url": "https://miningpoolstats.stream/auroracoin-skein",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "aurumcoin",
+    "url": "https://miningpoolstats.stream/aurumcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "aurumcrypto",
+    "url": "https://miningpoolstats.stream/aurumcrypto",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "australiacash",
+    "url": "https://miningpoolstats.stream/australiacash",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "aves",
+    "url": "https://miningpoolstats.stream/aves",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "avian-minotaurx",
+    "url": "https://miningpoolstats.stream/avian-minotaurx",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "avian-x16rt",
+    "url": "https://miningpoolstats.stream/avian-x16rt",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "axerunners",
+    "url": "https://miningpoolstats.stream/axerunners",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "babacoin",
+    "url": "https://miningpoolstats.stream/babacoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bbqcoin",
+    "url": "https://miningpoolstats.stream/bbqcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bbscoin",
+    "url": "https://miningpoolstats.stream/bbscoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "beam",
+    "url": "https://miningpoolstats.stream/beam",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "beerscoin",
+    "url": "https://miningpoolstats.stream/beerscoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bellcoin",
+    "url": "https://miningpoolstats.stream/bellcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 6,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bellscoin",
+    "url": "https://miningpoolstats.stream/bellscoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 25,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bggchain",
+    "url": "https://miningpoolstats.stream/bggchain",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "biblepay",
+    "url": "https://miningpoolstats.stream/biblepay",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "binarybit",
+    "url": "https://miningpoolstats.stream/binarybit",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bismuth",
+    "url": "https://miningpoolstats.stream/bismuth",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bit",
+    "url": "https://miningpoolstats.stream/bit",
+    "ok": true,
+    "used_cache": false,
+    "records": 6,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitbar",
+    "url": "https://miningpoolstats.stream/bitbar",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoin",
+    "url": "https://miningpoolstats.stream/bitcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 133,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoinatom",
+    "url": "https://miningpoolstats.stream/bitcoinatom",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoinblu",
+    "url": "https://miningpoolstats.stream/bitcoinblu",
+    "ok": true,
+    "used_cache": false,
+    "records": 7,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoincandy",
+    "url": "https://miningpoolstats.stream/bitcoincandy",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoincash",
+    "url": "https://miningpoolstats.stream/bitcoincash",
+    "ok": true,
+    "used_cache": false,
+    "records": 95,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoincash2",
+    "url": "https://miningpoolstats.stream/bitcoincash2",
+    "ok": true,
+    "used_cache": false,
+    "records": 29,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoinclassic",
+    "url": "https://miningpoolstats.stream/bitcoinclassic",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoindiamond",
+    "url": "https://miningpoolstats.stream/bitcoindiamond",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoingold",
+    "url": "https://miningpoolstats.stream/bitcoingold",
+    "ok": true,
+    "used_cache": false,
+    "records": 7,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoinii",
+    "url": "https://miningpoolstats.stream/bitcoinii",
+    "ok": true,
+    "used_cache": false,
+    "records": 51,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoinmono",
+    "url": "https://miningpoolstats.stream/bitcoinmono",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoinoil",
+    "url": "https://miningpoolstats.stream/bitcoinoil",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoinpurple",
+    "url": "https://miningpoolstats.stream/bitcoinpurple",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoinsilver",
+    "url": "https://miningpoolstats.stream/bitcoinsilver",
+    "ok": true,
+    "used_cache": false,
+    "records": 24,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoinsubsidium",
+    "url": "https://miningpoolstats.stream/bitcoinsubsidium",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoinsv",
+    "url": "https://miningpoolstats.stream/bitcoinsv",
+    "ok": true,
+    "used_cache": false,
+    "records": 11,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoinvalue",
+    "url": "https://miningpoolstats.stream/bitcoinvalue",
+    "ok": true,
+    "used_cache": false,
+    "records": 6,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoinx",
+    "url": "https://miningpoolstats.stream/bitcoinx",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoinz",
+    "url": "https://miningpoolstats.stream/bitcoinz",
+    "ok": true,
+    "used_cache": false,
+    "records": 7,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoinzero",
+    "url": "https://miningpoolstats.stream/bitcoinzero",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcore",
+    "url": "https://miningpoolstats.stream/bitcore",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitfishcoin",
+    "url": "https://miningpoolstats.stream/bitfishcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitgem",
+    "url": "https://miningpoolstats.stream/bitgem",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitgesell",
+    "url": "https://miningpoolstats.stream/bitgesell",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitmark-equihash",
+    "url": "https://miningpoolstats.stream/bitmark-equihash",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitmark-lyra",
+    "url": "https://miningpoolstats.stream/bitmark-lyra",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitmark-scrypt",
+    "url": "https://miningpoolstats.stream/bitmark-scrypt",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitmark-sha",
+    "url": "https://miningpoolstats.stream/bitmark-sha",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitmark-x17",
+    "url": "https://miningpoolstats.stream/bitmark-x17",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitmark-yescrypt",
+    "url": "https://miningpoolstats.stream/bitmark-yescrypt",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitmeme",
+    "url": "https://miningpoolstats.stream/bitmeme",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitnet",
+    "url": "https://miningpoolstats.stream/bitnet",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitnetmoney",
+    "url": "https://miningpoolstats.stream/bitnetmoney",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitoreum",
+    "url": "https://miningpoolstats.stream/bitoreum",
+    "ok": true,
+    "used_cache": false,
+    "records": 7,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitrae",
+    "url": "https://miningpoolstats.stream/bitrae",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitweb",
+    "url": "https://miningpoolstats.stream/bitweb",
+    "ok": true,
+    "used_cache": false,
+    "records": 6,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitzeny",
+    "url": "https://miningpoolstats.stream/bitzeny",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "blackgoldcoin",
+    "url": "https://miningpoolstats.stream/blackgoldcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 12,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "blobfish",
+    "url": "https://miningpoolstats.stream/blobfish",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "blocmoney",
+    "url": "https://miningpoolstats.stream/blocmoney",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "blocx",
+    "url": "https://miningpoolstats.stream/blocx",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bnbitcoin",
+    "url": "https://miningpoolstats.stream/bnbitcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bolivarcoin",
+    "url": "https://miningpoolstats.stream/bolivarcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bonero",
+    "url": "https://miningpoolstats.stream/bonero",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bonkcoin",
+    "url": "https://miningpoolstats.stream/bonkcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "brics",
+    "url": "https://miningpoolstats.stream/brics",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "briskcoin",
+    "url": "https://miningpoolstats.stream/briskcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 6,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "broccolicoin",
+    "url": "https://miningpoolstats.stream/broccolicoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "btcturquoise",
+    "url": "https://miningpoolstats.stream/btcturquoise",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "buck",
+    "url": "https://miningpoolstats.stream/buck",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bugna",
+    "url": "https://miningpoolstats.stream/bugna",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "butterfly",
+    "url": "https://miningpoolstats.stream/butterfly",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bytecoin",
+    "url": "https://miningpoolstats.stream/bytecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "c0ban",
+    "url": "https://miningpoolstats.stream/c0ban",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "c64chain",
+    "url": "https://miningpoolstats.stream/c64chain",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "callisto",
+    "url": "https://miningpoolstats.stream/callisto",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "campuscoin",
+    "url": "https://miningpoolstats.stream/campuscoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "cannabiscoin",
+    "url": "https://miningpoolstats.stream/cannabiscoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "canxium",
+    "url": "https://miningpoolstats.stream/canxium",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "cascoin-minotaurx",
+    "url": "https://miningpoolstats.stream/cascoin-minotaurx",
+    "ok": true,
+    "used_cache": false,
+    "records": 7,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "cascoin-sha",
+    "url": "https://miningpoolstats.stream/cascoin-sha",
+    "ok": true,
+    "used_cache": false,
+    "records": 10,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "catcoin",
+    "url": "https://miningpoolstats.stream/catcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 7,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ceilingcat",
+    "url": "https://miningpoolstats.stream/ceilingcat",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "chaincoin",
+    "url": "https://miningpoolstats.stream/chaincoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "chaucha",
+    "url": "https://miningpoolstats.stream/chaucha",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "cheesecoin",
+    "url": "https://miningpoolstats.stream/cheesecoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "cheetahcoin",
+    "url": "https://miningpoolstats.stream/cheetahcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 11,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "chia",
+    "url": "https://miningpoolstats.stream/chia",
+    "ok": true,
+    "used_cache": false,
+    "records": 16,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "cicoin",
+    "url": "https://miningpoolstats.stream/cicoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "cirquity",
+    "url": "https://miningpoolstats.stream/cirquity",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "clore",
+    "url": "https://miningpoolstats.stream/clore",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "cmusicai",
+    "url": "https://miningpoolstats.stream/cmusicai",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "cointaft",
+    "url": "https://miningpoolstats.stream/cointaft",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "coinye",
+    "url": "https://miningpoolstats.stream/coinye",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "collidercoin",
+    "url": "https://miningpoolstats.stream/collidercoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "conceal",
+    "url": "https://miningpoolstats.stream/conceal",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "conflux",
+    "url": "https://miningpoolstats.stream/conflux",
+    "ok": true,
+    "used_cache": false,
+    "records": 9,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "corecoin",
+    "url": "https://miningpoolstats.stream/corecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "cortex",
+    "url": "https://miningpoolstats.stream/cortex",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "cosanta",
+    "url": "https://miningpoolstats.stream/cosanta",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "cpuchain",
+    "url": "https://miningpoolstats.stream/cpuchain",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "craftcoin",
+    "url": "https://miningpoolstats.stream/craftcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 13,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "crionic",
+    "url": "https://miningpoolstats.stream/crionic",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "croatcoin",
+    "url": "https://miningpoolstats.stream/croatcoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "cryptix",
+    "url": "https://miningpoolstats.stream/cryptix",
+    "ok": true,
+    "used_cache": false,
+    "records": 7,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "cryptoescudo",
+    "url": "https://miningpoolstats.stream/cryptoescudo",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "curvehash",
+    "url": "https://miningpoolstats.stream/curvehash",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "cyberchain",
+    "url": "https://miningpoolstats.stream/cyberchain",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "cyberyen",
+    "url": "https://miningpoolstats.stream/cyberyen",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "dagger",
+    "url": "https://miningpoolstats.stream/dagger",
+    "ok": true,
+    "used_cache": false,
+    "records": 9,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "dash",
+    "url": "https://miningpoolstats.stream/dash",
+    "ok": true,
+    "used_cache": false,
+    "records": 22,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "datromax",
+    "url": "https://miningpoolstats.stream/datromax",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "debitmydata",
+    "url": "https://miningpoolstats.stream/debitmydata",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "decred",
+    "url": "https://miningpoolstats.stream/decred",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "deeponion",
+    "url": "https://miningpoolstats.stream/deeponion",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "deltacoin",
+    "url": "https://miningpoolstats.stream/deltacoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "denarius",
+    "url": "https://miningpoolstats.stream/denarius",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "depinc",
+    "url": "https://miningpoolstats.stream/depinc",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "dero",
+    "url": "https://miningpoolstats.stream/dero",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "derogold",
+    "url": "https://miningpoolstats.stream/derogold",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "deutscheemark",
+    "url": "https://miningpoolstats.stream/deutscheemark",
+    "ok": true,
+    "used_cache": false,
+    "records": 9,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "devault",
+    "url": "https://miningpoolstats.stream/devault",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "diabase",
+    "url": "https://miningpoolstats.stream/diabase",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "digibyte-odocrypt",
+    "url": "https://miningpoolstats.stream/digibyte-odocrypt",
+    "ok": true,
+    "used_cache": false,
+    "records": 7,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "digibyte-qubit",
+    "url": "https://miningpoolstats.stream/digibyte-qubit",
+    "ok": true,
+    "used_cache": false,
+    "records": 10,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "digibyte-scrypt",
+    "url": "https://miningpoolstats.stream/digibyte-scrypt",
+    "ok": true,
+    "used_cache": false,
+    "records": 18,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "digibyte-sha",
+    "url": "https://miningpoolstats.stream/digibyte-sha",
+    "ok": true,
+    "used_cache": false,
+    "records": 59,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "digibyte-skein",
+    "url": "https://miningpoolstats.stream/digibyte-skein",
+    "ok": true,
+    "used_cache": false,
+    "records": 7,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "digitalcoin-scrypt",
+    "url": "https://miningpoolstats.stream/digitalcoin-scrypt",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "digitalcoin-sha",
+    "url": "https://miningpoolstats.stream/digitalcoin-sha",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "digitalcoin-x11",
+    "url": "https://miningpoolstats.stream/digitalcoin-x11",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "digitalnote",
+    "url": "https://miningpoolstats.stream/digitalnote",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "digitalprice",
+    "url": "https://miningpoolstats.stream/digitalprice",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "dimecoin",
+    "url": "https://miningpoolstats.stream/dimecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "diminutivecoin",
+    "url": "https://miningpoolstats.stream/diminutivecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "dinastycoin",
+    "url": "https://miningpoolstats.stream/dinastycoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "dingocoin",
+    "url": "https://miningpoolstats.stream/dingocoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 23,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "distrix",
+    "url": "https://miningpoolstats.stream/distrix",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "documentchain",
+    "url": "https://miningpoolstats.stream/documentchain",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "dogecoin",
+    "url": "https://miningpoolstats.stream/dogecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 55,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "dogecoinev",
+    "url": "https://miningpoolstats.stream/dogecoinev",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "dogegpu",
+    "url": "https://miningpoolstats.stream/dogegpu",
+    "ok": true,
+    "used_cache": false,
+    "records": 7,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "dogemone",
+    "url": "https://miningpoolstats.stream/dogemone",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "dogether",
+    "url": "https://miningpoolstats.stream/dogether",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "dogmcoin",
+    "url": "https://miningpoolstats.stream/dogmcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 6,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "doriancoin",
+    "url": "https://miningpoolstats.stream/doriancoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "dpowcoin",
+    "url": "https://miningpoolstats.stream/dpowcoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "dynamic",
+    "url": "https://miningpoolstats.stream/dynamic",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "dynexcoin",
+    "url": "https://miningpoolstats.stream/dynexcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 7,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "earthcoin",
+    "url": "https://miningpoolstats.stream/earthcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ecash",
+    "url": "https://miningpoolstats.stream/ecash",
+    "ok": true,
+    "used_cache": false,
+    "records": 29,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "egulden",
+    "url": "https://miningpoolstats.stream/egulden",
+    "ok": true,
+    "used_cache": false,
+    "records": 9,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "einsteinium",
+    "url": "https://miningpoolstats.stream/einsteinium",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "elastos",
+    "url": "https://miningpoolstats.stream/elastos",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "elevenseventyfive",
+    "url": "https://miningpoolstats.stream/elevenseventyfive",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "elhereum",
+    "url": "https://miningpoolstats.stream/elhereum",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "elicoin",
+    "url": "https://miningpoolstats.stream/elicoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "emerald",
+    "url": "https://miningpoolstats.stream/emerald",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "emercoin",
+    "url": "https://miningpoolstats.stream/emercoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "enigcoin",
+    "url": "https://miningpoolstats.stream/enigcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "entropyx",
+    "url": "https://miningpoolstats.stream/entropyx",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "epiccash-cuckoo",
+    "url": "https://miningpoolstats.stream/epiccash-cuckoo",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "epiccash-progpow",
+    "url": "https://miningpoolstats.stream/epiccash-progpow",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "epiccash-randomx",
+    "url": "https://miningpoolstats.stream/epiccash-randomx",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "equilibria",
+    "url": "https://miningpoolstats.stream/equilibria",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ergo",
+    "url": "https://miningpoolstats.stream/ergo",
+    "ok": true,
+    "used_cache": false,
+    "records": 20,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ergon",
+    "url": "https://miningpoolstats.stream/ergon",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ethereumclassic",
+    "url": "https://miningpoolstats.stream/ethereumclassic",
+    "ok": true,
+    "used_cache": false,
+    "records": 45,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ethereumfair",
+    "url": "https://miningpoolstats.stream/ethereumfair",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ethereumpow",
+    "url": "https://miningpoolstats.stream/ethereumpow",
+    "ok": true,
+    "used_cache": false,
+    "records": 19,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "etherify",
+    "url": "https://miningpoolstats.stream/etherify",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "etho",
+    "url": "https://miningpoolstats.stream/etho",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "etica",
+    "url": "https://miningpoolstats.stream/etica",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "etica_eti",
+    "url": "https://miningpoolstats.stream/etica_eti",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "etispatnet",
+    "url": "https://miningpoolstats.stream/etispatnet",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "evoai",
+    "url": "https://miningpoolstats.stream/evoai",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "evolution",
+    "url": "https://miningpoolstats.stream/evolution",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "evrmorecoin",
+    "url": "https://miningpoolstats.stream/evrmorecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "exchangecoin",
+    "url": "https://miningpoolstats.stream/exchangecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "expanse",
+    "url": "https://miningpoolstats.stream/expanse",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ezcoin",
+    "url": "https://miningpoolstats.stream/ezcoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "fairbrix",
+    "url": "https://miningpoolstats.stream/fairbrix",
+    "ok": true,
+    "used_cache": false,
+    "records": 7,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "feathercoin",
+    "url": "https://miningpoolstats.stream/feathercoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "fedoracoin",
+    "url": "https://miningpoolstats.stream/fedoracoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "fennec",
+    "url": "https://miningpoolstats.stream/fennec",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ferrite",
+    "url": "https://miningpoolstats.stream/ferrite",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "fewbit",
+    "url": "https://miningpoolstats.stream/fewbit",
+    "ok": true,
+    "used_cache": false,
+    "records": 13,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "fireants",
+    "url": "https://miningpoolstats.stream/fireants",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "firo",
+    "url": "https://miningpoolstats.stream/firo",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "fiurycoin",
+    "url": "https://miningpoolstats.stream/fiurycoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "fixedcoin",
+    "url": "https://miningpoolstats.stream/fixedcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 20,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "flapxcoin",
+    "url": "https://miningpoolstats.stream/flapxcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "flincoin",
+    "url": "https://miningpoolstats.stream/flincoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "flopcoin",
+    "url": "https://miningpoolstats.stream/flopcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 10,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "florincoin",
+    "url": "https://miningpoolstats.stream/florincoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "flux",
+    "url": "https://miningpoolstats.stream/flux",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "fortuneblock",
+    "url": "https://miningpoolstats.stream/fortuneblock",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "foxdcoin",
+    "url": "https://miningpoolstats.stream/foxdcoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "fractalbitcoin-mergedsha",
+    "url": "https://miningpoolstats.stream/fractalbitcoin-mergedsha",
+    "ok": true,
+    "used_cache": false,
+    "records": 11,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "fractalbitcoin-sha",
+    "url": "https://miningpoolstats.stream/fractalbitcoin-sha",
+    "ok": true,
+    "used_cache": false,
+    "records": 18,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "freecash",
+    "url": "https://miningpoolstats.stream/freecash",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "frencoin",
+    "url": "https://miningpoolstats.stream/frencoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 11,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "frogcoin",
+    "url": "https://miningpoolstats.stream/frogcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "frogecoin",
+    "url": "https://miningpoolstats.stream/frogecoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "fsociety",
+    "url": "https://miningpoolstats.stream/fsociety",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "fuego",
+    "url": "https://miningpoolstats.stream/fuego",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "fuertecoin",
+    "url": "https://miningpoolstats.stream/fuertecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "fujicoin",
+    "url": "https://miningpoolstats.stream/fujicoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "fxtc-lyra2z",
+    "url": "https://miningpoolstats.stream/fxtc-lyra2z",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "fxtc-scrypt",
+    "url": "https://miningpoolstats.stream/fxtc-scrypt",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "fxtc-sha",
+    "url": "https://miningpoolstats.stream/fxtc-sha",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "fxtc-x11",
+    "url": "https://miningpoolstats.stream/fxtc-x11",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "fxtc-x16r",
+    "url": "https://miningpoolstats.stream/fxtc-x16r",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "gainprox",
+    "url": "https://miningpoolstats.stream/gainprox",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "galleoncoin",
+    "url": "https://miningpoolstats.stream/galleoncoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "gamepass",
+    "url": "https://miningpoolstats.stream/gamepass",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "garlicoin",
+    "url": "https://miningpoolstats.stream/garlicoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "gcncoin",
+    "url": "https://miningpoolstats.stream/gcncoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "geckocoin",
+    "url": "https://miningpoolstats.stream/geckocoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "gemlink",
+    "url": "https://miningpoolstats.stream/gemlink",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "gemma",
+    "url": "https://miningpoolstats.stream/gemma",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "genix",
+    "url": "https://miningpoolstats.stream/genix",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ghostridercoin",
+    "url": "https://miningpoolstats.stream/ghostridercoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 6,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "globalboost",
+    "url": "https://miningpoolstats.stream/globalboost",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "gntlcoin",
+    "url": "https://miningpoolstats.stream/gntlcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 9,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "gobyte",
+    "url": "https://miningpoolstats.stream/gobyte",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "goldcash",
+    "url": "https://miningpoolstats.stream/goldcash",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "goldcoin",
+    "url": "https://miningpoolstats.stream/goldcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 11,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "gorbaniov",
+    "url": "https://miningpoolstats.stream/gorbaniov",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "gostcoin",
+    "url": "https://miningpoolstats.stream/gostcoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "graft",
+    "url": "https://miningpoolstats.stream/graft",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "gram",
+    "url": "https://miningpoolstats.stream/gram",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "gravitycoin",
+    "url": "https://miningpoolstats.stream/gravitycoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "griffion",
+    "url": "https://miningpoolstats.stream/griffion",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "grimm",
+    "url": "https://miningpoolstats.stream/grimm",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "grin",
+    "url": "https://miningpoolstats.stream/grin",
+    "ok": true,
+    "used_cache": false,
+    "records": 7,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "groestlcoin",
+    "url": "https://miningpoolstats.stream/groestlcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "gspcoin",
+    "url": "https://miningpoolstats.stream/gspcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "guncoin",
+    "url": "https://miningpoolstats.stream/guncoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "guus",
+    "url": "https://miningpoolstats.stream/guus",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "hacash",
+    "url": "https://miningpoolstats.stream/hacash",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "halcyon",
+    "url": "https://miningpoolstats.stream/halcyon",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "handshake",
+    "url": "https://miningpoolstats.stream/handshake",
+    "ok": true,
+    "used_cache": false,
+    "records": 7,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "haroldcoin",
+    "url": "https://miningpoolstats.stream/haroldcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "hathor",
+    "url": "https://miningpoolstats.stream/hathor",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "hawaiicoin",
+    "url": "https://miningpoolstats.stream/hawaiicoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "healthcarecoin",
+    "url": "https://miningpoolstats.stream/healthcarecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "hellar",
+    "url": "https://miningpoolstats.stream/hellar",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "historia",
+    "url": "https://miningpoolstats.stream/historia",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "hoosat",
+    "url": "https://miningpoolstats.stream/hoosat",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "hootchain",
+    "url": "https://miningpoolstats.stream/hootchain",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "horizen",
+    "url": "https://miningpoolstats.stream/horizen",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "hthcoin",
+    "url": "https://miningpoolstats.stream/hthcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "hush",
+    "url": "https://miningpoolstats.stream/hush",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "hypercoin",
+    "url": "https://miningpoolstats.stream/hypercoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 11,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "hypra",
+    "url": "https://miningpoolstats.stream/hypra",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ibithub",
+    "url": "https://miningpoolstats.stream/ibithub",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "imagecoin",
+    "url": "https://miningpoolstats.stream/imagecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "indexchain",
+    "url": "https://miningpoolstats.stream/indexchain",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "infinitecoin",
+    "url": "https://miningpoolstats.stream/infinitecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "infinium",
+    "url": "https://miningpoolstats.stream/infinium",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "innova",
+    "url": "https://miningpoolstats.stream/innova",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "irishcoin",
+    "url": "https://miningpoolstats.stream/irishcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ironfish",
+    "url": "https://miningpoolstats.stream/ironfish",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ixian",
+    "url": "https://miningpoolstats.stream/ixian",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "jagoancoin",
+    "url": "https://miningpoolstats.stream/jagoancoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "jossnetwork",
+    "url": "https://miningpoolstats.stream/jossnetwork",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "junkcoin",
+    "url": "https://miningpoolstats.stream/junkcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 21,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "kadena",
+    "url": "https://miningpoolstats.stream/kadena",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "karlsen",
+    "url": "https://miningpoolstats.stream/karlsen",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "kaspa",
+    "url": "https://miningpoolstats.stream/kaspa",
+    "ok": true,
+    "used_cache": false,
+    "records": 43,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "kaspaclassic",
+    "url": "https://miningpoolstats.stream/kaspaclassic",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "kaspav2",
+    "url": "https://miningpoolstats.stream/kaspav2",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "kawra",
+    "url": "https://miningpoolstats.stream/kawra",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "kevacoin",
+    "url": "https://miningpoolstats.stream/kevacoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "kiirocoin",
+    "url": "https://miningpoolstats.stream/kiirocoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "kindcoin",
+    "url": "https://miningpoolstats.stream/kindcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "kingpepe",
+    "url": "https://miningpoolstats.stream/kingpepe",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "kitehcoin",
+    "url": "https://miningpoolstats.stream/kitehcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "kobradag",
+    "url": "https://miningpoolstats.stream/kobradag",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "komodo",
+    "url": "https://miningpoolstats.stream/komodo",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "koto",
+    "url": "https://miningpoolstats.stream/koto",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "kronecoin",
+    "url": "https://miningpoolstats.stream/kronecoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "kryptokrona",
+    "url": "https://miningpoolstats.stream/kryptokrona",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "krypton",
+    "url": "https://miningpoolstats.stream/krypton",
+    "ok": true,
+    "used_cache": false,
+    "records": 11,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "kumacoin",
+    "url": "https://miningpoolstats.stream/kumacoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "kusa",
+    "url": "https://miningpoolstats.stream/kusa",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "kylacoin",
+    "url": "https://miningpoolstats.stream/kylacoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 6,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "lambda",
+    "url": "https://miningpoolstats.stream/lambda",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "lamby",
+    "url": "https://miningpoolstats.stream/lamby",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "larissa",
+    "url": "https://miningpoolstats.stream/larissa",
+    "ok": true,
+    "used_cache": false,
+    "records": 6,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "lbry",
+    "url": "https://miningpoolstats.stream/lbry",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "lebowskiscoin",
+    "url": "https://miningpoolstats.stream/lebowskiscoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "lethean",
+    "url": "https://miningpoolstats.stream/lethean",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "liberty",
+    "url": "https://miningpoolstats.stream/liberty",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "lightningcashr",
+    "url": "https://miningpoolstats.stream/lightningcashr",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "linkcoin",
+    "url": "https://miningpoolstats.stream/linkcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "litebar",
+    "url": "https://miningpoolstats.stream/litebar",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "litecoin",
+    "url": "https://miningpoolstats.stream/litecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 62,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "litecoin2",
+    "url": "https://miningpoolstats.stream/litecoin2",
+    "ok": true,
+    "used_cache": false,
+    "records": 13,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "litecoincash-minotaurx",
+    "url": "https://miningpoolstats.stream/litecoincash-minotaurx",
+    "ok": true,
+    "used_cache": false,
+    "records": 7,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "litecoincash-sha",
+    "url": "https://miningpoolstats.stream/litecoincash-sha",
+    "ok": true,
+    "used_cache": false,
+    "records": 12,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "litecoinz",
+    "url": "https://miningpoolstats.stream/litecoinz",
+    "ok": true,
+    "used_cache": false,
+    "records": 7,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "litoreum",
+    "url": "https://miningpoolstats.stream/litoreum",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "lkscoin",
+    "url": "https://miningpoolstats.stream/lkscoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "luckycoin",
+    "url": "https://miningpoolstats.stream/luckycoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 21,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "luckypepe",
+    "url": "https://miningpoolstats.stream/luckypepe",
+    "ok": true,
+    "used_cache": false,
+    "records": 6,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "lyncoin",
+    "url": "https://miningpoolstats.stream/lyncoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "machinecoin",
+    "url": "https://miningpoolstats.stream/machinecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "magi",
+    "url": "https://miningpoolstats.stream/magi",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "magpiecoin",
+    "url": "https://miningpoolstats.stream/magpiecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "mangonote",
+    "url": "https://miningpoolstats.stream/mangonote",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "marmara",
+    "url": "https://miningpoolstats.stream/marmara",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "marscoin",
+    "url": "https://miningpoolstats.stream/marscoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 6,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "masari",
+    "url": "https://miningpoolstats.stream/masari",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "mass",
+    "url": "https://miningpoolstats.stream/mass",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "mateablecoin-balloon",
+    "url": "https://miningpoolstats.stream/mateablecoin-balloon",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "mateablecoin-ghostrider",
+    "url": "https://miningpoolstats.stream/mateablecoin-ghostrider",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "mateablecoin-scrypt",
+    "url": "https://miningpoolstats.stream/mateablecoin-scrypt",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "mateablecoin-whirlpool",
+    "url": "https://miningpoolstats.stream/mateablecoin-whirlpool",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "mateablecoin-yescryptr8",
+    "url": "https://miningpoolstats.stream/mateablecoin-yescryptr8",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "maxcoin",
+    "url": "https://miningpoolstats.stream/maxcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "maxeter",
+    "url": "https://miningpoolstats.stream/maxeter",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "maximus",
+    "url": "https://miningpoolstats.stream/maximus",
+    "ok": true,
+    "used_cache": false,
+    "records": 6,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "mazacoin-minotaurx",
+    "url": "https://miningpoolstats.stream/mazacoin-minotaurx",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "mazacoin-sha",
+    "url": "https://miningpoolstats.stream/mazacoin-sha",
+    "ok": true,
+    "used_cache": false,
+    "records": 12,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "mecuai",
+    "url": "https://miningpoolstats.stream/mecuai",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "megacoin",
+    "url": "https://miningpoolstats.stream/megacoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "menelikcoin",
+    "url": "https://miningpoolstats.stream/menelikcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "meowcoin-meowpow",
+    "url": "https://miningpoolstats.stream/meowcoin-meowpow",
+    "ok": true,
+    "used_cache": false,
+    "records": 9,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "meowcoin-scrypt",
+    "url": "https://miningpoolstats.stream/meowcoin-scrypt",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "mergex",
+    "url": "https://miningpoolstats.stream/mergex",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "metaverse",
+    "url": "https://miningpoolstats.stream/metaverse",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "microbitcoin",
+    "url": "https://miningpoolstats.stream/microbitcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "microvisionchain",
+    "url": "https://miningpoolstats.stream/microvisionchain",
+    "ok": true,
+    "used_cache": false,
+    "records": 6,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "mimblewimble",
+    "url": "https://miningpoolstats.stream/mimblewimble",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "mintmecoin",
+    "url": "https://miningpoolstats.stream/mintmecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "moac",
+    "url": "https://miningpoolstats.stream/moac",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "mochimo",
+    "url": "https://miningpoolstats.stream/mochimo",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "moirai",
+    "url": "https://miningpoolstats.stream/moirai",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "monacoin",
+    "url": "https://miningpoolstats.stream/monacoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "monero",
+    "url": "https://miningpoolstats.stream/monero",
+    "ok": true,
+    "used_cache": false,
+    "records": 57,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "moneroclassic",
+    "url": "https://miningpoolstats.stream/moneroclassic",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "monerov",
+    "url": "https://miningpoolstats.stream/monerov",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "mooncoin",
+    "url": "https://miningpoolstats.stream/mooncoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "morelo",
+    "url": "https://miningpoolstats.stream/morelo",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "mundoteam",
+    "url": "https://miningpoolstats.stream/mundoteam",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "mydogecoin",
+    "url": "https://miningpoolstats.stream/mydogecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 9,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "myriad-argon2d",
+    "url": "https://miningpoolstats.stream/myriad-argon2d",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "myriad-groestl",
+    "url": "https://miningpoolstats.stream/myriad-groestl",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "myriad-scrypt",
+    "url": "https://miningpoolstats.stream/myriad-scrypt",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "myriad-sha",
+    "url": "https://miningpoolstats.stream/myriad-sha",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "myriad-yescrypt",
+    "url": "https://miningpoolstats.stream/myriad-yescrypt",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "myscoin",
+    "url": "https://miningpoolstats.stream/myscoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "mytherra",
+    "url": "https://miningpoolstats.stream/mytherra",
+    "ok": true,
+    "used_cache": false,
+    "records": 18,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "namecoin",
+    "url": "https://miningpoolstats.stream/namecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 13,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "napcoin",
+    "url": "https://miningpoolstats.stream/napcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "neobytes",
+    "url": "https://miningpoolstats.stream/neobytes",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "neoxa",
+    "url": "https://miningpoolstats.stream/neoxa",
+    "ok": true,
+    "used_cache": false,
+    "records": 10,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "nervos",
+    "url": "https://miningpoolstats.stream/nervos",
+    "ok": true,
+    "used_cache": false,
+    "records": 10,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "netm",
+    "url": "https://miningpoolstats.stream/netm",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "netsis",
+    "url": "https://miningpoolstats.stream/netsis",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "neurai",
+    "url": "https://miningpoolstats.stream/neurai",
+    "ok": true,
+    "used_cache": false,
+    "records": 24,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "newenglandcoin",
+    "url": "https://miningpoolstats.stream/newenglandcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "newyorkcoin",
+    "url": "https://miningpoolstats.stream/newyorkcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "nexa",
+    "url": "https://miningpoolstats.stream/nexa",
+    "ok": true,
+    "used_cache": false,
+    "records": 14,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "nexellai",
+    "url": "https://miningpoolstats.stream/nexellai",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "nexia",
+    "url": "https://miningpoolstats.stream/nexia",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "nexus",
+    "url": "https://miningpoolstats.stream/nexus",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "nikitonium",
+    "url": "https://miningpoolstats.stream/nikitonium",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "nilu",
+    "url": "https://miningpoolstats.stream/nilu",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "nimiq",
+    "url": "https://miningpoolstats.stream/nimiq",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "nirmata",
+    "url": "https://miningpoolstats.stream/nirmata",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "nitocoin",
+    "url": "https://miningpoolstats.stream/nitocoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 14,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "novacoin",
+    "url": "https://miningpoolstats.stream/novacoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "novo",
+    "url": "https://miningpoolstats.stream/novo",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "noxcoin",
+    "url": "https://miningpoolstats.stream/noxcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "nvolve",
+    "url": "https://miningpoolstats.stream/nvolve",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ocprotocol",
+    "url": "https://miningpoolstats.stream/ocprotocol",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "octaspace",
+    "url": "https://miningpoolstats.stream/octaspace",
+    "ok": true,
+    "used_cache": false,
+    "records": 17,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ocvcoin",
+    "url": "https://miningpoolstats.stream/ocvcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ogvacoin",
+    "url": "https://miningpoolstats.stream/ogvacoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "omegacoin",
+    "url": "https://miningpoolstats.stream/omegacoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "onecoin",
+    "url": "https://miningpoolstats.stream/onecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "opticalbitcoin",
+    "url": "https://miningpoolstats.stream/opticalbitcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "orbitcoin",
+    "url": "https://miningpoolstats.stream/orbitcoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ordexcoin",
+    "url": "https://miningpoolstats.stream/ordexcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 17,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ordexgold",
+    "url": "https://miningpoolstats.stream/ordexgold",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "osinpay",
+    "url": "https://miningpoolstats.stream/osinpay",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "osmium",
+    "url": "https://miningpoolstats.stream/osmium",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "palladium",
+    "url": "https://miningpoolstats.stream/palladium",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "paprikacoin",
+    "url": "https://miningpoolstats.stream/paprikacoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "parallax",
+    "url": "https://miningpoolstats.stream/parallax",
+    "ok": true,
+    "used_cache": false,
+    "records": 6,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "pascalcoin",
+    "url": "https://miningpoolstats.stream/pascalcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "peercoin",
+    "url": "https://miningpoolstats.stream/peercoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 14,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "pepecoin",
+    "url": "https://miningpoolstats.stream/pepecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 32,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "pepepow",
+    "url": "https://miningpoolstats.stream/pepepow",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "peppapow",
+    "url": "https://miningpoolstats.stream/peppapow",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "pepperscore",
+    "url": "https://miningpoolstats.stream/pepperscore",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "phicoin",
+    "url": "https://miningpoolstats.stream/phicoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 6,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "phoenixcoin",
+    "url": "https://miningpoolstats.stream/phoenixcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "pigeoncoin",
+    "url": "https://miningpoolstats.stream/pigeoncoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "piratechain",
+    "url": "https://miningpoolstats.stream/piratechain",
+    "ok": true,
+    "used_cache": false,
+    "records": 7,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "plexhive-minotaurx",
+    "url": "https://miningpoolstats.stream/plexhive-minotaurx",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "plexhive-sha",
+    "url": "https://miningpoolstats.stream/plexhive-sha",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "pluracoin",
+    "url": "https://miningpoolstats.stream/pluracoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "plusonecoin",
+    "url": "https://miningpoolstats.stream/plusonecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "polcoin",
+    "url": "https://miningpoolstats.stream/polcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "potrerocoin",
+    "url": "https://miningpoolstats.stream/potrerocoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "powlayer",
+    "url": "https://miningpoolstats.stream/powlayer",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "privatepay",
+    "url": "https://miningpoolstats.stream/privatepay",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "privcy",
+    "url": "https://miningpoolstats.stream/privcy",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "procyoncoin",
+    "url": "https://miningpoolstats.stream/procyoncoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "pulsarcoin-curvehash",
+    "url": "https://miningpoolstats.stream/pulsarcoin-curvehash",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "pulsarcoin-minotaurx",
+    "url": "https://miningpoolstats.stream/pulsarcoin-minotaurx",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "qitmeer-keccak",
+    "url": "https://miningpoolstats.stream/qitmeer-keccak",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "qogecoin",
+    "url": "https://miningpoolstats.stream/qogecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "quai-kawpow",
+    "url": "https://miningpoolstats.stream/quai-kawpow",
+    "ok": true,
+    "used_cache": false,
+    "records": 11,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "quai-scrypt",
+    "url": "https://miningpoolstats.stream/quai-scrypt",
+    "ok": true,
+    "used_cache": false,
+    "records": 12,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "quai-sha",
+    "url": "https://miningpoolstats.stream/quai-sha",
+    "ok": true,
+    "used_cache": false,
+    "records": 14,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "quantumrl",
+    "url": "https://miningpoolstats.stream/quantumrl",
+    "ok": true,
+    "used_cache": false,
+    "records": 10,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "quarkchain",
+    "url": "https://miningpoolstats.stream/quarkchain",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "quarkcoin",
+    "url": "https://miningpoolstats.stream/quarkcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "qubic",
+    "url": "https://miningpoolstats.stream/qubic",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "qubitcoin",
+    "url": "https://miningpoolstats.stream/qubitcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "questchain",
+    "url": "https://miningpoolstats.stream/questchain",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "qwertycoin",
+    "url": "https://miningpoolstats.stream/qwertycoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "r5network",
+    "url": "https://miningpoolstats.stream/r5network",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "radiant",
+    "url": "https://miningpoolstats.stream/radiant",
+    "ok": true,
+    "used_cache": false,
+    "records": 17,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "raptoreum",
+    "url": "https://miningpoolstats.stream/raptoreum",
+    "ok": true,
+    "used_cache": false,
+    "records": 26,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ravencash",
+    "url": "https://miningpoolstats.stream/ravencash",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ravencoin",
+    "url": "https://miningpoolstats.stream/ravencoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 47,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ravencoinclassic",
+    "url": "https://miningpoolstats.stream/ravencoinclassic",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "reaction",
+    "url": "https://miningpoolstats.stream/reaction",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "realichain",
+    "url": "https://miningpoolstats.stream/realichain",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "rebelcoin",
+    "url": "https://miningpoolstats.stream/rebelcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "redecoin",
+    "url": "https://miningpoolstats.stream/redecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "reflect",
+    "url": "https://miningpoolstats.stream/reflect",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "reservistencoin",
+    "url": "https://miningpoolstats.stream/reservistencoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "rheix",
+    "url": "https://miningpoolstats.stream/rheix",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "riecoin",
+    "url": "https://miningpoolstats.stream/riecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "rilcoin",
+    "url": "https://miningpoolstats.stream/rilcoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "rincoin",
+    "url": "https://miningpoolstats.stream/rincoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ritocoin",
+    "url": "https://miningpoolstats.stream/ritocoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "rogucoin",
+    "url": "https://miningpoolstats.stream/rogucoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ronpaulcoin",
+    "url": "https://miningpoolstats.stream/ronpaulcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "russellcoin",
+    "url": "https://miningpoolstats.stream/russellcoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ryo",
+    "url": "https://miningpoolstats.stream/ryo",
+    "ok": true,
+    "used_cache": false,
+    "records": 6,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "safeminecoin",
+    "url": "https://miningpoolstats.stream/safeminecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "safeminex",
+    "url": "https://miningpoolstats.stream/safeminex",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "safex",
+    "url": "https://miningpoolstats.stream/safex",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "sakuracoin",
+    "url": "https://miningpoolstats.stream/sakuracoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "salvium",
+    "url": "https://miningpoolstats.stream/salvium",
+    "ok": true,
+    "used_cache": false,
+    "records": 11,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "satoshe",
+    "url": "https://miningpoolstats.stream/satoshe",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "satoshicash",
+    "url": "https://miningpoolstats.stream/satoshicash",
+    "ok": true,
+    "used_cache": false,
+    "records": 9,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "satoxcoin",
+    "url": "https://miningpoolstats.stream/satoxcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 11,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "scala",
+    "url": "https://miningpoolstats.stream/scala",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "scholarshipcoin",
+    "url": "https://miningpoolstats.stream/scholarshipcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "scprime",
+    "url": "https://miningpoolstats.stream/scprime",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "scriv",
+    "url": "https://miningpoolstats.stream/scriv",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "sedracoin",
+    "url": "https://miningpoolstats.stream/sedracoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "sexcoin",
+    "url": "https://miningpoolstats.stream/sexcoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "shahepay",
+    "url": "https://miningpoolstats.stream/shahepay",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "shibacoin",
+    "url": "https://miningpoolstats.stream/shibacoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 18,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "siacoin",
+    "url": "https://miningpoolstats.stream/siacoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "signa",
+    "url": "https://miningpoolstats.stream/signa",
+    "ok": true,
+    "used_cache": false,
+    "records": 6,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "sispop",
+    "url": "https://miningpoolstats.stream/sispop",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "skydoge",
+    "url": "https://miningpoolstats.stream/skydoge",
+    "ok": true,
+    "used_cache": false,
+    "records": 7,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "skytere",
+    "url": "https://miningpoolstats.stream/skytere",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "slyvex",
+    "url": "https://miningpoolstats.stream/slyvex",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "smartiecoin",
+    "url": "https://miningpoolstats.stream/smartiecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "smartloopai",
+    "url": "https://miningpoolstats.stream/smartloopai",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "smileycoin-groestl",
+    "url": "https://miningpoolstats.stream/smileycoin-groestl",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "smileycoin-qubit",
+    "url": "https://miningpoolstats.stream/smileycoin-qubit",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "smileycoin-scrypt",
+    "url": "https://miningpoolstats.stream/smileycoin-scrypt",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "smileycoin-sha",
+    "url": "https://miningpoolstats.stream/smileycoin-sha",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "smileycoin-skein",
+    "url": "https://miningpoolstats.stream/smileycoin-skein",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "sorachancoin",
+    "url": "https://miningpoolstats.stream/sorachancoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "spacecoin",
+    "url": "https://miningpoolstats.stream/spacecoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "spacexpanse-neoscrypt",
+    "url": "https://miningpoolstats.stream/spacexpanse-neoscrypt",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "spacexpanse-sha",
+    "url": "https://miningpoolstats.stream/spacexpanse-sha",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "sparkspay",
+    "url": "https://miningpoolstats.stream/sparkspay",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "spectre",
+    "url": "https://miningpoolstats.stream/spectre",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "spiderbyte",
+    "url": "https://miningpoolstats.stream/spiderbyte",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "sprintpay",
+    "url": "https://miningpoolstats.stream/sprintpay",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "squishycoin",
+    "url": "https://miningpoolstats.stream/squishycoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "stakecubecoin",
+    "url": "https://miningpoolstats.stream/stakecubecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "starcoin",
+    "url": "https://miningpoolstats.stream/starcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "startcoin",
+    "url": "https://miningpoolstats.stream/startcoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "stohncoin",
+    "url": "https://miningpoolstats.stream/stohncoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "strayacoin",
+    "url": "https://miningpoolstats.stream/strayacoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "stronghands",
+    "url": "https://miningpoolstats.stream/stronghands",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "subinetwork",
+    "url": "https://miningpoolstats.stream/subinetwork",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "sugarchain",
+    "url": "https://miningpoolstats.stream/sugarchain",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "sumokoin",
+    "url": "https://miningpoolstats.stream/sumokoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "superzero",
+    "url": "https://miningpoolstats.stream/superzero",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "susucoin",
+    "url": "https://miningpoolstats.stream/susucoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "swampcoin",
+    "url": "https://miningpoolstats.stream/swampcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 6,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "swap",
+    "url": "https://miningpoolstats.stream/swap",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "syscoin",
+    "url": "https://miningpoolstats.stream/syscoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "taboprotocol",
+    "url": "https://miningpoolstats.stream/taboprotocol",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "taichicoin",
+    "url": "https://miningpoolstats.stream/taichicoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "tajcoin",
+    "url": "https://miningpoolstats.stream/tajcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "talleo",
+    "url": "https://miningpoolstats.stream/talleo",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "tari-c29",
+    "url": "https://miningpoolstats.stream/tari-c29",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "tari-monerorx",
+    "url": "https://miningpoolstats.stream/tari-monerorx",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "tari-randomx",
+    "url": "https://miningpoolstats.stream/tari-randomx",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "tari-sha3x",
+    "url": "https://miningpoolstats.stream/tari-sha3x",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "telestai",
+    "url": "https://miningpoolstats.stream/telestai",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "tenzura",
+    "url": "https://miningpoolstats.stream/tenzura",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "terracoin",
+    "url": "https://miningpoolstats.stream/terracoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 7,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "teslachain",
+    "url": "https://miningpoolstats.stream/teslachain",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "theholyroger",
+    "url": "https://miningpoolstats.stream/theholyroger",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "theminerzcoin",
+    "url": "https://miningpoolstats.stream/theminerzcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "thooneum",
+    "url": "https://miningpoolstats.stream/thooneum",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "thoreum",
+    "url": "https://miningpoolstats.stream/thoreum",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "tidecoin",
+    "url": "https://miningpoolstats.stream/tidecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "tiltcoin",
+    "url": "https://miningpoolstats.stream/tiltcoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "titcoin",
+    "url": "https://miningpoolstats.stream/titcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "tokel",
+    "url": "https://miningpoolstats.stream/tokel",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "traaitt",
+    "url": "https://miningpoolstats.stream/traaitt",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "traaittxtcash",
+    "url": "https://miningpoolstats.stream/traaittxtcash",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "trezarcoin",
+    "url": "https://miningpoolstats.stream/trezarcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "trumpow",
+    "url": "https://miningpoolstats.stream/trumpow",
+    "ok": true,
+    "used_cache": false,
+    "records": 12,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "tubopay",
+    "url": "https://miningpoolstats.stream/tubopay",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "tuske",
+    "url": "https://miningpoolstats.stream/tuske",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "tuxcoin",
+    "url": "https://miningpoolstats.stream/tuxcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ubiq",
+    "url": "https://miningpoolstats.stream/ubiq",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ufocoin",
+    "url": "https://miningpoolstats.stream/ufocoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ukkeycoin",
+    "url": "https://miningpoolstats.stream/ukkeycoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ultranoteinfinity",
+    "url": "https://miningpoolstats.stream/ultranoteinfinity",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ultronai",
+    "url": "https://miningpoolstats.stream/ultronai",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "unifyroom",
+    "url": "https://miningpoolstats.stream/unifyroom",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "unitus-argon2d",
+    "url": "https://miningpoolstats.stream/unitus-argon2d",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "unitus-lyra",
+    "url": "https://miningpoolstats.stream/unitus-lyra",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "unitus-skein",
+    "url": "https://miningpoolstats.stream/unitus-skein",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "unitus-x11",
+    "url": "https://miningpoolstats.stream/unitus-x11",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "unitus-yescrypt",
+    "url": "https://miningpoolstats.stream/unitus-yescrypt",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "unobtanium",
+    "url": "https://miningpoolstats.stream/unobtanium",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "uplexa",
+    "url": "https://miningpoolstats.stream/uplexa",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "uraniumx",
+    "url": "https://miningpoolstats.stream/uraniumx",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ursula",
+    "url": "https://miningpoolstats.stream/ursula",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "vanillacash",
+    "url": "https://miningpoolstats.stream/vanillacash",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "varsechain",
+    "url": "https://miningpoolstats.stream/varsechain",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "vdimension",
+    "url": "https://miningpoolstats.stream/vdimension",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "veco",
+    "url": "https://miningpoolstats.stream/veco",
+    "ok": true,
+    "used_cache": false,
+    "records": 8,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "veil-progpow",
+    "url": "https://miningpoolstats.stream/veil-progpow",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "veil-randomx",
+    "url": "https://miningpoolstats.stream/veil-randomx",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "veil-sha",
+    "url": "https://miningpoolstats.stream/veil-sha",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "veles-lyra2z",
+    "url": "https://miningpoolstats.stream/veles-lyra2z",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "veles-nist5",
+    "url": "https://miningpoolstats.stream/veles-nist5",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "veles-scrypt",
+    "url": "https://miningpoolstats.stream/veles-scrypt",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "veles-sha",
+    "url": "https://miningpoolstats.stream/veles-sha",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "veles-x11",
+    "url": "https://miningpoolstats.stream/veles-x11",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "veles-x16r",
+    "url": "https://miningpoolstats.stream/veles-x16r",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "verge-blake2s",
+    "url": "https://miningpoolstats.stream/verge-blake2s",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "verge-groestl",
+    "url": "https://miningpoolstats.stream/verge-groestl",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "verge-lyra",
+    "url": "https://miningpoolstats.stream/verge-lyra",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "verge-scrypt",
+    "url": "https://miningpoolstats.stream/verge-scrypt",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "verge-x17",
+    "url": "https://miningpoolstats.stream/verge-x17",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "veriblock",
+    "url": "https://miningpoolstats.stream/veriblock",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "veriumreserve",
+    "url": "https://miningpoolstats.stream/veriumreserve",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "versacoin",
+    "url": "https://miningpoolstats.stream/versacoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "vertcoin",
+    "url": "https://miningpoolstats.stream/vertcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 16,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "veruscoin",
+    "url": "https://miningpoolstats.stream/veruscoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 16,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "viceversachain",
+    "url": "https://miningpoolstats.stream/viceversachain",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "vipstarcoin",
+    "url": "https://miningpoolstats.stream/vipstarcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "virbicoin",
+    "url": "https://miningpoolstats.stream/virbicoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "virel",
+    "url": "https://miningpoolstats.stream/virel",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "virtacoinplus",
+    "url": "https://miningpoolstats.stream/virtacoinplus",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "vivo",
+    "url": "https://miningpoolstats.stream/vivo",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "vkax",
+    "url": "https://miningpoolstats.stream/vkax",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "volkshash",
+    "url": "https://miningpoolstats.stream/volkshash",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "vortexa",
+    "url": "https://miningpoolstats.stream/vortexa",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "vulkan",
+    "url": "https://miningpoolstats.stream/vulkan",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "vultaic",
+    "url": "https://miningpoolstats.stream/vultaic",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "waglayla",
+    "url": "https://miningpoolstats.stream/waglayla",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "warthog",
+    "url": "https://miningpoolstats.stream/warthog",
+    "ok": true,
+    "used_cache": false,
+    "records": 13,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "waywolfcoin",
+    "url": "https://miningpoolstats.stream/waywolfcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "weacoin",
+    "url": "https://miningpoolstats.stream/weacoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "whive",
+    "url": "https://miningpoolstats.stream/whive",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "widecoin",
+    "url": "https://miningpoolstats.stream/widecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "wojakcoin",
+    "url": "https://miningpoolstats.stream/wojakcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 20,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "woodcoin",
+    "url": "https://miningpoolstats.stream/woodcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "worktips",
+    "url": "https://miningpoolstats.stream/worktips",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "worldcoin",
+    "url": "https://miningpoolstats.stream/worldcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 5,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "wrkzcoin",
+    "url": "https://miningpoolstats.stream/wrkzcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "xaya-neoscrypt",
+    "url": "https://miningpoolstats.stream/xaya-neoscrypt",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "xaya-sha",
+    "url": "https://miningpoolstats.stream/xaya-sha",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "xechain",
+    "url": "https://miningpoolstats.stream/xechain",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "xelis",
+    "url": "https://miningpoolstats.stream/xelis",
+    "ok": true,
+    "used_cache": false,
+    "records": 16,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "xenixchain",
+    "url": "https://miningpoolstats.stream/xenixchain",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "xerocoin",
+    "url": "https://miningpoolstats.stream/xerocoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 15,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "yadacoin",
+    "url": "https://miningpoolstats.stream/yadacoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "ycash",
+    "url": "https://miningpoolstats.stream/ycash",
+    "ok": true,
+    "used_cache": false,
+    "records": 9,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "yenten",
+    "url": "https://miningpoolstats.stream/yenten",
+    "ok": true,
+    "used_cache": false,
+    "records": 11,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "yerbas",
+    "url": "https://miningpoolstats.stream/yerbas",
+    "ok": true,
+    "used_cache": false,
+    "records": 11,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "zano",
+    "url": "https://miningpoolstats.stream/zano",
+    "ok": true,
+    "used_cache": false,
+    "records": 15,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "zapchain",
+    "url": "https://miningpoolstats.stream/zapchain",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "zcash",
+    "url": "https://miningpoolstats.stream/zcash",
+    "ok": true,
+    "used_cache": false,
+    "records": 21,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "zclassic",
+    "url": "https://miningpoolstats.stream/zclassic",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "zdeex",
+    "url": "https://miningpoolstats.stream/zdeex",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "zenprotocol",
+    "url": "https://miningpoolstats.stream/zenprotocol",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "zentcash",
+    "url": "https://miningpoolstats.stream/zentcash",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "zenyx",
+    "url": "https://miningpoolstats.stream/zenyx",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "zephyr",
+    "url": "https://miningpoolstats.stream/zephyr",
+    "ok": true,
+    "used_cache": false,
+    "records": 26,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "zero",
+    "url": "https://miningpoolstats.stream/zero",
+    "ok": true,
+    "used_cache": false,
+    "records": 6,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "zeroclassic",
+    "url": "https://miningpoolstats.stream/zeroclassic",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "zeroonecoin",
+    "url": "https://miningpoolstats.stream/zeroonecoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 3,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "zerozed",
+    "url": "https://miningpoolstats.stream/zerozed",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "zetacoin",
+    "url": "https://miningpoolstats.stream/zetacoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "zether",
+    "url": "https://miningpoolstats.stream/zether",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "zettelkasten",
+    "url": "https://miningpoolstats.stream/zettelkasten",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "zilliqa",
+    "url": "https://miningpoolstats.stream/zilliqa",
+    "ok": true,
+    "used_cache": false,
+    "records": 2,
     "error": null
   }
 ]
