@@ -1,41 +1,43 @@
 {
-  "generated_at": "2026-04-20T09:23:43Z",
+  "generated_at": "2026-04-21T01:02:03Z",
   "run": {
     "conclusion": "failure",
-    "started_at": "2026-04-20T07:49:28Z",
-    "ended_at": "2026-04-20T09:23:43Z",
-    "duration_seconds": 5655,
-    "duration": "1小时34分15秒",
+    "started_at": "2026-04-21T00:36:20Z",
+    "ended_at": "2026-04-21T01:02:03Z",
+    "duration_seconds": 1543,
+    "duration": "25分43秒",
     "event": "workflow_dispatch",
     "branch": "main",
-    "commit": "7030048db86e83565ffaadd88b62e3864dcccbe8",
-    "run_id": "24654820150",
-    "run_url": "https://github.com/AdamYoung71/mining-pool-domain-intel/actions/runs/24654820150"
+    "commit": "14912081ef1b733b9e049dd7ff00c854579298df",
+    "run_id": "24697743982",
+    "run_url": "https://github.com/AdamYoung71/mining-pool-domain-intel/actions/runs/24697743982"
   },
   "parameters": {
     "miningpoolstats_coins": "0",
+    "directory_workers": "4",
     "site_limit": "0",
     "pages_per_site": "4",
-    "site_delay_seconds": "2.0",
+    "site_workers": "4",
+    "site_delay_seconds": "0.5",
     "page_delay_seconds": "1.0",
     "run_github": "false"
   },
   "metrics": {
     "pool_site_domains": {
-      "total": 902,
-      "new": 454
+      "total": 909,
+      "new": 8
     },
     "endpoint_domains": {
       "total": 2,
-      "new": 1
+      "new": 0
     },
     "endpoint_records": {
       "total": 2,
-      "new": 1
+      "new": 0
     },
     "ip_endpoint_records": {
       "total": 2,
-      "new": 1
+      "new": 0
     },
     "blockchain_nodes": {
       "total": 0,
@@ -114,6 +116,7 @@
       "bch.ee",
       "bch.molepool.com",
       "bch.neonbchmining.org",
+      "bch.northeastsolopools.com",
       "bch.solo-pool.org",
       "bch.solomining.io",
       "bch.solopool.org",
@@ -132,6 +135,7 @@
       "bitcoin.cedric-crispin.com",
       "bitcoin2.jellyfc.com",
       "bitfufu.com",
+      "bitmernsolo.com",
       "bitraepool.com",
       "bitsolo.me",
       "bliksempool.com",
@@ -281,6 +285,7 @@
       "etc.molepool.com",
       "etc.pool2mine.net",
       "etc.solopool.org",
+      "eternalzero.io",
       "ethashpool.com",
       "ethcore.ru",
       "ethercore.io",
@@ -338,6 +343,7 @@
       "gntl.co.uk",
       "gntl.digiminer.co.uk",
       "gntl.infinium.space",
+      "gntl.pool-pay.com",
       "gogpool.eu",
       "gokby.com",
       "goldcoinpool.com",
@@ -440,6 +446,7 @@
       "luckyfastblocks.com",
       "luckymonster.pro",
       "luckypool.io",
+      "luckyturtle.io",
       "luxor.tech",
       "m2pool.com",
       "m45core.com",
@@ -656,6 +663,7 @@
       "pool.sinarlink.com",
       "pool.skydoge.net",
       "pool.snowflake-net.com",
+      "pool.solomining.de",
       "pool.sprintpay.net",
       "pool.squishycoin.us",
       "pool.svpool.com",
@@ -787,7 +795,9 @@
       "solo.nexa.acc-pool.pw",
       "solo.pool-moscow.ru",
       "solo.zeropool.io",
+      "solofury.com",
       "solohash.co.uk",
+      "soloking.org",
       "solopool.com",
       "solopool.eu",
       "solopool.org",
@@ -920,7 +930,6 @@
       "xmrfast.com",
       "xmrmining.tk",
       "xmrpool.eu",
-      "xmrskip2p.jetskipool.ai",
       "xmrvsbeast.com",
       "xna.2miners.com",
       "xnpool.cn",
