@@ -58,6 +58,7 @@ python3 -m unittest discover -s tests
 - `data/mining_pool_domains.csv`：人工审计和表格处理。
 - `data/mining_pool_domains.json`：后续接入 SIEM、DNS 检测或规则生成。
 - `data/watchlist.json`：仅包含 `confirmed` / `probable` 且 `active` 的告警候选记录。
+- `data/watchlist.csv`：告警候选记录的 CSV 版本，便于表格审阅和下游导入。
 
 ## 数据字段
 

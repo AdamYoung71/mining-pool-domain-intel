@@ -191,6 +191,7 @@ def main(argv: list[str] | None = None) -> int:
         json.dumps(watchlist, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+    write_csv(watchlist, DEFAULT_DATA_DIR / "watchlist.csv")
 
     print(f"Built {len(library)} mining pool domain records.")
     print(f"Built {len(watchlist)} active alert-candidate records.")

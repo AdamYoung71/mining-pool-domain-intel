@@ -1,10 +1,15 @@
+import json
+import tempfile
 import unittest
+from pathlib import Path
+from unittest.mock import patch
 
 from scripts.build_intel import (
     FIELDS,
     build_library,
     build_watchlist,
     count_source_urls,
+    main,
     parse_endpoint,
 )
 
@@ -76,6 +81,21 @@ class BuildIntelTests(unittest.TestCase):
             ]
         )
         self.assertEqual(len(build_watchlist(records)), 1)
+
+    def test_main_writes_watchlist_csv(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            temp_dir = Path(tmp)
+            seed_path = temp_dir / "seed.json"
+            seed_path.write_text(json.dumps([BASE_RECORD], ensure_ascii=False), encoding="utf-8")
+
+            with patch("scripts.build_intel.DEFAULT_DATA_DIR", temp_dir):
+                self.assertEqual(main([str(seed_path)]), 0)
+
+            watchlist_csv = temp_dir / "watchlist.csv"
+            self.assertTrue(watchlist_csv.exists())
+            content = watchlist_csv.read_text(encoding="utf-8")
+            self.assertIn("domain,port,scheme", content)
+            self.assertIn("example.pool.test,3333,stratum+tcp", content)
 
 
 if __name__ == "__main__":

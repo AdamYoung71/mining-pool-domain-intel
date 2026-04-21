@@ -114,6 +114,7 @@ GitHub 采集阶段：
 - `data/mining_pool_domains.json`
 - `data/mining_pool_domains.csv`
 - `data/watchlist.json`
+- `data/watchlist.csv`
 
 ## 5. 复核和入库
 
