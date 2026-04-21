@@ -7,6 +7,7 @@ from scripts.collect_pool_sites import (
     extract_official_site,
     is_ip_endpoint_url,
     miningpoolstats_data_url,
+    worker_count,
 )
 
 
@@ -56,6 +57,11 @@ class CollectPoolSitesTests(unittest.TestCase):
             miningpoolstats_data_url(html),
             "https://data.miningpoolstats.stream/data/bitcoin.js?t=123",
         )
+
+    def test_worker_count_is_bounded_by_work_items(self):
+        self.assertEqual(worker_count(10, 2), 2)
+        self.assertEqual(worker_count(0, 2), 1)
+        self.assertEqual(worker_count(4, 0), 1)
 
 
 if __name__ == "__main__":

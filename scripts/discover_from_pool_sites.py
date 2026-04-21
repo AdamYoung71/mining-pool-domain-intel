@@ -5,10 +5,12 @@ import csv
 import hashlib
 import json
 import re
+import threading
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
 from pathlib import Path
 from typing import Any
@@ -32,6 +34,7 @@ DEFAULT_REPORT = ROOT / "data" / "raw" / "site_discovery_report.json"
 DEFAULT_CACHE_DIR = ROOT / "data" / "raw" / "site_discovery_cache"
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36 mining-pool-domain-intel/0.1"
+CACHE_LOCK = threading.Lock()
 LINK_KEYWORDS = (
     "connect",
     "doc",
@@ -250,9 +253,10 @@ def cache_path_for(url: str) -> Path:
 
 def load_cache(url: str) -> dict[str, Any] | None:
     path = cache_path_for(url)
-    if not path.exists():
-        return None
-    return json.loads(path.read_text(encoding="utf-8"))
+    with CACHE_LOCK:
+        if not path.exists():
+            return None
+        return json.loads(path.read_text(encoding="utf-8"))
 
 
 def save_cache(url: str, response: dict[str, Any]) -> None:
@@ -263,7 +267,8 @@ def save_cache(url: str, response: dict[str, Any]) -> None:
         "content_type": response["content_type"],
         "body": response["body"].decode("latin1"),
     }
-    cache_path_for(url).write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
+    with CACHE_LOCK:
+        cache_path_for(url).write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
 
 
 def response_from_cache(url: str) -> dict[str, Any] | None:
@@ -340,6 +345,73 @@ def discover_site(
     return records, blockchain_node_records, reports
 
 
+def error_report_for_site(site: dict[str, Any], error: Exception) -> dict[str, Any]:
+    return {
+        "pool_name": site.get("pool_name", ""),
+        "url": site.get("website_url", ""),
+        "ok": False,
+        "used_cache": False,
+        "records": 0,
+        "blockchain_nodes": 0,
+        "error": f"Unhandled crawler error: {error}",
+    }
+
+
+def worker_count(requested_workers: int, item_count: int) -> int:
+    if item_count <= 0:
+        return 1
+    return max(1, min(requested_workers, item_count))
+
+
+def discover_sites(
+    sites: list[dict[str, Any]],
+    max_pages: int,
+    timeout: int,
+    page_delay_seconds: float,
+    site_delay_seconds: float,
+    workers: int,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
+    if not sites:
+        return [], [], []
+
+    result_slots: list[tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]] | None] = [
+        None
+    ] * len(sites)
+    resolved_workers = worker_count(workers, len(sites))
+
+    if resolved_workers == 1:
+        for index, site in enumerate(sites):
+            result_slots[index] = discover_site(site, max_pages, timeout, page_delay_seconds)
+            if index < len(sites) - 1:
+                time.sleep(site_delay_seconds)
+    else:
+        with ThreadPoolExecutor(max_workers=resolved_workers) as executor:
+            future_to_index = {}
+            for index, site in enumerate(sites):
+                future = executor.submit(discover_site, site, max_pages, timeout, page_delay_seconds)
+                future_to_index[future] = index
+                if index < len(sites) - 1:
+                    time.sleep(site_delay_seconds)
+            for future in as_completed(future_to_index):
+                index = future_to_index[future]
+                try:
+                    result_slots[index] = future.result()
+                except Exception as exc:  # pragma: no cover - defensive guard for live crawls
+                    result_slots[index] = ([], [], [error_report_for_site(sites[index], exc)])
+
+    records: list[dict[str, Any]] = []
+    blockchain_node_records: list[dict[str, Any]] = []
+    reports: list[dict[str, Any]] = []
+    for result in result_slots:
+        if result is None:
+            continue
+        site_records, site_blockchain_nodes, site_reports = result
+        records.extend(site_records)
+        blockchain_node_records.extend(site_blockchain_nodes)
+        reports.extend(site_reports)
+    return records, blockchain_node_records, reports
+
+
 def unique_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
     best: dict[tuple[str, int, str, str], dict[str, Any]] = {}
     for record in records:
@@ -396,32 +468,26 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--max-sites", type=int, default=0, help="Limit sites for smoke tests; 0 means all.")
     parser.add_argument("--max-pages-per-site", type=int, default=6)
     parser.add_argument("--timeout", type=int, default=25)
-    parser.add_argument("--delay-between-sites", type=float, default=0.8)
+    parser.add_argument("--delay-between-sites", type=float, default=0.8, help="Delay between site crawl starts.")
     parser.add_argument("--delay-between-pages", type=float, default=0.5)
+    parser.add_argument("--workers", type=int, default=4, help="Concurrent official websites to crawl.")
     args = parser.parse_args(argv)
 
     sites = load_pool_sites(args.pool_sites)
     if args.max_sites > 0:
         sites = sites[: args.max_sites]
 
-    records: list[dict[str, Any]] = []
-    blockchain_node_records: list[dict[str, Any]] = []
-    reports: list[dict[str, Any]] = []
-    for index, site in enumerate(sites):
-        site_records, site_blockchain_nodes, site_reports = discover_site(
-            site,
-            args.max_pages_per_site,
-            args.timeout,
-            args.delay_between_pages,
-        )
-        records.extend(site_records)
-        blockchain_node_records.extend(site_blockchain_nodes)
-        reports.extend(site_reports)
-        if index < len(sites) - 1:
-            time.sleep(args.delay_between_sites)
+    records, blockchain_node_records, reports = discover_sites(
+        sites,
+        args.max_pages_per_site,
+        args.timeout,
+        args.delay_between_pages,
+        args.delay_between_sites,
+        args.workers,
+    )
 
     write_outputs(records, blockchain_node_records, reports)
-    print(f"Crawled {len(sites)} official website domains.")
+    print(f"Crawled {len(sites)} official website domains with {worker_count(args.workers, len(sites))} worker(s).")
     print(f"Discovered {len(build_library(unique_records(records)) if records else [])} normalized mining pool endpoint records.")
     print(f"Separated {len(unique_blockchain_node_records(blockchain_node_records))} blockchain node candidates.")
     print(f"Wrote {DEFAULT_DISCOVERED_JSON.relative_to(ROOT)} and {DEFAULT_DISCOVERED_CSV.relative_to(ROOT)}.")

@@ -1,11 +1,14 @@
 import unittest
+from unittest.mock import patch
 
 from scripts.discover_from_pool_sites import (
+    discover_sites,
     extract_blockchain_node_candidates,
     extract_site_endpoints,
     likely_help_link,
     node_endpoint_keys,
     page_urls_for_site,
+    worker_count,
 )
 
 
@@ -76,6 +79,31 @@ class DiscoverFromPoolSitesTests(unittest.TestCase):
             ],
         )
         self.assertEqual(endpoints, [{"domain": "192.0.2.12", "port": 4444, "scheme": "stratum+tcp"}])
+
+    def test_worker_count_is_bounded_by_site_count(self):
+        self.assertEqual(worker_count(10, 3), 3)
+        self.assertEqual(worker_count(0, 3), 1)
+        self.assertEqual(worker_count(4, 0), 1)
+
+    def test_discover_sites_preserves_input_order_with_workers(self):
+        sites = [
+            {"pool_name": "A", "website_url": "https://a.example/", "website_domain": "a.example"},
+            {"pool_name": "B", "website_url": "https://b.example/", "website_domain": "b.example"},
+        ]
+
+        def fake_discover(site, max_pages, timeout, page_delay_seconds):
+            return (
+                [{"domain": site["website_domain"], "pool_name": site["pool_name"]}],
+                [],
+                [{"pool_name": site["pool_name"], "url": site["website_url"], "ok": True}],
+            )
+
+        with patch("scripts.discover_from_pool_sites.discover_site", side_effect=fake_discover):
+            records, nodes, reports = discover_sites(sites, 4, 10, 0.0, 0.0, 2)
+
+        self.assertEqual([record["pool_name"] for record in records], ["A", "B"])
+        self.assertEqual(nodes, [])
+        self.assertEqual([report["pool_name"] for report in reports], ["A", "B"])
 
 
 if __name__ == "__main__":

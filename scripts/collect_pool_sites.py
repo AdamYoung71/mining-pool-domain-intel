@@ -10,6 +10,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -232,7 +233,69 @@ def fetch_with_retries_headers(
     return None, last_error
 
 
-def collect_from_minerstat(source: dict[str, Any], policy: dict[str, Any], max_profiles: int = 0) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+def worker_count(requested_workers: int, item_count: int) -> int:
+    if item_count <= 0:
+        return 1
+    return max(1, min(requested_workers, item_count))
+
+
+def collect_minerstat_profile(
+    source: dict[str, Any],
+    policy: dict[str, Any],
+    profile: dict[str, str],
+    fetched_on: str,
+) -> tuple[dict[str, Any] | None, dict[str, Any]]:
+    response, error = fetch_with_retries(profile["profile_url"], policy)
+    used_cache = False
+    site = None
+    if response:
+        profile_html = decode_body(response["body"], response["content_type"])
+        site = extract_official_site(profile_html, profile["profile_url"], profile["pool_name"])
+        save_cache(source["id"], profile["slug"], {
+            "profile": profile,
+            "site": site,
+            "sha256": hashlib.sha256(response["body"]).hexdigest(),
+        })
+    else:
+        cached = load_cache(source["id"], profile["slug"])
+        if cached:
+            used_cache = True
+            site = cached.get("site")
+
+    report = {
+        "source_id": source["id"],
+        "profile": profile["slug"],
+        "url": profile["profile_url"],
+        "ok": bool(response),
+        "used_cache": used_cache,
+        "records": 1 if site else 0,
+        "error": error,
+    }
+
+    if not site:
+        return None, report
+
+    website_url, website_domain = site
+    return {
+        "pool_name": profile["pool_name"],
+        "website_domain": website_domain,
+        "website_url": website_url,
+        "profile_url": profile["profile_url"],
+        "directory_source": source["url"],
+        "source_type": source["source_type"],
+        "confidence": source["confidence"],
+        "first_seen": fetched_on,
+        "last_seen": fetched_on,
+        "notes": f"Official website link extracted from {source['name']} profile.",
+    }, report
+
+
+def collect_from_minerstat(
+    source: dict[str, Any],
+    policy: dict[str, Any],
+    max_profiles: int = 0,
+    workers: int = 1,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     fetched_on = date.today().isoformat()
     reports: list[dict[str, Any]] = []
     directory_response, directory_error = fetch_with_retries(source["url"], policy)
@@ -267,51 +330,56 @@ def collect_from_minerstat(source: dict[str, Any], policy: dict[str, Any], max_p
         profiles = profiles[:max_profiles]
 
     records: list[dict[str, Any]] = []
-    for index, profile in enumerate(profiles):
-        response, error = fetch_with_retries(profile["profile_url"], policy)
-        used_cache = False
-        site = None
-        if response:
-            profile_html = decode_body(response["body"], response["content_type"])
-            site = extract_official_site(profile_html, profile["profile_url"], profile["pool_name"])
-            save_cache(source["id"], profile["slug"], {
-                "profile": profile,
-                "site": site,
-                "sha256": hashlib.sha256(response["body"]).hexdigest(),
-            })
-        else:
-            cached = load_cache(source["id"], profile["slug"])
-            if cached:
-                used_cache = True
-                site = cached.get("site")
+    result_slots: list[tuple[dict[str, Any] | None, dict[str, Any]] | None] = [None] * len(profiles)
+    resolved_workers = worker_count(workers, len(profiles))
+    delay_seconds = float(policy.get("delay_seconds", 0.8))
+    if resolved_workers == 1:
+        for index, profile in enumerate(profiles):
+            try:
+                result_slots[index] = collect_minerstat_profile(source, policy, profile, fetched_on)
+            except Exception as exc:  # pragma: no cover - defensive guard for live crawls
+                result_slots[index] = (None, {
+                    "source_id": source["id"],
+                    "profile": profile["slug"],
+                    "url": profile["profile_url"],
+                    "ok": False,
+                    "used_cache": False,
+                    "records": 0,
+                    "error": f"Unhandled crawler error: {exc}",
+                })
+            if index < len(profiles) - 1:
+                time.sleep(delay_seconds)
+    else:
+        with ThreadPoolExecutor(max_workers=resolved_workers) as executor:
+            future_to_index = {}
+            for index, profile in enumerate(profiles):
+                future = executor.submit(collect_minerstat_profile, source, policy, profile, fetched_on)
+                future_to_index[future] = index
+                if index < len(profiles) - 1:
+                    time.sleep(delay_seconds)
+            for future in as_completed(future_to_index):
+                index = future_to_index[future]
+                profile = profiles[index]
+                try:
+                    result_slots[index] = future.result()
+                except Exception as exc:  # pragma: no cover - defensive guard for live crawls
+                    result_slots[index] = (None, {
+                        "source_id": source["id"],
+                        "profile": profile["slug"],
+                        "url": profile["profile_url"],
+                        "ok": False,
+                        "used_cache": False,
+                        "records": 0,
+                        "error": f"Unhandled crawler error: {exc}",
+                    })
 
-        reports.append({
-            "source_id": source["id"],
-            "profile": profile["slug"],
-            "url": profile["profile_url"],
-            "ok": bool(response),
-            "used_cache": used_cache,
-            "records": 1 if site else 0,
-            "error": error,
-        })
-
-        if site:
-            website_url, website_domain = site
-            records.append({
-                "pool_name": profile["pool_name"],
-                "website_domain": website_domain,
-                "website_url": website_url,
-                "profile_url": profile["profile_url"],
-                "directory_source": source["url"],
-                "source_type": source["source_type"],
-                "confidence": source["confidence"],
-                "first_seen": fetched_on,
-                "last_seen": fetched_on,
-                "notes": f"Official website link extracted from {source['name']} profile.",
-            })
-
-        if index < len(profiles) - 1:
-            time.sleep(float(policy.get("delay_seconds", 0.8)))
+    for result in result_slots:
+        if result is None:
+            continue
+        record, report = result
+        reports.append(report)
+        if record:
+            records.append(record)
 
     return records, reports
 
@@ -338,10 +406,110 @@ def miningpoolstats_data_url(coin_html: str) -> str | None:
     return match.group(0) if match else None
 
 
+def collect_miningpoolstats_coin(
+    source: dict[str, Any],
+    policy: dict[str, Any],
+    coin_url: str,
+    fetched_on: str,
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], dict[str, Any]]:
+    coin_slug = urllib.parse.urlparse(coin_url).path.strip("/")
+    records: list[dict[str, Any]] = []
+    ip_endpoint_records: list[dict[str, Any]] = []
+    coin_response, coin_error = fetch_with_retries(coin_url, policy)
+    coin_records = 0
+    if coin_response:
+        coin_html = decode_body(coin_response["body"], coin_response["content_type"])
+        data_url = miningpoolstats_data_url(coin_html)
+        if data_url:
+            data_response, data_error = fetch_with_retries_headers(
+                data_url,
+                policy,
+                {
+                    "Accept": "application/json,text/plain,*/*",
+                    "Origin": source.get("data_origin", source.get("base_url", "")),
+                    "Referer": coin_url,
+                },
+            )
+            if data_response:
+                payload = json.loads(decode_body(data_response["body"], data_response["content_type"]))
+                for item in payload.get("data", []):
+                    url = str(item.get("url", "")).strip()
+                    if not url.startswith(("http://", "https://")):
+                        continue
+                    website_domain = canonical_domain(url)
+                    parsed = urllib.parse.urlparse(url)
+                    if is_ip_endpoint_url(url):
+                        port = parsed.port
+                        if port:
+                            ip_endpoint_records.append({
+                                "domain": website_domain,
+                                "port": port,
+                                "scheme": "stratum+tcp",
+                                "pool_name": str(item.get("pool_id") or website_domain),
+                                "coin": coin_slug.upper(),
+                                "algorithm": "UNKNOWN",
+                                "region": "UNKNOWN",
+                                "source_type": "aggregator",
+                                "source_url": coin_url,
+                                "confidence": "candidate",
+                                "status": "unknown",
+                                "first_seen": fetched_on,
+                                "last_seen": fetched_on,
+                                "notes": f"IP:port pool URL extracted from MiningPoolStats data file for {coin_slug}; verify protocol before promotion.",
+                            })
+                        coin_records += 1
+                        continue
+                    if not website_domain or is_non_site_domain(website_domain):
+                        continue
+                    website_url = f"{parsed.scheme}://{parsed.hostname}/"
+                    pool_name = item.get("pool_id") or pool_name_from_domain(website_domain)
+                    records.append({
+                        "pool_name": str(pool_name),
+                        "website_domain": website_domain,
+                        "website_url": website_url,
+                        "profile_url": coin_url,
+                        "directory_source": source["url"],
+                        "source_type": source["source_type"],
+                        "confidence": source["confidence"],
+                        "first_seen": fetched_on,
+                        "last_seen": fetched_on,
+                        "notes": f"Pool website URL extracted from MiningPoolStats data file for {coin_slug}.",
+                    })
+                    coin_records += 1
+                coin_error = None
+            else:
+                coin_error = data_error
+        else:
+            coin_error = "No MiningPoolStats data file preload URL found."
+
+    return records, ip_endpoint_records, {
+        "source_id": source["id"],
+        "coin": coin_slug,
+        "url": coin_url,
+        "ok": coin_records > 0,
+        "used_cache": False,
+        "records": coin_records,
+        "error": coin_error,
+    }
+
+
+def miningpoolstats_error_report(source: dict[str, Any], coin_url: str, error: Exception) -> dict[str, Any]:
+    return {
+        "source_id": source["id"],
+        "coin": urllib.parse.urlparse(coin_url).path.strip("/"),
+        "url": coin_url,
+        "ok": False,
+        "used_cache": False,
+        "records": 0,
+        "error": f"Unhandled crawler error: {error}",
+    }
+
+
 def collect_from_miningpoolstats(
     source: dict[str, Any],
     policy: dict[str, Any],
     max_coin_pages: int | None = None,
+    workers: int = 1,
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
     fetched_on = date.today().isoformat()
     records: list[dict[str, Any]] = []
@@ -378,87 +546,42 @@ def collect_from_miningpoolstats(
         "error": None,
     })
 
-    for index, coin_url in enumerate(coin_urls):
-        coin_slug = urllib.parse.urlparse(coin_url).path.strip("/")
-        coin_response, coin_error = fetch_with_retries(coin_url, policy)
-        coin_records = 0
-        if coin_response:
-            coin_html = decode_body(coin_response["body"], coin_response["content_type"])
-            data_url = miningpoolstats_data_url(coin_html)
-            if data_url:
-                data_response, data_error = fetch_with_retries_headers(
-                    data_url,
-                    policy,
-                    {
-                        "Accept": "application/json,text/plain,*/*",
-                        "Origin": source.get("data_origin", source.get("base_url", "")),
-                        "Referer": coin_url,
-                    },
-                )
-                if data_response:
-                    payload = json.loads(decode_body(data_response["body"], data_response["content_type"]))
-                    for item in payload.get("data", []):
-                        url = str(item.get("url", "")).strip()
-                        if not url.startswith(("http://", "https://")):
-                            continue
-                        website_domain = canonical_domain(url)
-                        parsed = urllib.parse.urlparse(url)
-                        if is_ip_endpoint_url(url):
-                            port = parsed.port
-                            if port:
-                                ip_endpoint_records.append({
-                                    "domain": website_domain,
-                                    "port": port,
-                                    "scheme": "stratum+tcp",
-                                    "pool_name": str(item.get("pool_id") or website_domain),
-                                    "coin": coin_slug.upper(),
-                                    "algorithm": "UNKNOWN",
-                                    "region": "UNKNOWN",
-                                    "source_type": "aggregator",
-                                    "source_url": coin_url,
-                                    "confidence": "candidate",
-                                    "status": "unknown",
-                                    "first_seen": fetched_on,
-                                    "last_seen": fetched_on,
-                                    "notes": f"IP:port pool URL extracted from MiningPoolStats data file for {coin_slug}; verify protocol before promotion.",
-                                })
-                            coin_records += 1
-                            continue
-                        if not website_domain or is_non_site_domain(website_domain):
-                            continue
-                        website_url = f"{parsed.scheme}://{parsed.hostname}/"
-                        pool_name = item.get("pool_id") or pool_name_from_domain(website_domain)
-                        records.append({
-                            "pool_name": str(pool_name),
-                            "website_domain": website_domain,
-                            "website_url": website_url,
-                            "profile_url": coin_url,
-                            "directory_source": source["url"],
-                            "source_type": source["source_type"],
-                            "confidence": source["confidence"],
-                            "first_seen": fetched_on,
-                            "last_seen": fetched_on,
-                            "notes": f"Pool website URL extracted from MiningPoolStats data file for {coin_slug}.",
-                        })
-                        coin_records += 1
-                    coin_error = None
-                else:
-                    coin_error = data_error
-            else:
-                coin_error = "No MiningPoolStats data file preload URL found."
+    result_slots: list[tuple[list[dict[str, Any]], list[dict[str, Any]], dict[str, Any]] | None] = [
+        None
+    ] * len(coin_urls)
+    resolved_workers = worker_count(workers, len(coin_urls))
+    delay_seconds = float(policy.get("delay_seconds", 0.8))
+    if resolved_workers == 1:
+        for index, coin_url in enumerate(coin_urls):
+            try:
+                result_slots[index] = collect_miningpoolstats_coin(source, policy, coin_url, fetched_on)
+            except Exception as exc:  # pragma: no cover - defensive guard for live crawls
+                result_slots[index] = ([], [], miningpoolstats_error_report(source, coin_url, exc))
+            if index < len(coin_urls) - 1:
+                time.sleep(delay_seconds)
+    else:
+        with ThreadPoolExecutor(max_workers=resolved_workers) as executor:
+            future_to_index = {}
+            for index, coin_url in enumerate(coin_urls):
+                future = executor.submit(collect_miningpoolstats_coin, source, policy, coin_url, fetched_on)
+                future_to_index[future] = index
+                if index < len(coin_urls) - 1:
+                    time.sleep(delay_seconds)
+            for future in as_completed(future_to_index):
+                index = future_to_index[future]
+                coin_url = coin_urls[index]
+                try:
+                    result_slots[index] = future.result()
+                except Exception as exc:  # pragma: no cover - defensive guard for live crawls
+                    result_slots[index] = ([], [], miningpoolstats_error_report(source, coin_url, exc))
 
-        reports.append({
-            "source_id": source["id"],
-            "coin": coin_slug,
-            "url": coin_url,
-            "ok": coin_records > 0,
-            "used_cache": False,
-            "records": coin_records,
-            "error": coin_error,
-        })
-
-        if index < len(coin_urls) - 1:
-            time.sleep(float(policy.get("delay_seconds", 0.8)))
+    for result in result_slots:
+        if result is None:
+            continue
+        coin_records, coin_ip_endpoint_records, report = result
+        records.extend(coin_records)
+        ip_endpoint_records.extend(coin_ip_endpoint_records)
+        reports.append(report)
 
     return records, reports, ip_endpoint_records
 
@@ -513,6 +636,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--sources", type=Path, default=DEFAULT_SOURCES)
     parser.add_argument("--max-profiles", type=int, default=0, help="Limit minerstat profiles for smoke tests; 0 means all.")
     parser.add_argument("--max-miningpoolstats-coins", type=int, default=None, help="Override MiningPoolStats coin-page limit; 0 means all sitemap coin pages.")
+    parser.add_argument("--workers", type=int, default=4, help="Concurrent directory pages to fetch.")
     parser.add_argument("--only-source", action="append", default=[], help="Run only the selected source id; may be repeated.")
     parser.add_argument("--merge-existing", action="store_true", help="Merge collected records with existing pool_sites.json before writing.")
     parser.add_argument("--stdout", action="store_true")
@@ -529,11 +653,11 @@ def main(argv: list[str] | None = None) -> int:
         if args.only_source and source["id"] not in set(args.only_source):
             continue
         if source["method"] == "minerstat_directory_profiles":
-            source_records, source_reports = collect_from_minerstat(source, policy, args.max_profiles)
+            source_records, source_reports = collect_from_minerstat(source, policy, args.max_profiles, args.workers)
             records.extend(source_records)
             reports.extend(source_reports)
         elif source["method"] == "miningpoolstats_sitemap_data":
-            source_records, source_reports, source_ip_endpoints = collect_from_miningpoolstats(source, policy, args.max_miningpoolstats_coins)
+            source_records, source_reports, source_ip_endpoints = collect_from_miningpoolstats(source, policy, args.max_miningpoolstats_coins, args.workers)
             records.extend(source_records)
             reports.extend(source_reports)
             ip_endpoint_records.extend(source_ip_endpoints)
@@ -545,7 +669,7 @@ def main(argv: list[str] | None = None) -> int:
         print(json.dumps({"records": records, "report": reports}, ensure_ascii=False, indent=2))
     else:
         write_outputs(records, reports, ip_endpoint_records)
-        print(f"Collected {len(records)} unique mining pool website domains.")
+        print(f"Collected {len(records)} unique mining pool website domains with {max(1, args.workers)} worker(s).")
         if ip_endpoint_records:
             print(f"Collected {len(build_endpoint_library(ip_endpoint_records))} IP:port pool endpoint candidates.")
         print(f"Wrote {DEFAULT_POOL_SITES_JSON.relative_to(ROOT)} and {DEFAULT_POOL_SITES_CSV.relative_to(ROOT)}.")

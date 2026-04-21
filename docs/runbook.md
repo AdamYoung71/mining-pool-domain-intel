@@ -23,10 +23,10 @@ $env:GITHUB_TOKEN = "github_pat_or_classic_token"
 
 ```powershell
 # 1. 从公共目录抓矿池官网域名；0 表示全量 MiningPoolStats sitemap
-python scripts/collect_pool_sites.py --max-miningpoolstats-coins 0
+python scripts/collect_pool_sites.py --max-miningpoolstats-coins 0 --workers 4
 
 # 2. 从官网浅层发现矿池接入端点；默认建议加请求间隔，降低被限速概率
-python scripts/discover_from_pool_sites.py --max-pages-per-site 4 --delay-between-sites 2.0 --delay-between-pages 1.0
+python scripts/discover_from_pool_sites.py --max-pages-per-site 4 --workers 4 --delay-between-sites 0.5 --delay-between-pages 1.0
 
 # 3. 从重点官方文档和聚合帮助页补充端点
 python scripts/collect_intel.py
@@ -50,10 +50,10 @@ python -m unittest discover -s tests
 
 ```powershell
 # 官网目录：只增量跑 MiningPoolStats 前 25 个币种页，并合并已有官网目录
-python scripts/collect_pool_sites.py --only-source miningpoolstats_sitemap_data --max-miningpoolstats-coins 25 --merge-existing
+python scripts/collect_pool_sites.py --only-source miningpoolstats_sitemap_data --max-miningpoolstats-coins 25 --merge-existing --workers 4
 
 # 官网浅爬：先跑前 60 个官网，每站最多 4 页
-python scripts/discover_from_pool_sites.py --max-sites 60 --max-pages-per-site 4
+python scripts/discover_from_pool_sites.py --max-sites 60 --max-pages-per-site 4 --workers 4
 
 # GitHub：只跑一个查询做验证
 python scripts/collect_github_intel.py --only-query stratum_tcp_json
@@ -62,16 +62,16 @@ python scripts/collect_github_intel.py --only-query stratum_tcp_json
 全量 MiningPoolStats 官网目录采集：
 
 ```powershell
-python scripts/collect_pool_sites.py --max-miningpoolstats-coins 0
+python scripts/collect_pool_sites.py --max-miningpoolstats-coins 0 --workers 4
 ```
 
 全量官网浅爬：
 
 ```powershell
-python scripts/discover_from_pool_sites.py --max-pages-per-site 4 --delay-between-sites 2.0 --delay-between-pages 1.0
+python scripts/discover_from_pool_sites.py --max-pages-per-site 4 --workers 4 --delay-between-sites 0.5 --delay-between-pages 1.0
 ```
 
-GitHub Actions 定时任务默认使用全量参数：`miningpoolstats_coins=0`、`site_limit=0`、`pages_per_site=4`，并在官网浅爬时使用 `site_delay_seconds=2.0`、`page_delay_seconds=1.0` 做节流。手动验证脚本是否正常时，可以继续使用前 25 个币种页或前 60 个官网的受控批次。
+GitHub Actions 定时任务默认使用全量参数：`miningpoolstats_coins=0`、`directory_workers=4`、`site_limit=0`、`pages_per_site=4`、`site_workers=4`，并在官网浅爬时使用 `site_delay_seconds=0.5`、`page_delay_seconds=1.0` 做节流。手动验证脚本是否正常时，可以继续使用前 25 个币种页或前 60 个官网的受控批次。
 
 ## 4. 输出文件
 
@@ -181,7 +181,7 @@ python scripts/build_intel.py
 - `miningpoolstats_coins`：MiningPoolStats 抓取币种页数量，`0` 表示全量 sitemap。
 - `site_limit`：官网浅爬站点数量，`0` 表示全量。
 - `pages_per_site`：每个官网最多浅爬页面数。
-- `site_delay_seconds`：官网浅爬时两个网站之间的等待秒数。
+- `site_delay_seconds`：官网浅爬时两个网站任务启动之间的等待秒数；`site_workers` 大于 1 时仍会保留这个启动间隔。
 - `page_delay_seconds`：同一官网内两个页面之间的等待秒数。
 - `run_github`：是否运行 GitHub Code Search 候选采集。
 

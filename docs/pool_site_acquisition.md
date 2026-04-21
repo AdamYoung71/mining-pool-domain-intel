@@ -49,25 +49,25 @@ MiningPoolStats 采集方法：
 MiningPoolStats 默认最多抓取 80 个币种页，避免日常运行过慢；全量可显式设置：
 
 ```powershell
-python3 scripts/collect_pool_sites.py --max-miningpoolstats-coins 0
+python3 scripts/collect_pool_sites.py --max-miningpoolstats-coins 0 --workers 4
 ```
 
 只增量跑 MiningPoolStats 并合并现有官网目录：
 
 ```powershell
-python3 scripts/collect_pool_sites.py --only-source miningpoolstats_sitemap_data --max-miningpoolstats-coins 25 --merge-existing
+python3 scripts/collect_pool_sites.py --only-source miningpoolstats_sitemap_data --max-miningpoolstats-coins 25 --merge-existing --workers 4
 ```
 
 ## 第二阶段：由官网发现矿池接入域名
 
 ```powershell
-python3 scripts/discover_from_pool_sites.py --max-sites 60 --max-pages-per-site 4
+python3 scripts/discover_from_pool_sites.py --max-sites 60 --max-pages-per-site 4 --workers 4
 ```
 
 全量运行时可去掉 `--max-sites`：
 
 ```powershell
-python3 scripts/discover_from_pool_sites.py --max-pages-per-site 4
+python3 scripts/discover_from_pool_sites.py --max-pages-per-site 4 --workers 4 --delay-between-sites 0.5 --delay-between-pages 1.0
 ```
 
 输出：
