@@ -3,6 +3,10 @@ name: Collect Intelligence
 on:
   workflow_dispatch:
     inputs:
+      run_mode:
+        description: "Run mode. Use github_only to run only GitHub code search."
+        required: true
+        default: "full"
       miningpoolstats_coins:
         description: "MiningPoolStats coin pages to collect. Use 0 for all sitemap coin pages."
         required: true
@@ -70,6 +74,7 @@ jobs:
         id: params
         shell: bash
         run: |
+          echo "run_mode=${{ github.event.inputs.run_mode || 'full' }}" >> "$GITHUB_OUTPUT"
           echo "miningpoolstats_coins=${{ github.event.inputs.miningpoolstats_coins || '0' }}" >> "$GITHUB_OUTPUT"
           echo "directory_workers=${{ github.event.inputs.directory_workers || '4' }}" >> "$GITHUB_OUTPUT"
           echo "site_limit=${{ github.event.inputs.site_limit || '0' }}" >> "$GITHUB_OUTPUT"
@@ -77,18 +82,24 @@ jobs:
           echo "site_workers=${{ github.event.inputs.site_workers || '4' }}" >> "$GITHUB_OUTPUT"
           echo "site_delay_seconds=${{ github.event.inputs.site_delay_seconds || '0.5' }}" >> "$GITHUB_OUTPUT"
           echo "page_delay_seconds=${{ github.event.inputs.page_delay_seconds || '1.0' }}" >> "$GITHUB_OUTPUT"
-          echo "run_github=${{ github.event.inputs.run_github || 'false' }}" >> "$GITHUB_OUTPUT"
+          if [ "${{ github.event.inputs.run_mode || 'full' }}" = "github_only" ]; then
+            echo "run_github=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run_github=${{ github.event.inputs.run_github || 'false' }}" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Snapshot previous status totals
         run: python scripts/update_readme_status.py snapshot --output "${{ runner.temp }}/status-baseline.json"
 
       - name: Collect pool website directory
+        if: ${{ steps.params.outputs.run_mode != 'github_only' }}
         run: |
           python scripts/collect_pool_sites.py \
             --max-miningpoolstats-coins "${{ steps.params.outputs.miningpoolstats_coins }}" \
             --workers "${{ steps.params.outputs.directory_workers }}"
 
       - name: Discover endpoints from official websites
+        if: ${{ steps.params.outputs.run_mode != 'github_only' }}
         shell: bash
         run: |
           if [ "${{ steps.params.outputs.site_limit }}" = "0" ]; then
@@ -107,6 +118,7 @@ jobs:
           fi
 
       - name: Collect priority documentation sources
+        if: ${{ steps.params.outputs.run_mode != 'github_only' }}
         run: python scripts/collect_intel.py
 
       - name: Collect GitHub code-search candidates
@@ -120,12 +132,15 @@ jobs:
           python scripts/collect_github_intel.py
 
       - name: Promote discovered records into stable seed
+        if: ${{ steps.params.outputs.run_mode != 'github_only' }}
         run: python scripts/promote_discovered.py
 
       - name: Build stable intelligence outputs
+        if: ${{ steps.params.outputs.run_mode != 'github_only' }}
         run: python scripts/build_intel.py
 
       - name: Run quality checks
+        if: ${{ steps.params.outputs.run_mode != 'github_only' }}
         run: python -m unittest discover -s tests
 
       - name: Update README collection status
