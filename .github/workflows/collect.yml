@@ -128,8 +128,27 @@ jobs:
           ACTIONS_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
         run: |
-          export GITHUB_TOKEN="${GH_CODE_SEARCH_PAT:-$ACTIONS_GITHUB_TOKEN}"
-          python scripts/collect_github_intel.py
+          run_collect() {
+            python scripts/collect_github_intel.py
+          }
+
+          if [ -n "${GH_CODE_SEARCH_PAT}" ]; then
+            export GITHUB_TOKEN="${GH_CODE_SEARCH_PAT}"
+            if run_collect; then
+              exit 0
+            fi
+            status=$?
+            if [ "${status}" = "2" ] && [ -n "${ACTIONS_GITHUB_TOKEN}" ] && [ "${GH_CODE_SEARCH_PAT}" != "${ACTIONS_GITHUB_TOKEN}" ]; then
+              echo "GH_CODE_SEARCH_PAT was rejected; retrying with the Actions token."
+              export GITHUB_TOKEN="${ACTIONS_GITHUB_TOKEN}"
+              run_collect
+              exit $?
+            fi
+            exit "${status}"
+          fi
+
+          export GITHUB_TOKEN="${ACTIONS_GITHUB_TOKEN}"
+          run_collect
 
       - name: Promote discovered records into stable seed
         if: ${{ steps.params.outputs.run_mode != 'github_only' }}

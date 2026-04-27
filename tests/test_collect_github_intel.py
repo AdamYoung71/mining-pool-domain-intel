@@ -1,6 +1,14 @@
 import unittest
+from unittest.mock import patch
 
-from scripts.collect_github_intel import blocked_host, endpoint_to_record, extract_endpoints_from_text, unique_records
+from scripts.collect_github_intel import (
+    blocked_host,
+    endpoint_to_record,
+    extract_endpoints_from_text,
+    main,
+    reports_have_bad_credentials,
+    unique_records,
+)
 
 
 class CollectGitHubIntelTests(unittest.TestCase):
@@ -47,6 +55,23 @@ class CollectGitHubIntelTests(unittest.TestCase):
         merged = unique_records([first, second])
         self.assertEqual(len(merged), 1)
         self.assertEqual(merged[0]["source_url"], "https://one; https://two")
+
+    def test_reports_have_bad_credentials_matches_401(self):
+        reports = [{"ok": False, "error": 'HTTP 401: {"message":"Bad credentials"}'}]
+        self.assertTrue(reports_have_bad_credentials(reports))
+
+    @patch("scripts.collect_github_intel.write_outputs")
+    @patch("scripts.collect_github_intel.load_config", return_value={"auth": {"env": "GITHUB_TOKEN"}})
+    def test_main_returns_error_when_token_missing(self, _load_config, _write_outputs):
+        with patch.dict("os.environ", {}, clear=True):
+            self.assertEqual(main([]), 2)
+
+    @patch("scripts.collect_github_intel.write_outputs")
+    @patch("scripts.collect_github_intel.collect_github", return_value=([], [{"ok": False, "error": 'HTTP 401: {"message":"Bad credentials"}'}]))
+    @patch("scripts.collect_github_intel.load_config", return_value={"auth": {"env": "GITHUB_TOKEN"}})
+    def test_main_returns_error_when_token_rejected(self, _load_config, _collect_github, _write_outputs):
+        with patch.dict("os.environ", {"GITHUB_TOKEN": "bad-token"}, clear=True):
+            self.assertEqual(main([]), 2)
 
 
 if __name__ == "__main__":

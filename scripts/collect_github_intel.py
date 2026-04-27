@@ -5,6 +5,7 @@ import base64
 import json
 import os
 import re
+import sys
 import time
 import urllib.error
 import urllib.parse
@@ -208,6 +209,19 @@ def unique_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return list(unique.values())
 
 
+def report_error_message(report: dict[str, Any]) -> str:
+    return str(report.get("error") or "")
+
+
+def report_has_bad_credentials(report: dict[str, Any]) -> bool:
+    message = report_error_message(report).lower()
+    return "http 401" in message or "bad credentials" in message
+
+
+def reports_have_bad_credentials(reports: list[dict[str, Any]]) -> bool:
+    return any(report_has_bad_credentials(report) for report in reports)
+
+
 def collect_github(config: dict[str, Any], token: str, only_query: set[str] | None = None) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     policy = config.get("fetch_policy", {})
     headers = github_headers(token, policy.get("user_agent", "mining-pool-domain-intel/0.1"))
@@ -232,7 +246,7 @@ def collect_github(config: dict[str, Any], token: str, only_query: set[str] | No
             per_page,
             int(query.get("max_results", default_max_results)),
         )
-        reports.append({
+        query_report = {
             "query_id": query["id"],
             "query": query["query"],
             "started_at": started_at,
@@ -242,9 +256,11 @@ def collect_github(config: dict[str, Any], token: str, only_query: set[str] | No
             "files_scanned": 0,
             "records": 0,
             "error": None if search_reports and search_reports[0]["ok"] else (search_reports[0]["error"] if search_reports else "No search response."),
-        })
+        }
+        reports.append(query_report)
 
         for item in items:
+            query_report["files_scanned"] += 1
             text, error = fetch_file_text(item, headers, timeout)
             if error or text is None:
                 reports.append({
@@ -259,6 +275,7 @@ def collect_github(config: dict[str, Any], token: str, only_query: set[str] | No
             endpoints = extract_endpoints_from_text(text)
             file_records = [endpoint_to_record(endpoint, item, query["id"], fetched_on) for endpoint in endpoints]
             records.extend(file_records)
+            query_report["records"] += len(file_records)
             reports.append({
                 "query_id": query["id"],
                 "file_url": item.get("html_url") or item.get("url"),
@@ -306,6 +323,12 @@ def main(argv: list[str] | None = None) -> int:
         print(f"Scanned {ok_files} GitHub files.")
         print(f"Discovered {len(records)} normalized GitHub endpoint candidates.")
         print(f"Wrote {DEFAULT_DISCOVERED_JSON.relative_to(ROOT)} and {DEFAULT_DISCOVERED_CSV.relative_to(ROOT)}.")
+    if reports_have_bad_credentials(reports):
+        print("GitHub Code Search failed because the configured token was rejected (HTTP 401 Bad credentials).", file=sys.stderr)
+        return 2
+    if not token:
+        print(f"GitHub Code Search could not start because {token_env} is not set.", file=sys.stderr)
+        return 2
     return 0
 
 
