@@ -2,96 +2,1370 @@
   {
     "query_id": "stratum_tcp_json",
     "query": "\"stratum+tcp://\" filename:config.json",
-    "started_at": "2026-04-27T07:01:36.826066+00:00",
-    "ok": false,
+    "started_at": "2026-04-27T08:03:31.850883+00:00",
+    "ok": true,
     "search_pages": [
       {
         "url": "https://api.github.com/search/code?q=%22stratum%2Btcp%3A%2F%2F%22+filename%3Aconfig.json&per_page=30&page=1",
-        "ok": false,
+        "ok": true,
         "page": 1,
-        "records": 0,
-        "error": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+        "records": 30,
+        "error": null
+      },
+      {
+        "url": "https://api.github.com/search/code?q=%22stratum%2Btcp%3A%2F%2F%22+filename%3Aconfig.json&per_page=30&page=2",
+        "ok": true,
+        "page": 2,
+        "records": 30,
+        "error": null
       }
     ],
-    "search_items": 0,
-    "files_scanned": 0,
+    "search_items": 50,
+    "files_scanned": 50,
+    "records": 120,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/Mine2Gether/m2g_android_miner/blob/a411a71a8c37cf3ab541275561f1ded34d1ed7f4/app/src/main/assets/ninjarig/config.json",
+    "ok": true,
     "records": 0,
-    "error": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/ajpsp5/ethos-auto-miner/blob/a4bdc47e811124c81e9eeab940b5f0e674faa65c/_amd_config.json",
+    "ok": true,
+    "records": 6,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/Adeemar7/whiveAWS/blob/48d38450fe8be3fa5c02e6921bfc9d184372ef2a/config.json.bak",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/mathatan/NodeNicehashMiner/blob/816e52cae68f3cf66566d8d9242641208ff7c05b/config.json",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/DcTyle/QuantumMiner/blob/f6c71b9eb895631983852fa2e96be30293836cbb/miner/miner_runtime_config.json.bak_ascii",
+    "ok": true,
+    "records": 5,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/saijame-art/miner/blob/40873dd9dc3c60d6b22b4ed27c14ceacc7b7b627/onlineconfig.json",
+    "ok": true,
+    "records": 4,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/freelojo/pi-bitcoin-miner/blob/40246cd8f7cffc78dd75d1e2935409815fc3fcf0/config/mining_config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/Kryptonproject-crypto/KryptonMiner/blob/f8ca15f0a4d525af3242955ab5ee9c96e095ad49/krypton_miner_config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/eclipserage2025-sketch/AI-monero-miner/blob/e1323b2b42921b9f1dd5ae04a117bc61c25da13c/config/default_config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/vecocoin/GUI-miner/blob/c6f4ad9e9f58d0ae4b32f93bcb956ad51b907e8c/miner_config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/ndduoc1189/dndvina-mining/blob/fd2ae4c6a92ab645722615efbdf62a060c033f1a/example_update_config.json",
+    "ok": true,
+    "records": 2,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/willsmith9182/nice-py-switcher/blob/24fdab49d508a110e9ea16cb1e9c6e8563393abe/config.json",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/issy13elizabet/ZION2.7TestNet/blob/d6c01e010c5fffdd6e2e39bcbf846b8600290b4d/config/zion_gpu_mining_config.json",
+    "ok": true,
+    "records": 2,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/zartrux2307/zar/blob/b15e73a270e615f401b2e14cb8e37fed4dcf5925/config/miner_config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/Oink70/Android-Mining/blob/b02ac8eeb385f3d714aae59035fe06d2d5492c8b/config.json",
+    "ok": true,
+    "records": 2,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/Flofactionllc/flofaction-website-backup/blob/fe35390c9fea96ada1fb7e6be331bfed252fbfbe/multi_algorithm_config.json",
+    "ok": true,
+    "records": 2,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/DcTyle/QuantumMiner/blob/f6c71b9eb895631983852fa2e96be30293836cbb/miner/miner_runtime_config.json",
+    "ok": true,
+    "records": 3,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/sky1241/linux-upgrade/blob/706cdb2e48dcebc8688469b292d5e369fdda0bd2/mining/config.json",
+    "ok": true,
+    "records": 2,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/ajpsp5/ethos-auto-miner/blob/a4bdc47e811124c81e9eeab940b5f0e674faa65c/_nivida_config.json",
+    "ok": true,
+    "records": 6,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/bitsbetrippin/bbtmultiminer/blob/4747551475ef98651802ad7584878438deecfd9a/Miners/NBMiner_12.3_Win/config.json",
+    "ok": true,
+    "records": 2,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/Flofactionllc/flofaction-website-backup/blob/fe35390c9fea96ada1fb7e6be331bfed252fbfbe/optimized_mining_config.json",
+    "ok": true,
+    "records": 6,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/UlordChain/Ulordrig-win/blob/d4a0859be5164dbac71dd1bb3c3a9555bc2875ac/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/Pow-King/Scash-Miner/blob/87230812365a7eeac990f2254231616eb8c9a5c3/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/zikyu7/ccminer/blob/c4aeca3019bf7df95752dacdfc177ae83bf39d03/config.json",
+    "ok": true,
+    "records": 2,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/cniweb/cpuminer-opt-docker/blob/7e7066178ed68964c3e0688be4114a57846ff63a/config.json",
+    "ok": true,
+    "records": 4,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/dismaster/RG3DUI/blob/0c86f78a0c7021c88d53e6a2012209fb077c85fb/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/cniweb/cpuminer-multi-docker/blob/4d2bfafd4b8adcaa0ca20b557d6de490f5aa06c5/config.json",
+    "ok": true,
+    "records": 4,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/BitPoolMining/BitPoolMiner/blob/8f46e69f38fc8ed28a0528a053ae1517d9547b75/BitPoolMiner/MinerApps/CryptoDredge_0.14.0/config.json",
+    "ok": true,
+    "records": 3,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/Darktron/pre-compiled/blob/89769f1e11d3d1266166960b169f6c3fbca250d8/config.json",
+    "ok": true,
+    "records": 7,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/Darktron/piccminer/blob/cc3cbe20052b8d503c24b48bb8c2c43d60047d7a/config.json",
+    "ok": true,
+    "records": 7,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/yhf971/V/blob/d7094a3225b5eb94a8bec1503c5f7f98611afb66/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/ksp-fon/mining/blob/51625729c18516cde084ca334db1fcd7041c3a1c/config.json",
+    "ok": true,
+    "records": 10,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/parkxu465/verus/blob/cb5b1fe5f6be2dc4b5dd8d900fffb015bbe308b3/config.json",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/pmhhoangpham/ccminer/blob/783da84de14cbed6fc09e59f67a2d086daa1e532/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/dopaemon/ccminer/blob/ff5f95e8bec9fbbde6383e254a9d79395efce60c/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/onethings/VerusCliMining/blob/dd774884bbcbbf9fa1f8016ca58bd0ee235497ec/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/danirihan/VerusCliMining/blob/bd0d1b1e4b35c279aa12a72862d1f239fd2aea6c/config.json",
+    "ok": true,
+    "records": 3,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/Darktron/cpuminer/blob/2e6bce05829f307d02595e04ac1ec2d42ab8d40a/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/TheMiningFarm/ARM64VERUS/blob/94b56ad5a4a136e69864b48d98cd7c9e53ed62e5/config.json",
+    "ok": true,
+    "records": 2,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/nguyenlekhanh/android-mining/blob/1fb71e435ff3c8dc04265789ce7b3da1e634ce36/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/chefsas/Verus/blob/304ec24abeb7c7bce64c4636cb3e7d8bfeed2b7c/config.json",
+    "ok": true,
+    "records": 3,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/tkashro/verus-mining/blob/b6039243e3ae4428caeacfd3b1a986fbf6c9cb78/config.json",
+    "ok": true,
+    "records": 7,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/Owesatuma/cpuminer-gr-devfee/blob/f32de31fbc3d9b945b324c7b0f8eb61c545b4d78/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/mersudin88/karabrakula/blob/67826208c0e40acc2270b8d7dc61fe029611e2ea/config.json",
+    "ok": true,
+    "records": 2,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/dewicantika8n/cantika/blob/f820c97a65e174a0ad56067c2494a56eb13da2b4/config.json",
+    "ok": true,
+    "records": 3,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/cniweb/cpuminer-rx2-docker/blob/c4c11257014e75991a2334de6ce4ed9a02faab85/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/josajosjos/cpuminer-opt-gr/blob/e284e29b8ee2db39fb6c18a6eb03114ed1e477e7/bin/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/Ngocgiau2000/bootpro/blob/2bb5fb6cdae652575e91d01824fe787bd4854290/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/0xwhyteddy/verus/blob/5c3c4d0d038c321c559719213faebb11bbedd86b/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_tcp_json",
+    "file_url": "https://github.com/Ngocgiau2000/maianhconfig/blob/338ed4bfa63e5f5e4e38a1aaf90e9c383353d24d/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
   },
   {
     "query_id": "stratum_ssl_json",
     "query": "\"stratum+ssl://\" filename:config.json",
-    "started_at": "2026-04-27T07:02:01.884694+00:00",
-    "ok": false,
+    "started_at": "2026-04-27T08:04:30.324576+00:00",
+    "ok": true,
     "search_pages": [
       {
         "url": "https://api.github.com/search/code?q=%22stratum%2Bssl%3A%2F%2F%22+filename%3Aconfig.json&per_page=30&page=1",
-        "ok": false,
+        "ok": true,
         "page": 1,
-        "records": 0,
-        "error": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+        "records": 11,
+        "error": null
       }
     ],
-    "search_items": 0,
-    "files_scanned": 0,
-    "records": 0,
-    "error": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
+    "search_items": 11,
+    "files_scanned": 11,
+    "records": 18,
+    "error": null
+  },
+  {
+    "query_id": "stratum_ssl_json",
+    "file_url": "https://github.com/PTRFRLL/nv-docker-trex/blob/788b7d705a3883c31fccb05e90d6c5d45a0d4c52/config/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_ssl_json",
+    "file_url": "https://github.com/bagstah/clore/blob/f1f4cff488d501ba548cf5a04e3bb1bd2b3aec93/oxzd_config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_ssl_json",
+    "file_url": "https://github.com/cniweb/xmrig-monero/blob/11e750b0635f08aa3bdcc2e3ce3f5d053024c5c1/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_ssl_json",
+    "file_url": "https://github.com/Mbah17/pre-compiled/blob/a8287c3ee7303e86f145a4df030219ff1ef57b14/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_ssl_json",
+    "file_url": "https://github.com/dhamas07/MyMiner-verus/blob/ae98dbaebba11fe0a47dfb7091237f261d2f75d5/luckpool.net/config.json",
+    "ok": true,
+    "records": 4,
+    "error": null
+  },
+  {
+    "query_id": "stratum_ssl_json",
+    "file_url": "https://github.com/sky1241/linux-upgrade/blob/706cdb2e48dcebc8688469b292d5e369fdda0bd2/mining/config.json",
+    "ok": true,
+    "records": 2,
+    "error": null
+  },
+  {
+    "query_id": "stratum_ssl_json",
+    "file_url": "https://github.com/nguyenquanh2008/config/blob/e2b2c367282e83877bfe7b2f97867218f358d701/config.json",
+    "ok": true,
+    "records": 4,
+    "error": null
+  },
+  {
+    "query_id": "stratum_ssl_json",
+    "file_url": "https://github.com/arianvaldivieso/xtag/blob/9d6f5fcbd401637d93b6ed5cb4a47b5d43ad28ce/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_ssl_json",
+    "file_url": "https://github.com/sharifulgeo/crypto/blob/f85fe3aba43b6efe3678661d1804be4e9ae77dd8/linuxmyxmrig/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_ssl_json",
+    "file_url": "https://github.com/Alexutzu132/clasavii/blob/015c7fa88cfecd82dd2c91fd0e7319905edc087a/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "stratum_ssl_json",
+    "file_url": "https://github.com/sharifulgeo/crypto/blob/f85fe3aba43b6efe3678661d1804be4e9ae77dd8/win64myxmrig/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
   },
   {
     "query_id": "xmrig_pools_json",
     "query": "\"xmrig\" \"pools\" filename:config.json",
-    "started_at": "2026-04-27T07:02:26.901229+00:00",
-    "ok": false,
+    "started_at": "2026-04-27T08:04:42.680330+00:00",
+    "ok": true,
     "search_pages": [
       {
         "url": "https://api.github.com/search/code?q=%22xmrig%22+%22pools%22+filename%3Aconfig.json&per_page=30&page=1",
-        "ok": false,
+        "ok": true,
         "page": 1,
-        "records": 0,
-        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+        "records": 30,
+        "error": null
+      },
+      {
+        "url": "https://api.github.com/search/code?q=%22xmrig%22+%22pools%22+filename%3Aconfig.json&per_page=30&page=2",
+        "ok": true,
+        "page": 2,
+        "records": 30,
+        "error": null
       }
     ],
-    "search_items": 0,
-    "files_scanned": 0,
+    "search_items": 50,
+    "files_scanned": 50,
+    "records": 37,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/xmrig/xmrig/blob/b2ca72480c58d197e18c885d9fc1a0c8d517e60a/src/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/rmihai24/mining-bot/blob/d03247fad00dc68f4a424e398ac588820158635f/xmrig_config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/BitPoolMining/BitPoolMiner/blob/8f46e69f38fc8ed28a0528a053ae1517d9547b75/BitPoolMiner/publish/Application%20Files/BitPoolMiner_1_0_1_28/MinerApps/xmrig-2.14.4/config.json.deploy",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/ElijaxApps-org/android-xmrig-miner/blob/9d7bcfc7fcd3ca6ece6903493bb477470761a600/app/src/main/cpp/xmrig-2.8.3/src/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/issy13elizabet/ZION2.7TestNet/blob/d6c01e010c5fffdd6e2e39bcbf846b8600290b4d/config/zion_ai_unified_miner_config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/The-GNTL-Project/Configs/blob/c30dcc1d6603e4ea3eec1ed771dd452d38bdef9e/XMRigProxy_config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/UltimateABC/storagemyfiles/blob/ae1aabccb9258017f64d7dfd72af9a5783662725/gminer/zephyrConfig.json",
+    "ok": true,
+    "records": 2,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/Abraham313/Project/blob/122571780e34bf711fe333192cd60153f4151179/src/default_config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/xmrrig/xmr/blob/1e409b57e0e5e247288989b7bd952462778ea988/src/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/SpeakinTelnet/Homelab-IaC/blob/cc7dbfd2e91c8d6a87313f93e02028ba71a80f15/global_files/host_conf_templates/xmrig/xmrig-config.json.j2",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/ASSERT-KTH/wasm_evasion/blob/6e41bb3fa0f9d06619758709094b0e2a13beb593/malware_reproduction/rq3/replace_experiments/config.json.bck",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/stefanpejcic/wordpress-malware/blob/06384c20a173d0ad624982978d28a934e7cf09e4/08.12.2025/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/Monerod-Project/nodejs-pool-bonus-hashrate/blob/b9289e0806d982b9f388a5261786527541c3e9ee/config.json.example",
+    "ok": true,
     "records": 0,
-    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/JustAResearcher/Tari-Mining-Proxy/blob/8fc52ce71b362a876348686b284c818acc7d55a7/config/xmrig_config.json.example",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/Meowcoin-Foundation/CatStack/blob/f456368be7c9d906ca268ed7e35bee8396633bc9/mfarm/worker/xmrig-config.json",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/RafalSladek/docker_images/blob/9ffb5cf51fe1b37b6abe64f296528991d2b0d256/bin/config.json",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/cyynf/xmrig/blob/c36b0e7bf50792c3685fdc13548686969283d14c/src/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/Sec7orTeam/Mining-nanswap-via-vps-by-Rinaldi/blob/5e4371f6c89fdeb2ccb47281aeb13e037848c922/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/ajprabhu09/xmrig-mining/blob/21241ddc9767435b94f3fcd89f820bf1c9c47874/xmrig-6.17.0/config.json_orignal",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/MKWorldWide/LilithOS/blob/207f2a6efb4afd6361780a0af919b3b67f8d1674/backend/miner/miner-config.json",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/arianvaldivieso/miner/blob/790c258624d0d25f3752e874ac18e0c4ebc838ec/config.json",
+    "ok": true,
+    "records": 2,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/brakdag/dolarargentina/blob/594bd8273c052a610758c5494336357e02b24847/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/xmrig/xmrig-amd/blob/529a29110881da598d66e9e0bb5f1002bc796e5c/src/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/Jair-F/my_crypto_miners/blob/7839846b4b1457f2fa26108ab29292b610e9b597/xmrig_config/default_config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/whitorizor/m1n3/blob/f047f4fc61e9f1dc7c60ffca74205d2b083085d2/xmrig/xmrig-2.4.4/config.json",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/nblake989/webchain-miner_custom_xmrig-amd/blob/f9ffcade7856ede9a05cfb7bfac2b23dc0f0a9a3/webchainminer/config.json.bak.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/qji-2dorrah/argon2/blob/41f4406c459b8b55714937510d46000f249f4eaf/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/SanguineSatan/AndroidMiner/blob/93911aad0555f1ab7c0e412b750ba06a3c736756/android_arm64/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/Flofactionllc/flofaction-website-backup/blob/fe35390c9fea96ada1fb7e6be331bfed252fbfbe/local_mining_config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/FranzDE/XmrigCC-MOD/blob/4ee2850d89d59855e0c2551bd7419ab002ef00a9/src/default_config.json",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/xmrcheat/xmrig-cheat/blob/61c970d82f7c33abbac5f93ac800cfe7e6adb7b1/src/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/Caprico1/Docker-Botnets/blob/2261ce6b05e83efe45df9bd187b0339a0881ef0e/darmok/darmok_returns/darmok_config.json",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/cado-security/CloudAndContainerCompromiseSimulator/blob/245e40b521d0d301763753605fdc3445de5f5946/bins/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/xmrig/xmrig-nvidia/blob/a047dc344503e2048a72a9f8c2df56d2f4996284/src/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/ruheight/demorda-xmrig-linux/blob/3ea1bdc2e191a68c76b7fb20efdb72d09614d7ea/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/xmrig/xmrig-proxy/blob/0dc23f69b546ae973ae0ae6fb65593f998256589/src/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/jjeett0007/xmrig-docker/blob/2d85eacf26c3be96cd2a453a120aa8db40f960c1/config.json",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/bengetsia/epic/blob/008f5a7b7b1b6f891ece14e9196efc4366d8590c/config.json",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/mohamed-mahdy-bakerysoft/composer/blob/a143f23fc9df6f0d7edeecae5c7d82f366cf9e27/config.json",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/Jerhaad/xmrig_docker/blob/57caf5dc26a71969c1a652852ff4166bbe9ac111/cpu/miner_data/config.json",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/yaojing99/learngit/blob/91c7d383369ff97328ef3ce780ec1f98aa5f4156/%E7%97%85%E6%AF%92%E8%84%9A%E6%9C%AC/c3pool/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/midaslabs/deminer/blob/d4136bf4d894a9c3f30636f9d85a2ad29665ff53/xmrig_src/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/FrosTether/Frostchain/blob/8a7f2ffbce0f8ec40f6ffeb29ca9abbd24768d30/frostchaincli/config.json",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/KalioNix/antifishing_scanner/blob/6c46c3ad716e636faca83ee996f4034fd84f5d36/AFS/moneroocean/config.json",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/monkins1010/Webchain-nvidia-opensource/blob/5e03ddd7c0e06cccdd96ec425613fb125c9d5542/src/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/Jerhaad/xmrig_docker/blob/57caf5dc26a71969c1a652852ff4166bbe9ac111/cuda/miner_data/config.json",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/Flofactionllc/flofaction-website-backup/blob/fe35390c9fea96ada1fb7e6be331bfed252fbfbe/cloud_mining_system/configs/local_mining_config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/morphytron/randomx-mining/blob/93415b00ea60f8cd1d079794a58c12af2b6b99a6/amd64/xmrig-no-docker/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/UltimateABC/Amestris-Kernel-9192-S4mini/blob/8ff0ed2057f2d0acc493468f89ea192ef7e596fa/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "xmrig_pools_json",
+    "file_url": "https://github.com/morgansteel/MicrosoftUpdater/blob/43f03e5986fd9bbebaaa55d7245892842ceaffe5/assets/config.json",
+    "ok": true,
+    "records": 1,
+    "error": null
   },
   {
     "query_id": "mining_subscribe",
     "query": "\"mining.subscribe\" \"stratum\"",
-    "started_at": "2026-04-27T07:02:30.631548+00:00",
-    "ok": false,
+    "started_at": "2026-04-27T08:05:40.661331+00:00",
+    "ok": true,
     "search_pages": [
       {
         "url": "https://api.github.com/search/code?q=%22mining.subscribe%22+%22stratum%22&per_page=30&page=1",
-        "ok": false,
+        "ok": true,
         "page": 1,
-        "records": 0,
-        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+        "records": 30,
+        "error": null
+      },
+      {
+        "url": "https://api.github.com/search/code?q=%22mining.subscribe%22+%22stratum%22&per_page=30&page=2",
+        "ok": true,
+        "page": 2,
+        "records": 30,
+        "error": null
       }
     ],
-    "search_items": 0,
-    "files_scanned": 0,
+    "search_items": 50,
+    "files_scanned": 50,
+    "records": 9,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/ma261065/DotNetStratumMiner/blob/50c2a4434ee77f314bc852950c832d446ced06cd/Stratum.cs",
+    "ok": true,
     "records": 0,
-    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/MightyDevices/mightyminer/blob/988f5f65c2ab3df90b6787971ae601fd3bedef88/stratum.js",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/theeldermillenial/tuna-py/blob/cc5bc94c59c07e3063e8b8fa824ff424655121ba/src/tuna/stratum.py",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/HandyOSS/HandyStratum/blob/c7c3a488e75c9d147a32aa498c979f8815af0a1c/lib/stratum.js",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/CodeChain-io/codechain/blob/9964d028e0b4c51443e59526a1aa4708f4d99b38/spec/Stratum.md",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/highload-zone/stratum-protocol-client/blob/a758e99cbf2d5e58c3cd1a5346ab7e548e593f5e/stratum.js",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/dogestreet/proxypool/blob/ecba151d8edc47bc77d436498ea613ce785845be/ProxyPool/Stratum.hs",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/eXtremal-ik7/pool_frontend_zcash/blob/ac892f2b7321cf3fc470ca3d2abda8b5e7441bec/src/stratum.cpp",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/toncoinpool/stratum-miner/blob/9ca9240955e2360b93c616ec6708d05937aa5251/docs/stratum.md",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/miningmeter/stratum-proxy/blob/5a2fbcec369b5ab27ed7093071fa585aebaea64c/stratum.go",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/AlphaB135/BitQuan/blob/47fc7a2d0df7dded6ad7b97b09c88be7cc1db695/docs/guides/STRATUM.md",
+    "ok": true,
+    "records": 4,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/4tar/37proxy/blob/427553a9aa6531b902a92fd34d01ac9ec4eca813/stratum.c",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/robvanmieghem/gominer/blob/38dbc179356d055e5556d13f5159fdbdb78ee5d5/algorithms/sia/siastratum.go",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/m0mchil/poclbm/blob/2ae15b77df1d17d2ec2748673ba2e8e0a01891c5/StratumSource.py",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/Tritonn204/tnn-miner/blob/2ec4f984b99b4f1e315fa23729f41d674d571e16/include/stratum/btc-stratum.h",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/parasitepool/para/blob/7eadfb6b2b86fbb09aee62b0d2678a7f67fb6b94/crates/stratum/README.md",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/cbuchner1/CudaMiner/blob/746a7733dda9d2b3466c54c149362e4fb205cc3f/util.c",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/alephium/docs/blob/a0e3ed28020bed727130719a49a3b40ec465cc0b/docs/mining/alephium-stratum.md",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/bonesoul/node-pool/blob/f5150be67d5eb1ac49b817c3f64c8b3240e82348/src/stratum/client.js",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/jmoraleses/stratum_proxy/blob/43f2ec4511cb18e16171e7cdc5a37134336720c5/Stratum.py",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/borlak/cryptocoin_scrypt_stratum/blob/b93af0a7fd18d1bc7c15167f5783c7c74bba8a2e/StratumServer.php",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/HarukaMa/aleo-pool-server/blob/992792eb9aaf29fde0c20c9942ec5a9244a4a0a6/stratum/spec.md",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/mbevand/silentarmy/blob/c6a9ca85a81708589c904d2cbf3c665cd7ce5fa0/silentarmy",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/AdvancedX/Crypto-Mining-Website-Demo/blob/128609bc5671147c06722458bc060a201301d4c9/stratum_pool.py",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/polyminer1/rhminer/blob/16c1ee9e64d16611be7b9df041083f58e5949eb8/MinersLib/StratumClient.cpp",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/sambacha/mev-docs/blob/caffd58a876cb51d743d67363eec5dcae7fed125/raw/stratum/SNIPPET_1.md",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/Nileneb/Game-Mcp/blob/3e41bd0face1627410f444ee702add72fd474e02/stratum_proxy.py",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/jadaela-ara/BioMining/blob/99bfd9ea4cc4b60e5823d4c51e845b508aed047d/stratum_client.py",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/jps4/btc-cpu-miner/blob/b6d30724e1feee3c9adb432a75c968d725abf5b6/stratum.h",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/JustAResearcher/parallax-hiveos-miner/blob/367f69b0c53267b9b8ec2631a48536f6f964f20f/xhash_stratum_proxy.py",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/pocesar/node-stratum/blob/829075155a56e7294063954d0c44ae2722199de3/src/client.ts",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/AdvancedX/Crypto-Mining-Website-Demo/blob/128609bc5671147c06722458bc060a201301d4c9/STRATUM_UPDATE.md",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/twoolf/DaiWareToken/blob/6649bc1a00351bc884235a86598e2e8710db4e04/parity/stratum/src/lib.rs",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/btccom/bccpool/blob/34a09fc2fd17c8965894875263aa7ee1c0623db6/src/StratumSession.cc",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/braidpool/rust_cpunet_miner/blob/3015dcfadcef2df7f3cd91317ee185b22b8ff590/src/stratum.rs",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/cgminer-rs/cgminer-rs/blob/ba464f804bc6ed79465b5973213e99af0c1dc630/docs/stratum-testing.md",
+    "ok": true,
+    "records": 3,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/ocminer/suprminer/blob/217a24e9fbd76b727cb86122b5e0b96508d03d01/NEPTUNE_STRATUM_PROTOCOL.md",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/PYRAX-Chain/PYRAX-OFFICIAL/blob/6baf843d2529ef9b8a8426e39472a3ae645451c7/pyrax-node/src/miner/stratum.rs",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/gameofpointers/quai-analysis/blob/b2013db4c3be46af3763bd3cbe14cd2b95642777/stratum_sniff.c",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/anttisalonen/btcswift/blob/6ff872dd04fa53fb689be543fb18429cb92c93f4/btcswift/stratum.swift",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/AdvancedX/Crypto-Mining-Website-Demo/blob/128609bc5671147c06722458bc060a201301d4c9/STRATUM_COMPLETE.md",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/J-A-M-P-S/go-etcstratum/blob/a7a5cb7d41b7c55c12329caea6918c71bcfeb84f/proxy/stratum_nicehash.go",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/OodavidsinoO/ESP32-mini-bitcoin-collider/blob/1aca259ee6be1e49bcc4abfa2ff27ef23e43c6fb/src/Mining/stratum.h",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/2miners/stratum-ping/blob/8160060b6021c438d22076d91803ade5aebf6e22/main.go",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/Radiant-Core/Radiant-Core/blob/bd683a0d89f6b9886dbb3792a7219b157c698568/mining/stratum_proxy.py",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/Feche/ETH-ETC-PoolBackend/blob/6d359a448d983959063bae149165299498f8587a/Scripts/Stratum.js",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/btccom/btcagent/blob/174e7435003cac4579d6068726084e2a53a01b37/DownSessionETH.go",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/btccom/btcagent/blob/174e7435003cac4579d6068726084e2a53a01b37/DownSessionBTC.go",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/espoir1989/tnn-miner/blob/9e3429c88be6ab8d3ae502e6adef13e0c44d0385/src/stratum/stratum.h",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "mining_subscribe",
+    "file_url": "https://github.com/HcashOrg/gominer/blob/0f4ef4b57554c7a94da32579da047e74ac9f89c7/stratum/stratum.go",
+    "ok": true,
+    "records": 0,
+    "error": null
   },
   {
     "query_id": "docker_compose_stratum",
     "query": "\"stratum+tcp://\" filename:docker-compose.yml",
-    "started_at": "2026-04-27T07:02:35.658743+00:00",
-    "ok": false,
+    "started_at": "2026-04-27T08:06:39.419029+00:00",
+    "ok": true,
     "search_pages": [
       {
         "url": "https://api.github.com/search/code?q=%22stratum%2Btcp%3A%2F%2F%22+filename%3Adocker-compose.yml&per_page=30&page=1",
-        "ok": false,
+        "ok": true,
         "page": 1,
-        "records": 0,
-        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+        "records": 18,
+        "error": null
       }
     ],
-    "search_items": 0,
-    "files_scanned": 0,
+    "search_items": 18,
+    "files_scanned": 18,
+    "records": 8,
+    "error": null
+  },
+  {
+    "query_id": "docker_compose_stratum",
+    "file_url": "https://github.com/Concubine/kawpowminer-5090-docker/blob/4bb3b7c920848bb507dc29e0338e1551d0f09294/docker-compose.yml",
+    "ok": true,
     "records": 0,
-    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+    "error": null
+  },
+  {
+    "query_id": "docker_compose_stratum",
+    "file_url": "https://github.com/kaunofakultetas/anypool-stratum/blob/9df034e6319e572f7e4aff832635f629d250fffd/docker-compose.yml.sample",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "docker_compose_stratum",
+    "file_url": "https://github.com/h4nyu/minemine/blob/9338638ed92f26bae5b01802c7efe91578e5109c/docker-compose.yml",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "docker_compose_stratum",
+    "file_url": "https://github.com/SpiralPool/Spiral-Pool/blob/0ec472ed7fb37c4b98d2100b300a8825df843d6a/docker/docker-compose.yml",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "docker_compose_stratum",
+    "file_url": "https://github.com/hashrabbit/carrot-pool/blob/518a481e4b14b4af0704748595f8f2c3590c8184/.docker/docker-compose.yml",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "docker_compose_stratum",
+    "file_url": "https://github.com/HathorNetwork/hathor-wallet/blob/3354bd0e29ba56f3faed86118bfba9c95dcb3e75/qa/large-values-network/docker-compose.yml",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "docker_compose_stratum",
+    "file_url": "https://github.com/sofwerx/tor-moneropool/blob/9b9c9f659d752ece805f33c09bc6f77825f8e957/docker-compose.yml",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "docker_compose_stratum",
+    "file_url": "https://github.com/bboerst/stratum-work/blob/e3dcc5070085d3431d972a4d37a8c3ff1cd7f4ce/docker-compose.yml",
+    "ok": true,
+    "records": 5,
+    "error": null
+  },
+  {
+    "query_id": "docker_compose_stratum",
+    "file_url": "https://github.com/d4z3x/docker-cgminer-vthoang/blob/63f85b6b3c23094879f02dc670788eaeb8755618/docker-compose.yml",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "docker_compose_stratum",
+    "file_url": "https://github.com/Yash-xoxo/BTC/blob/2c16607ba8c3dce858825c2e8c8a0b85980cb739/docker-compose.yml",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "docker_compose_stratum",
+    "file_url": "https://github.com/ihavenoface/nomp-cps-wrapper/blob/bc7159a900276ea2f0626cacae3108bfb87b4648/docker-compose.yml",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "docker_compose_stratum",
+    "file_url": "https://github.com/fabriziogaliano/docker-bfgminer/blob/bc4d5838ad5ead3728a83419e66fb6b8f7103b77/docker-compose.yml",
+    "ok": true,
+    "records": 1,
+    "error": null
+  },
+  {
+    "query_id": "docker_compose_stratum",
+    "file_url": "https://github.com/abrahan-chavez/rainforest/blob/70f75cc3bc1809e01c83195eb15b88f0c876cd99/docker-compose.yml",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "docker_compose_stratum",
+    "file_url": "https://github.com/amsorrytola/SWIISH/blob/40d3249bf795b8c271e7c39de87088fb432bebd4/docker-compose.yml",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "docker_compose_stratum",
+    "file_url": "https://github.com/aofiee/bitcoin-test/blob/7a773f72653f8b2b14ac53bbadbe39b4ea5f1b5b/dockerfile/cpuminer/docker-compose.yml",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "docker_compose_stratum",
+    "file_url": "https://github.com/HathorNetwork/nano-env-example/blob/bbd38a9f5870a300cd457ea077b59b56f2542f7b/docker-compose.yml",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "docker_compose_stratum",
+    "file_url": "https://github.com/MrWeit/thebitcoingame_mono_repo/blob/20433214d596e35717a1350b6892346cfd56a79f/services/docker-compose.yml",
+    "ok": true,
+    "records": 0,
+    "error": null
+  },
+  {
+    "query_id": "docker_compose_stratum",
+    "file_url": "https://github.com/HathorNetwork/hathor-wallet-headless/blob/9692a692b8479e7b57f9b998f9fbb245d2b9387a/__tests__/integration/docker-compose.yml",
+    "ok": true,
+    "records": 0,
+    "error": null
   }
 ]
