@@ -186,4 +186,4 @@ python scripts/build_intel.py
 - `page_delay_seconds`：同一官网内两个页面之间的等待秒数。
 - `run_github`：是否运行 GitHub Code Search 候选采集。
 
-GitHub Actions 里运行 GitHub Code Search 时使用仓库自带的 `${{ secrets.GITHUB_TOKEN }}`。如果 API 权限不足，可以额外配置一个只读 token，并把工作流里的 `GITHUB_TOKEN` 环境变量改为该 secret。
+GitHub Actions 里运行 GitHub Code Search 时，工作流会优先读取仓库 secret `GH_CODE_SEARCH_PAT`；如果没有配置这个 secret，则回退到仓库自带的 `${{ secrets.GITHUB_TOKEN }}`。这样可以避免把 PAT 写进 workflow 文件，同时保留只读 PAT 作为权限兜底。

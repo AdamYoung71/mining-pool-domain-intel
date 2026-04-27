@@ -112,8 +112,12 @@ jobs:
       - name: Collect GitHub code-search candidates
         if: ${{ steps.params.outputs.run_github == 'true' }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/collect_github_intel.py
+          GH_CODE_SEARCH_PAT: ${{ secrets.GH_CODE_SEARCH_PAT }}
+          ACTIONS_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          export GITHUB_TOKEN="${GH_CODE_SEARCH_PAT:-$ACTIONS_GITHUB_TOKEN}"
+          python scripts/collect_github_intel.py
 
       - name: Promote discovered records into stable seed
         run: python scripts/promote_discovered.py

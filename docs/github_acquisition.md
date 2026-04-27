@@ -14,6 +14,8 @@ $env:GITHUB_TOKEN = "github_pat_or_classic_token"
 
 建议使用只读、低权限 token。脚本只调用公开 code search 和 contents API，不写 GitHub，不克隆仓库。
 
+如果在 GitHub Actions 里运行，不要把 PAT 写进 workflow 文件。把只读 PAT 保存为仓库 secret `GH_CODE_SEARCH_PAT`，工作流会优先使用它；如果没有配置这个 secret，则回退到仓库自带的 `${{ secrets.GITHUB_TOKEN }}`。
+
 ## 运行
 
 ```powershell

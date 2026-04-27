@@ -85,7 +85,7 @@ python3 -m unittest discover -s tests
 1. 运行 `python3 scripts/collect_pool_sites.py`，先从公共矿池目录抓取矿池官网域名。
 2. 运行 `python3 scripts/discover_from_pool_sites.py`，从官网域名浅层爬取帮助页、挖矿说明和服务器页面，发现 Stratum 接入域名。
 3. 在 `data/sources/mining_pool_sources.json` 维护重点官方文档源，运行 `python3 scripts/collect_intel.py` 做补充采集。
-4. 设置 `GITHUB_TOKEN` 后运行 `python3 scripts/collect_github_intel.py`，从公开代码样例补充候选端点。
+4. 设置 `GITHUB_TOKEN` 后运行 `python3 scripts/collect_github_intel.py`，从公开代码样例补充候选端点；GitHub Actions 中默认回退到 `${{ secrets.GITHUB_TOKEN }}`，也可额外配置只读 secret `GH_CODE_SEARCH_PAT` 作为优先凭据。
 5. 运行 `python3 scripts/promote_discovered.py`，按来源、置信度、UNKNOWN 字段和多源交叉规则合并到 `data/raw/mining_pool_domains.seed.json`。
 6. 运行 `python3 scripts/build_intel.py` 生成标准 CSV、JSON 和告警候选清单。
 7. 运行 `python3 -m unittest discover -s tests` 做字段、置信度、去重和误报保护检查。
