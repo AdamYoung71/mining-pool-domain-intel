@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-27T06:06:06Z",
+  "generated_at": "2026-04-27T07:19:21Z",
   "run": {
     "conclusion": "success",
-    "started_at": "2026-04-27T05:39:27Z",
-    "ended_at": "2026-04-27T06:06:05Z",
-    "duration_seconds": 1598,
-    "duration": "26分38秒",
-    "event": "schedule",
+    "started_at": "2026-04-27T07:19:21Z",
+    "ended_at": "2026-04-27T07:19:21Z",
+    "duration_seconds": 0,
+    "duration": "0秒",
+    "event": "workflow_dispatch",
     "branch": "main",
-    "commit": "8807979f56dfcaabd9f580d4dfa1354cbcc086c8",
-    "run_id": "24978461805",
-    "run_url": "https://github.com/AdamYoung71/mining-pool-domain-intel/actions/runs/24978461805"
+    "commit": "1542174355e5a0448d52d0f7580aace64c139e9e",
+    "run_id": "24981793859",
+    "run_url": "https://github.com/AdamYoung71/mining-pool-domain-intel/actions/runs/24981793859"
   },
   "parameters": {
     "miningpoolstats_coins": "0",
@@ -20,20 +20,20 @@
     "site_workers": "4",
     "site_delay_seconds": "0.5",
     "page_delay_seconds": "1.0",
-    "run_github": "false"
+    "run_github": "true"
   },
   "metrics": {
     "pool_site_domains": {
       "total": 927,
-      "new": 20
+      "new": 0
     },
     "endpoint_domains": {
       "total": 445,
-      "new": 10
+      "new": 0
     },
     "endpoint_records": {
       "total": 1239,
-      "new": 24
+      "new": 0
     },
     "ip_endpoint_records": {
       "total": 2,
@@ -41,20 +41,20 @@
     },
     "blockchain_nodes": {
       "total": 675,
-      "new": 79
+      "new": 0
     },
     "stable_records": {
       "total": 1254,
-      "new": 24
+      "new": 0
     },
     "watchlist_records": {
       "total": 322,
-      "new": 7
+      "new": 0
     },
     "source_reports": {
-      "total": 3007,
+      "total": 3011,
       "ok": 2679,
-      "failed": 328,
+      "failed": 332,
       "used_cache": 0
     }
   },
