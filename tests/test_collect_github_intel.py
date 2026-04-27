@@ -28,10 +28,20 @@ class CollectGitHubIntelTests(unittest.TestCase):
 
     def test_filters_private_and_placeholder_hosts(self):
         self.assertTrue(blocked_host("127.0.0.1"))
+        self.assertTrue(blocked_host("0.0.0.0"))
         self.assertTrue(blocked_host("192.168.1.10"))
         self.assertTrue(blocked_host("example.com"))
         self.assertTrue(blocked_host("example.net"))
+        self.assertTrue(blocked_host("ltc-testnet4-stratum"))
+        self.assertFalse(blocked_host("8.8.8.8"))
         self.assertFalse(blocked_host("pool.realpool.net"))
+
+    def test_extracts_explicit_stratum_urls_skips_single_label_hosts(self):
+        text = 'pool = "stratum+tcp://ltc-testnet4-stratum:3333"\npool2 = "stratum+tcp://btc.realpool.net:3333"'
+        self.assertEqual(
+            extract_endpoints_from_text(text),
+            [{"domain": "btc.realpool.net", "port": 3333, "scheme": "stratum+tcp"}],
+        )
 
     def test_endpoint_records_are_candidate_open_source(self):
         item = {

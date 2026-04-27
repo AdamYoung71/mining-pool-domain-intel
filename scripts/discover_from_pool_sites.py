@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import ipaddress
 import json
 import re
 import threading
@@ -195,10 +196,22 @@ def node_endpoint_keys(nodes: list[dict[str, Any]]) -> set[tuple[str, int]]:
     return {(node["node_host"], int(node["port"])) for node in nodes}
 
 
+def is_public_ip_literal(value: str) -> bool:
+    try:
+        return ipaddress.ip_address(value).is_global
+    except ValueError:
+        return False
+
+
 def is_valid_endpoint(endpoint: dict[str, Any]) -> bool:
+    domain = str(endpoint.get("domain") or "").lower()
     port = endpoint.get("port")
     scheme = str(endpoint.get("scheme") or "").lower()
-    return isinstance(port, int) and 1 <= port <= 65535 and scheme in {"stratum+tcp", "stratum+ssl"}
+    if not (isinstance(port, int) and 1 <= port <= 65535 and scheme in {"stratum+tcp", "stratum+ssl"}):
+        return False
+    if re.fullmatch(r"(?:\d{1,3}\.){3}\d{1,3}", domain):
+        return is_public_ip_literal(domain)
+    return True
 
 
 def extract_site_endpoints(

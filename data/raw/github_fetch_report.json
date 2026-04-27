@@ -2,7 +2,7 @@
   {
     "query_id": "stratum_tcp_json",
     "query": "\"stratum+tcp://\" filename:config.json",
-    "started_at": "2026-04-27T07:19:21.561544+00:00",
+    "started_at": "2026-04-27T07:01:36.826066+00:00",
     "ok": false,
     "search_pages": [
       {
@@ -10,18 +10,18 @@
         "ok": false,
         "page": 1,
         "records": 0,
-        "error": "HTTP 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
+        "error": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
       }
     ],
     "search_items": 0,
     "files_scanned": 0,
     "records": 0,
-    "error": "HTTP 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
+    "error": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
   },
   {
     "query_id": "stratum_ssl_json",
     "query": "\"stratum+ssl://\" filename:config.json",
-    "started_at": "2026-04-27T07:19:21.597223+00:00",
+    "started_at": "2026-04-27T07:02:01.884694+00:00",
     "ok": false,
     "search_pages": [
       {
@@ -29,18 +29,18 @@
         "ok": false,
         "page": 1,
         "records": 0,
-        "error": "HTTP 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
+        "error": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
       }
     ],
     "search_items": 0,
     "files_scanned": 0,
     "records": 0,
-    "error": "HTTP 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
+    "error": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
   },
   {
     "query_id": "xmrig_pools_json",
     "query": "\"xmrig\" \"pools\" filename:config.json",
-    "started_at": "2026-04-27T07:19:21.609434+00:00",
+    "started_at": "2026-04-27T07:02:26.901229+00:00",
     "ok": false,
     "search_pages": [
       {
@@ -48,18 +48,18 @@
         "ok": false,
         "page": 1,
         "records": 0,
-        "error": "HTTP 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
+        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
       }
     ],
     "search_items": 0,
     "files_scanned": 0,
     "records": 0,
-    "error": "HTTP 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
   },
   {
     "query_id": "mining_subscribe",
     "query": "\"mining.subscribe\" \"stratum\"",
-    "started_at": "2026-04-27T07:19:21.620531+00:00",
+    "started_at": "2026-04-27T07:02:30.631548+00:00",
     "ok": false,
     "search_pages": [
       {
@@ -67,18 +67,18 @@
         "ok": false,
         "page": 1,
         "records": 0,
-        "error": "HTTP 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
+        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
       }
     ],
     "search_items": 0,
     "files_scanned": 0,
     "records": 0,
-    "error": "HTTP 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
   },
   {
     "query_id": "docker_compose_stratum",
     "query": "\"stratum+tcp://\" filename:docker-compose.yml",
-    "started_at": "2026-04-27T07:19:21.632234+00:00",
+    "started_at": "2026-04-27T07:02:35.658743+00:00",
     "ok": false,
     "search_pages": [
       {
@@ -86,12 +86,12 @@
         "ok": false,
         "page": 1,
         "records": 0,
-        "error": "HTTP 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
+        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
       }
     ],
     "search_items": 0,
     "files_scanned": 0,
     "records": 0,
-    "error": "HTTP 401: {\r\n  \"message\": \"Bad credentials\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"401\"\r\n}"
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
   }
 ]

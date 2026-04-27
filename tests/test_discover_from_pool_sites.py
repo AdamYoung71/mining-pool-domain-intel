@@ -28,12 +28,12 @@ class DiscoverFromPoolSitesTests(unittest.TestCase):
 
     def test_extract_site_endpoints_accepts_full_stratum_and_same_site_host_port(self):
         site = {"pool_name": "Example", "website_domain": "pool.example"}
-        text = "Use stratum+ssl://stratum.other.example:1443, pool.example:3333, or 192.0.2.10:4444."
+        text = "Use stratum+ssl://stratum.other.example:1443, pool.example:3333, or 8.8.8.8:4444."
         endpoints = extract_site_endpoints(text, site)
         self.assertEqual(
             endpoints,
             [
-                {"domain": "192.0.2.10", "port": 4444, "scheme": "stratum+tcp"},
+                {"domain": "8.8.8.8", "port": 4444, "scheme": "stratum+tcp"},
                 {"domain": "pool.example", "port": 3333, "scheme": "stratum+tcp"},
                 {"domain": "stratum.other.example", "port": 1443, "scheme": "stratum+ssl"},
             ],
@@ -49,9 +49,15 @@ class DiscoverFromPoolSitesTests(unittest.TestCase):
         endpoints = extract_site_endpoints(text, site)
         self.assertEqual(endpoints, [{"domain": "pool.example", "port": 3333, "scheme": "stratum+tcp"}])
 
+    def test_extract_site_endpoints_skips_reserved_ip_literals(self):
+        site = {"pool_name": "Example", "website_domain": "pool.example"}
+        text = "Reserved IPs: 0.0.0.0:3333, 127.0.0.1:3333, 10.0.0.8:4444. Public IP: 8.8.4.4:5555."
+        endpoints = extract_site_endpoints(text, site)
+        self.assertEqual(endpoints, [{"domain": "8.8.4.4", "port": 5555, "scheme": "stratum+tcp"}])
+
     def test_addnode_ip_port_is_split_from_pool_endpoints(self):
         site = {"pool_name": "Example", "website_domain": "pool.example"}
-        text = "Wallet peers: addnode=192.0.2.10:8333 seednode 192.0.2.11:9333. Pool backup 192.0.2.12:4444."
+        text = "Wallet peers: addnode=192.0.2.10:8333 seednode 192.0.2.11:9333. Pool backup 8.8.8.12:4444."
         nodes = extract_blockchain_node_candidates(text, site, "https://pool.example/help", "2026-04-20")
         endpoints = extract_site_endpoints(text, site, node_endpoint_keys(nodes))
 
@@ -88,7 +94,7 @@ class DiscoverFromPoolSitesTests(unittest.TestCase):
                 },
             ],
         )
-        self.assertEqual(endpoints, [{"domain": "192.0.2.12", "port": 4444, "scheme": "stratum+tcp"}])
+        self.assertEqual(endpoints, [{"domain": "8.8.8.12", "port": 4444, "scheme": "stratum+tcp"}])
 
     def test_worker_count_is_bounded_by_site_count(self):
         self.assertEqual(worker_count(10, 3), 3)

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import base64
+import ipaddress
 import json
 import os
 import re
@@ -15,10 +16,10 @@ from pathlib import Path
 from typing import Any
 
 try:
-    from build_intel import build_library, parse_endpoint, write_csv
+    from build_intel import DOMAIN_RE, build_library, parse_endpoint, write_csv
     from collect_intel import infer_coin_algorithm, infer_host_port_scheme, normalize_region
 except ModuleNotFoundError:
-    from scripts.build_intel import build_library, parse_endpoint, write_csv
+    from scripts.build_intel import DOMAIN_RE, build_library, parse_endpoint, write_csv
     from scripts.collect_intel import infer_coin_algorithm, infer_host_port_scheme, normalize_region
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -144,11 +145,12 @@ def fetch_file_text(item: dict[str, Any], headers: dict[str, str], timeout: int)
 
 def blocked_host(host: str) -> bool:
     lowered = host.lower()
-    if lowered.startswith("127.") or lowered.startswith("10.") or lowered.startswith("192.168."):
-        return True
     if lowered in BLOCKED_HOSTS:
         return True
-    return False
+    try:
+        return not ipaddress.ip_address(lowered).is_global
+    except ValueError:
+        return "." not in lowered or not bool(DOMAIN_RE.fullmatch(lowered))
 
 
 def extract_endpoints_from_text(text: str) -> list[dict[str, Any]]:
