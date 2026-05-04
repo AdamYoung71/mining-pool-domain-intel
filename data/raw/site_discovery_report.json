@@ -1895,10 +1895,20 @@
   {
     "pool_name": "Adon",
     "url": "https://adon.network/",
-    "ok": false,
+    "ok": true,
     "used_cache": false,
     "records": 0,
-    "error": "HTTP Error 404: Not Found"
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Adon",
+    "url": "https://adon.network/faq",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
   },
   {
     "pool_name": "AikaPool",
@@ -1906,7 +1916,7 @@
     "ok": true,
     "used_cache": false,
     "records": 121,
-    "blockchain_nodes": 675,
+    "blockchain_nodes": 667,
     "error": null
   },
   {
@@ -2079,14 +2089,6 @@
     "error": null
   },
   {
-    "pool_name": "altcoinpool.ru",
-    "url": "https://altcoinpool.ru/",
-    "ok": false,
-    "used_cache": false,
-    "records": 0,
-    "error": "<urlopen error [Errno -5] No address associated with hostname>"
-  },
-  {
     "pool_name": "altcoinspool.cc",
     "url": "https://altcoinspool.cc/",
     "ok": true,
@@ -2160,11 +2162,10 @@
   {
     "pool_name": "aninterestinghole.xyz",
     "url": "https://verus.aninterestinghole.xyz/",
-    "ok": true,
+    "ok": false,
     "used_cache": false,
-    "records": 4,
-    "blockchain_nodes": 0,
-    "error": null
+    "records": 0,
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
   },
   {
     "pool_name": "Anomp",
@@ -2242,7 +2243,7 @@
     "url": "https://argfamining.com/solo_bch.html",
     "ok": true,
     "used_cache": false,
-    "records": 0,
+    "records": 2,
     "blockchain_nodes": 0,
     "error": null
   },
@@ -2251,7 +2252,7 @@
     "url": "https://argfamining.com/prop_bch.html",
     "ok": true,
     "used_cache": false,
-    "records": 0,
+    "records": 2,
     "blockchain_nodes": 0,
     "error": null
   },
@@ -2686,11 +2687,10 @@
   {
     "pool_name": "Blockhunts",
     "url": "https://blockhunts.com/",
-    "ok": true,
+    "ok": false,
     "used_cache": false,
     "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
+    "error": "<urlopen error [Errno 101] Network is unreachable>"
   },
   {
     "pool_name": "Blocksmith",
@@ -2857,6 +2857,33 @@
     "used_cache": false,
     "records": 0,
     "error": "<urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+    "pool_name": "Bytecoin",
+    "url": "https://bytecoin.network/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Bytecoin",
+    "url": "https://bytecoin.network/#getting_started",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Bytecoin",
+    "url": "https://bytecoin.network/#pool_blocks",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
   },
   {
     "pool_name": "Bytecoin Pool",
@@ -3076,6 +3103,15 @@
     "ok": true,
     "used_cache": false,
     "records": 3,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "cedric-crispin.com",
+    "url": "https://conceal.cedric-crispin.com/wallet/ccx7MTEMVfaQpvpmgQiLP6GbR2fNnm7L1bQoGWXyGvWYEEWMJMyqdshexMyZmYUGaqGf8jFJCCRyqVFDdvXv4N6zAKPchTnvzi/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
     "blockchain_nodes": 0,
     "error": null
   },
@@ -3920,7 +3956,7 @@
     "url": "https://python-pool.codefalcon.dev/dash/?coin=aur",
     "ok": true,
     "used_cache": false,
-    "records": 0,
+    "records": 1,
     "blockchain_nodes": 0,
     "error": null
   },
@@ -3929,7 +3965,7 @@
     "url": "https://python-pool.codefalcon.dev/dash/?coin=btc",
     "ok": true,
     "used_cache": false,
-    "records": 0,
+    "records": 1,
     "blockchain_nodes": 0,
     "error": null
   },
@@ -4088,11 +4124,10 @@
   {
     "pool_name": "CoinMinerz",
     "url": "https://coinminerz.com/",
-    "ok": true,
+    "ok": false,
     "used_cache": false,
     "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
+    "error": "<urlopen error [Errno 101] Network is unreachable>"
   },
   {
     "pool_name": "coinxpool.com",
@@ -4121,10 +4156,11 @@
   {
     "pool_name": "Community Pool",
     "url": "https://communitypool.org/",
-    "ok": false,
+    "ok": true,
     "used_cache": false,
     "records": 0,
-    "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    "blockchain_nodes": 0,
+    "error": null
   },
   {
     "pool_name": "Community Pools",
@@ -4435,7 +4471,7 @@
     "url": "https://crypto-eire.com/connect.php",
     "ok": true,
     "used_cache": false,
-    "records": 13,
+    "records": 14,
     "blockchain_nodes": 0,
     "error": null
   },
@@ -4474,6 +4510,14 @@
     "records": 1,
     "blockchain_nodes": 0,
     "error": null
+  },
+  {
+    "pool_name": "cryptoescudo.work",
+    "url": "https://miningpool.cryptoescudo.work/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
   },
   {
     "pool_name": "Cryptonia",
@@ -4924,38 +4968,18 @@
   {
     "pool_name": "dgb256",
     "url": "https://dgb256.online/",
-    "ok": true,
-    "used_cache": false,
-    "records": 7,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "dgb256",
-    "url": "https://odo.dgb256.online/",
-    "ok": true,
-    "used_cache": false,
-    "records": 7,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "dgb256.online",
-    "url": "https://odo.dgb256.online/",
-    "ok": true,
-    "used_cache": false,
-    "records": 7,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "dgb256.online",
-    "url": "https://odo.dgb256.online/index.php?k=odominerlive",
-    "ok": true,
+    "ok": false,
     "used_cache": false,
     "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
+    "error": "HTTP Error 522: <none>"
+  },
+  {
+    "pool_name": "dgb256.online",
+    "url": "https://odo.dgb256.online/",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "HTTP Error 522: <none>"
   },
   {
     "pool_name": "Digibyte",
@@ -5296,11 +5320,10 @@
   {
     "pool_name": "Enigma Pool",
     "url": "https://enigmapool.com/",
-    "ok": true,
+    "ok": false,
     "used_cache": false,
     "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
+    "error": "<urlopen error [Errno 101] Network is unreachable>"
   },
   {
     "pool_name": "ens.today",
@@ -5387,7 +5410,7 @@
     "url": "https://equal.xdagminer.com/",
     "ok": true,
     "used_cache": false,
-    "records": 1,
+    "records": 3,
     "blockchain_nodes": 0,
     "error": null
   },
@@ -5412,14 +5435,6 @@
   {
     "pool_name": "ergominers",
     "url": "https://www.ergominers.com/",
-    "ok": false,
-    "used_cache": false,
-    "records": 0,
-    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.ergominers.com'. (_ssl.c:1032)>"
-  },
-  {
-    "pool_name": "estmagnetichash.ee",
-    "url": "https://estmagnetichash.ee/",
     "ok": false,
     "used_cache": false,
     "records": 0,
@@ -5563,7 +5578,7 @@
     "ok": false,
     "used_cache": false,
     "records": 0,
-    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'giatlavinhomes.asia'. (_ssl.c:1032)>"
+    "error": "<urlopen error timed out>"
   },
   {
     "pool_name": "F2Pool",
@@ -5684,42 +5699,6 @@
   },
   {
     "pool_name": "fairhash.org",
-    "url": "https://bytecoin.fairhash.org/",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "fairhash.org",
-    "url": "https://bytecoin.fairhash.org/#getting_started",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "fairhash.org",
-    "url": "https://dogemone.fairhash.org/",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "fairhash.org",
-    "url": "https://dogemone.fairhash.org/#getting_started",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "fairhash.org",
     "url": "https://monero.fairhash.org/",
     "ok": true,
     "used_cache": false,
@@ -5730,24 +5709,6 @@
   {
     "pool_name": "fairhash.org",
     "url": "https://monero.fairhash.org/#getting_started",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "fairhash.org",
-    "url": "https://xmc.fairhash.org/",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "fairhash.org",
-    "url": "https://xmc.fairhash.org/#getting_started",
     "ok": true,
     "used_cache": false,
     "records": 0,
@@ -5990,10 +5951,11 @@
   {
     "pool_name": "Firepool",
     "url": "https://firepool.com/",
-    "ok": false,
+    "ok": true,
     "used_cache": false,
     "records": 0,
-    "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    "blockchain_nodes": 0,
+    "error": null
   },
   {
     "pool_name": "firepool.ca",
@@ -6050,10 +6012,11 @@
   {
     "pool_name": "foundry-block.com",
     "url": "https://foundry-block.com/",
-    "ok": false,
+    "ok": true,
     "used_cache": false,
-    "records": 0,
-    "error": "HTTP Error 502: Bad Gateway"
+    "records": 2,
+    "blockchain_nodes": 0,
+    "error": null
   },
   {
     "pool_name": "foundrydigital.com",
@@ -6216,11 +6179,47 @@
     "error": null
   },
   {
+    "pool_name": "gatevia.io",
+    "url": "https://gatevia.io/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "gatevia.io",
+    "url": "https://gatevia.io/exchange/GVIA_USDT",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "gatevia.io",
+    "url": "https://api.gatevia.io/public/docs",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "gatevia.io",
+    "url": "https://gatevia.io/mining/GVIA",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
     "pool_name": "Gayfishpool",
     "url": "https://gayfishpool.com/",
     "ok": true,
     "used_cache": false,
-    "records": 2,
+    "records": 1,
     "blockchain_nodes": 0,
     "error": null
   },
@@ -6253,7 +6252,7 @@
   },
   {
     "pool_name": "getablocks.com",
-    "url": "https://getablocks.com/site/mining",
+    "url": "https://getablocks.com/#{{ coinId }}/miners",
     "ok": true,
     "used_cache": false,
     "records": 0,
@@ -6262,7 +6261,16 @@
   },
   {
     "pool_name": "getablocks.com",
-    "url": "https://getablocks.com/site/miners",
+    "url": "https://getablocks.com/#{{ coinId }}/connect",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "getablocks.com",
+    "url": "https://getablocks.com/#{{ coinId }}/faq",
     "ok": true,
     "used_cache": false,
     "records": 0,
@@ -6329,14 +6337,6 @@
     "records": 0,
     "blockchain_nodes": 0,
     "error": null
-  },
-  {
-    "pool_name": "gntl.uk",
-    "url": "https://sal.gntl.uk/",
-    "ok": false,
-    "used_cache": false,
-    "records": 0,
-    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
   },
   {
     "pool_name": "gntl.uk",
@@ -6494,7 +6494,7 @@
     "url": "https://gorillapool.io/",
     "ok": true,
     "used_cache": false,
-    "records": 0,
+    "records": 1,
     "blockchain_nodes": 0,
     "error": null
   },
@@ -6503,7 +6503,7 @@
     "url": "https://gorillapool.io/#faq",
     "ok": true,
     "used_cache": false,
-    "records": 0,
+    "records": 1,
     "blockchain_nodes": 0,
     "error": null
   },
@@ -6767,6 +6767,24 @@
   {
     "pool_name": "HashCity",
     "url": "https://hashcity.org/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "hashmonkeys.cloud",
+    "url": "https://hashmonkeys.cloud/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "hashmonkeys.cloud",
+    "url": "https://hashmonkeys.cloud/index.html",
     "ok": true,
     "used_cache": false,
     "records": 0,
@@ -7301,6 +7319,15 @@
     "error": null
   },
   {
+    "pool_name": "himpool.com",
+    "url": "https://himpool.com/pools/kerrigan-x11-solo",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
     "pool_name": "hitablock.com",
     "url": "https://hitablock.com/",
     "ok": true,
@@ -7359,7 +7386,7 @@
     "url": "https://bch.hmpool.io/",
     "ok": true,
     "used_cache": false,
-    "records": 5,
+    "records": 10,
     "blockchain_nodes": 0,
     "error": null
   },
@@ -7368,7 +7395,7 @@
     "url": "https://bch.hmpool.io/index.html",
     "ok": true,
     "used_cache": false,
-    "records": 5,
+    "records": 10,
     "blockchain_nodes": 0,
     "error": null
   },
@@ -7395,7 +7422,7 @@
     "url": "https://digi.hmpool.io/",
     "ok": true,
     "used_cache": false,
-    "records": 5,
+    "records": 10,
     "blockchain_nodes": 0,
     "error": null
   },
@@ -7404,7 +7431,7 @@
     "url": "https://digi.hmpool.io/index.html",
     "ok": true,
     "used_cache": false,
-    "records": 5,
+    "records": 10,
     "blockchain_nodes": 0,
     "error": null
   },
@@ -7431,7 +7458,7 @@
     "url": "https://hmpool.io/",
     "ok": true,
     "used_cache": false,
-    "records": 5,
+    "records": 10,
     "blockchain_nodes": 0,
     "error": null
   },
@@ -7440,7 +7467,7 @@
     "url": "https://hmpool.io/index.html",
     "ok": true,
     "used_cache": false,
-    "records": 5,
+    "records": 10,
     "blockchain_nodes": 0,
     "error": null
   },
@@ -7678,47 +7705,11 @@
   },
   {
     "pool_name": "infinium.space",
-    "url": "https://globalcryptomining.infinium.space/",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "infinium.space",
-    "url": "https://globalcryptomining.infinium.space/pools.html",
-    "ok": false,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": "HTTP Error 404: Not Found"
-  },
-  {
-    "pool_name": "infinium.space",
-    "url": "https://globalcryptomining.infinium.space/miners.html",
-    "ok": false,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": "HTTP Error 404: Not Found"
-  },
-  {
-    "pool_name": "infinium.space",
-    "url": "https://globalcryptomining.infinium.space/pool/bitcoin",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "infinium.space",
     "url": "https://gntl.infinium.space/",
     "ok": false,
     "used_cache": false,
     "records": 0,
-    "error": "<urlopen error timed out>"
+    "error": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1032)>"
   },
   {
     "pool_name": "infinium.space",
@@ -7726,7 +7717,7 @@
     "ok": false,
     "used_cache": false,
     "records": 0,
-    "error": "<urlopen error timed out>"
+    "error": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1032)>"
   },
   {
     "pool_name": "infinium.space",
@@ -7734,7 +7725,7 @@
     "ok": false,
     "used_cache": false,
     "records": 0,
-    "error": "<urlopen error timed out>"
+    "error": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1032)>"
   },
   {
     "pool_name": "iniaku.my.id",
@@ -8679,6 +8670,33 @@
     "error": null
   },
   {
+    "pool_name": "leafpool.com",
+    "url": "https://beam.leafpool.com/miners",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "leafpool.com",
+    "url": "https://beam.leafpool.com/getting-started",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "leafpool.com",
+    "url": "https://beam.leafpool.com/faq",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
     "pool_name": "leafpool.io",
     "url": "https://leafpool.io/",
     "ok": true,
@@ -9172,6 +9190,15 @@
   {
     "pool_name": "luckyturtle.io",
     "url": "https://luckyturtle.io/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "luckyturtle.io",
+    "url": "https://luckyturtle.io/#connect",
     "ok": true,
     "used_cache": false,
     "records": 0,
@@ -9752,7 +9779,7 @@
     "ok": false,
     "used_cache": false,
     "records": 0,
-    "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    "error": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
     "pool_name": "miners-pool.com",
@@ -9876,7 +9903,7 @@
     "url": "https://minexmr.com/miningguide",
     "ok": true,
     "used_cache": false,
-    "records": 1,
+    "records": 0,
     "blockchain_nodes": 0,
     "error": null
   },
@@ -10007,38 +10034,10 @@
   {
     "pool_name": "mining-pool.io",
     "url": "https://mining-pool.io/",
-    "ok": true,
+    "ok": false,
     "used_cache": false,
     "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "mining-pool.io",
-    "url": "https://mining-pool.io/site/mining",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "mining-pool.io",
-    "url": "https://mining-pool.io/site/miners",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "mining-pool.io",
-    "url": "https://mining-pool.io/site/api",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)>"
   },
   {
     "pool_name": "mining-pool.zapto.org",
@@ -10195,18 +10194,20 @@
   {
     "pool_name": "miningcrypto.online",
     "url": "https://aipg.miningcrypto.online/",
-    "ok": false,
+    "ok": true,
     "used_cache": false,
-    "records": 0,
-    "error": "The read operation timed out"
+    "records": 1,
+    "blockchain_nodes": 0,
+    "error": null
   },
   {
     "pool_name": "miningcrypto.online",
     "url": "https://dogpu.miningcrypto.online/",
-    "ok": false,
+    "ok": true,
     "used_cache": false,
-    "records": 0,
-    "error": "The read operation timed out"
+    "records": 1,
+    "blockchain_nodes": 0,
+    "error": null
   },
   {
     "pool_name": "miningcrypto.online",
@@ -11073,6 +11074,15 @@
   },
   {
     "pool_name": "miningtothelastblock.top",
+    "url": "https://miningtothelastblock.top/cscoin/start.html",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "miningtothelastblock.top",
     "url": "https://miningtothelastblock.top",
     "ok": true,
     "used_cache": false,
@@ -11316,7 +11326,7 @@
   },
   {
     "pool_name": "Mintme",
-    "url": "https://mintme.com/pool/",
+    "url": "https://www.mintme.com/profile/Supportingyourtoken",
     "ok": true,
     "used_cache": false,
     "records": 0,
@@ -11325,7 +11335,7 @@
   },
   {
     "pool_name": "Mintme",
-    "url": "https://www.mintme.com/dev/documentation/v2",
+    "url": "https://mintme.com/pool/",
     "ok": true,
     "used_cache": false,
     "records": 0,
@@ -11388,11 +11398,10 @@
   {
     "pool_name": "Mnshare",
     "url": "https://mnshare.info/",
-    "ok": true,
+    "ok": false,
     "used_cache": false,
     "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
+    "error": "The read operation timed out"
   },
   {
     "pool_name": "Mofumofu",
@@ -11861,10 +11870,20 @@
   {
     "pool_name": "myvnc.com",
     "url": "http://buckpool.myvnc.com/",
-    "ok": false,
+    "ok": true,
     "used_cache": false,
     "records": 0,
-    "error": "The read operation timed out"
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "myvnc.com",
+    "url": "http://buckpool.myvnc.com/getting_started",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
   },
   {
     "pool_name": "Nanopool",
@@ -11905,11 +11924,11 @@
   {
     "pool_name": "nanopool.org",
     "url": "https://ergo.nanopool.org/help",
-    "ok": false,
+    "ok": true,
     "used_cache": false,
     "records": 0,
     "blockchain_nodes": 0,
-    "error": "HTTP Error 403: Forbidden"
+    "error": null
   },
   {
     "pool_name": "nanopool.org",
@@ -11923,11 +11942,11 @@
   {
     "pool_name": "nanopool.org",
     "url": "https://rvn.nanopool.org/help",
-    "ok": true,
+    "ok": false,
     "used_cache": false,
     "records": 0,
     "blockchain_nodes": 0,
-    "error": null
+    "error": "HTTP Error 403: Forbidden"
   },
   {
     "pool_name": "nanopool.org",
@@ -11950,20 +11969,10 @@
   {
     "pool_name": "neonbchmining.org",
     "url": "https://bch.neonbchmining.org/",
-    "ok": true,
-    "used_cache": false,
-    "records": 2,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "neonbchmining.org",
-    "url": "https://bch.neonbchmining.org/miner.html",
-    "ok": true,
+    "ok": false,
     "used_cache": false,
     "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
+    "error": "<urlopen error _ssl.c:1015: The handshake operation timed out>"
   },
   {
     "pool_name": "Neopool",
@@ -12217,38 +12226,10 @@
   {
     "pool_name": "Noderunners",
     "url": "https://noderunners.network/",
-    "ok": true,
+    "ok": false,
     "used_cache": false,
     "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "Noderunners",
-    "url": "https://noderunners.network/en/pool",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "Noderunners",
-    "url": "https://noderunners.network/en/podcasts/compass-podcast-bitcoin-mining-news",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "Noderunners",
-    "url": "https://noderunners.network/en/podcasts/compassmining",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
+    "error": "HTTP Error 500: Internal Server Error"
   },
   {
     "pool_name": "norhash.com",
@@ -12291,7 +12272,7 @@
     "url": "https://bch.northeastsolopools.com/",
     "ok": true,
     "used_cache": false,
-    "records": 2,
+    "records": 0,
     "blockchain_nodes": 0,
     "error": null
   },
@@ -12426,7 +12407,7 @@
     "ok": false,
     "used_cache": false,
     "records": 0,
-    "error": "HTTP Error 522: <none>"
+    "error": "HTTP Error 404: Not Found"
   },
   {
     "pool_name": "Ocean",
@@ -12467,6 +12448,42 @@
   {
     "pool_name": "okminer.com",
     "url": "https://okminer.com/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "oneclickminer.com",
+    "url": "https://oneclickminer.com/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "oneclickminer.com",
+    "url": "https://oneclickminer.com/solo-mining/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "oneclickminer.com",
+    "url": "https://oneclickminer.com/team-mining/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "oneclickminer.com",
+    "url": "https://oneclickminer.com/faqs",
     "ok": true,
     "used_cache": false,
     "records": 0,
@@ -12626,10 +12643,11 @@
   {
     "pool_name": "P2PoolMining",
     "url": "https://p2poolmining.us/",
-    "ok": false,
+    "ok": true,
     "used_cache": false,
     "records": 0,
-    "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    "blockchain_nodes": 0,
+    "error": null
   },
   {
     "pool_name": "Pacificpool",
@@ -13492,10 +13510,11 @@
   {
     "pool_name": "Pool Gold",
     "url": "https://pool.gold/",
-    "ok": false,
+    "ok": true,
     "used_cache": false,
     "records": 0,
-    "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    "blockchain_nodes": 0,
+    "error": null
   },
   {
     "pool_name": "Pool New",
@@ -14450,10 +14469,38 @@
   {
     "pool_name": "procyoncoin.org",
     "url": "https://pool.procyoncoin.org/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "procyoncoin.org",
+    "url": "https://pool.procyoncoin.org/getting_started",
     "ok": false,
     "used_cache": false,
     "records": 0,
+    "blockchain_nodes": 0,
     "error": "The read operation timed out"
+  },
+  {
+    "pool_name": "procyoncoin.org",
+    "url": "https://pool.procyoncoin.org/#homeSubmenu7",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "procyoncoin.org",
+    "url": "https://pool.procyoncoin.org/learn_more",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
   },
   {
     "pool_name": "Prohashing",
@@ -14697,33 +14744,6 @@
   {
     "pool_name": "Redrock",
     "url": "https://redrock.pro/",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "refurbminer.de",
-    "url": "https://pool.refurbminer.de/",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "refurbminer.de",
-    "url": "https://pool.refurbminer.de/guide",
-    "ok": true,
-    "used_cache": false,
-    "records": 1,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "refurbminer.de",
-    "url": "https://pool.refurbminer.de/docs/faq",
     "ok": true,
     "used_cache": false,
     "records": 0,
@@ -15147,10 +15167,11 @@
   {
     "pool_name": "Skypool.org",
     "url": "https://skypool.co/",
-    "ok": false,
+    "ok": true,
     "used_cache": false,
     "records": 0,
-    "error": "<urlopen error [Errno 104] Connection reset by peer>"
+    "blockchain_nodes": 0,
+    "error": null
   },
   {
     "pool_name": "skypool.org",
@@ -15200,10 +15221,38 @@
   {
     "pool_name": "smartpoolmining.com",
     "url": "http://smartpoolmining.com/",
-    "ok": false,
+    "ok": true,
     "used_cache": false,
     "records": 0,
-    "error": "<urlopen error timed out>"
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "smartpoolmining.com",
+    "url": "http://smartpoolmining.com/#pools",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "smartpoolmining.com",
+    "url": "http://smartpoolmining.com/#connect",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "smartpoolmining.com",
+    "url": "http://smartpoolmining.com/#support",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
   },
   {
     "pool_name": "smilingpool.xyz",
@@ -15270,10 +15319,29 @@
   {
     "pool_name": "Solo",
     "url": "https://solo.cat/",
-    "ok": false,
+    "ok": true,
     "used_cache": false,
-    "records": 0,
-    "error": "<urlopen error timed out>"
+    "records": 1,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Solo",
+    "url": "https://solo.cat/doc.html",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Solo",
+    "url": "https://solo.cat/doc.html#Terms",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "blockchain_nodes": 0,
+    "error": null
   },
   {
     "pool_name": "Solo",
@@ -15457,7 +15525,7 @@
   },
   {
     "pool_name": "solofury.com",
-    "url": "https://solofury.com/pool",
+    "url": "https://solofury.com/pool/",
     "ok": true,
     "used_cache": false,
     "records": 5,
@@ -15512,90 +15580,33 @@
   {
     "pool_name": "solomining.io",
     "url": "https://bch.solomining.io/",
-    "ok": true,
+    "ok": false,
     "used_cache": false,
-    "records": 7,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "solomining.io",
-    "url": "https://bch.solomining.io/#howToConnect",
-    "ok": true,
-    "used_cache": false,
-    "records": 7,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "solomining.io",
-    "url": "https://bch.solomining.io/#statPool",
-    "ok": true,
-    "used_cache": false,
-    "records": 7,
-    "blockchain_nodes": 0,
-    "error": null
+    "records": 0,
+    "error": "HTTP Error 522: <none>"
   },
   {
     "pool_name": "solomining.io",
     "url": "https://btc.solomining.io/",
-    "ok": true,
-    "used_cache": false,
-    "records": 7,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "solomining.io",
-    "url": "https://btc.solomining.io/#statPool",
-    "ok": true,
-    "used_cache": false,
-    "records": 7,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "solomining.io",
-    "url": "https://btc.solomining.io/address.php?a=36X26HY2bC2Yd18gusKwjjPPKGvmN6a2WT",
-    "ok": true,
+    "ok": false,
     "used_cache": false,
     "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "solomining.io",
-    "url": "https://btc.solomining.io/blocks.php?a=36X26HY2bC2Yd18gusKwjjPPKGvmN6a2WT",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
+    "error": "HTTP Error 522: <none>"
   },
   {
     "pool_name": "solomining.io",
     "url": "https://dgb.solomining.io/",
-    "ok": true,
+    "ok": false,
     "used_cache": false,
     "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "solomining.io",
-    "url": "https://dgb.solomining.io/odo/",
-    "ok": true,
-    "used_cache": false,
-    "records": 7,
-    "blockchain_nodes": 0,
-    "error": null
+    "error": "HTTP Error 522: <none>"
   },
   {
     "pool_name": "Solopool",
     "url": "https://solopool.com/",
     "ok": true,
     "used_cache": false,
-    "records": 4,
+    "records": 6,
     "blockchain_nodes": 0,
     "error": null
   },
@@ -15613,7 +15624,7 @@
     "url": "https://solopool.com/server.html",
     "ok": true,
     "used_cache": false,
-    "records": 3,
+    "records": 4,
     "blockchain_nodes": 0,
     "error": null
   },
@@ -15763,14 +15774,6 @@
   },
   {
     "pool_name": "solopool.org",
-    "url": "https://erg.solopool.org/",
-    "ok": false,
-    "used_cache": false,
-    "records": 0,
-    "error": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-    "pool_name": "solopool.org",
     "url": "https://etc.solopool.org/",
     "ok": true,
     "used_cache": false,
@@ -15816,14 +15819,6 @@
   },
   {
     "pool_name": "solopool.org",
-    "url": "https://octa.solopool.org/",
-    "ok": false,
-    "used_cache": false,
-    "records": 0,
-    "error": "<urlopen error [Errno -2] Name or service not known>"
-  },
-  {
-    "pool_name": "solopool.org",
     "url": "https://rvn.solopool.org/",
     "ok": true,
     "used_cache": false,
@@ -15839,14 +15834,6 @@
     "records": 0,
     "blockchain_nodes": 0,
     "error": null
-  },
-  {
-    "pool_name": "solopool.org",
-    "url": "https://xel.solopool.org/",
-    "ok": false,
-    "used_cache": false,
-    "records": 0,
-    "error": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
     "pool_name": "solopool.org",
@@ -16062,14 +16049,6 @@
     "used_cache": false,
     "records": 0,
     "error": "<urlopen error timed out>"
-  },
-  {
-    "pool_name": "sumohash.com",
-    "url": "https://sumohash.com/",
-    "ok": false,
-    "used_cache": false,
-    "records": 0,
-    "error": "<urlopen error [Errno -2] Name or service not known>"
   },
   {
     "pool_name": "Sunpool",
@@ -16834,33 +16813,6 @@
     "error": null
   },
   {
-    "pool_name": "techminehub.com",
-    "url": "https://techminehub.com/",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "techminehub.com",
-    "url": "https://techminehub.com/index.php?page=home",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "techminehub.com",
-    "url": "https://techminehub.com/index.php?page=pool-info",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
     "pool_name": "Techypool",
     "url": "https://techypool.ddns.net/",
     "ok": true,
@@ -17015,7 +16967,7 @@
     "ok": false,
     "used_cache": false,
     "records": 0,
-    "error": "HTTP Error 522: <none>"
+    "error": "HTTP Error 521: <none>"
   },
   {
     "pool_name": "tokenxpool.online",
@@ -17056,11 +17008,10 @@
   {
     "pool_name": "TON Coin Pool",
     "url": "https://toncoinpool.io/",
-    "ok": true,
+    "ok": false,
     "used_cache": false,
     "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1032)>"
   },
   {
     "pool_name": "TON Pool",
@@ -17128,24 +17079,6 @@
   {
     "pool_name": "Trustpool",
     "url": "https://trustpool.ru/help",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "trustpool.cc",
-    "url": "https://multitrust.cc/",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "trustpool.cc",
-    "url": "https://multitrust.cc/tpool.apk",
     "ok": true,
     "used_cache": false,
     "records": 0,
@@ -17296,6 +17229,42 @@
   {
     "pool_name": "unipluscloud.co.kr",
     "url": "https://unipluscloud.co.kr/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "unipoolia.com",
+    "url": "https://unipoolia.com/",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "unipoolia.com",
+    "url": "https://unipoolia.com/site/mining",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "unipoolia.com",
+    "url": "https://unipoolia.com/site/miners",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "unipoolia.com",
+    "url": "https://unipoolia.com/cpuminer-opt",
     "ok": true,
     "used_cache": false,
     "records": 0,
@@ -17462,38 +17431,10 @@
   {
     "pool_name": "verapool.io",
     "url": "https://pool.verapool.io/",
-    "ok": true,
+    "ok": false,
     "used_cache": false,
     "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "verapool.io",
-    "url": "https://pool.verapool.io/pools",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "verapool.io",
-    "url": "https://pool.verapool.io/support",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "verapool.io",
-    "url": "https://pool.verapool.io/non-custodial-bitcoin-mining-pool",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
+    "error": "HTTP Error 530: <none>"
   },
   {
     "pool_name": "Verge Mining Pool",
@@ -17520,6 +17461,33 @@
     "records": 0,
     "blockchain_nodes": 0,
     "error": null
+  },
+  {
+    "pool_name": "Versapool",
+    "url": "https://versapool.cc/",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Versapool",
+    "url": "https://versapool.cc/miner.html",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Versapool",
+    "url": "https://versapool.cc/cdn-cgi/l/email-protection#3a494f4a4a55484e7a4c5f48495b4a555556145959",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": "HTTP Error 404: Not Found"
   },
   {
     "pool_name": "verus.farm",
@@ -17553,7 +17521,7 @@
     "url": "https://vexta-pool.co.uk/",
     "ok": true,
     "used_cache": false,
-    "records": 9,
+    "records": 10,
     "blockchain_nodes": 0,
     "error": null
   },
@@ -17592,14 +17560,6 @@
     "records": 0,
     "blockchain_nodes": 0,
     "error": null
-  },
-  {
-    "pool_name": "viceversachain.org",
-    "url": "https://pool.viceversachain.org/",
-    "ok": false,
-    "used_cache": false,
-    "records": 0,
-    "error": "<urlopen error timed out>"
   },
   {
     "pool_name": "Vipor",
@@ -17837,40 +17797,22 @@
     "url": "https://whiskymine.io/p2pool-setup.html",
     "ok": true,
     "used_cache": false,
-    "records": 4,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "whiskymine.io",
+    "url": "https://whiskymine.io/salvium-node.html",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
     "blockchain_nodes": 0,
     "error": null
   },
   {
     "pool_name": "Whitebit",
     "url": "https://whitebit.com/",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "Whitebit",
-    "url": "https://whitebit.com/auth?redirect=/",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "Whitebit",
-    "url": "https://help.whitebit.com/hc/en-gb",
-    "ok": true,
-    "used_cache": false,
-    "records": 0,
-    "blockchain_nodes": 0,
-    "error": null
-  },
-  {
-    "pool_name": "Whitebit",
-    "url": "https://whitebit.com/brand-guideline",
     "ok": true,
     "used_cache": false,
     "records": 0,
@@ -18004,11 +17946,11 @@
   {
     "pool_name": "Xdag1Usa",
     "url": "https://xdag1usa.com/xdag/",
-    "ok": true,
+    "ok": false,
     "used_cache": false,
     "records": 0,
     "blockchain_nodes": 0,
-    "error": null
+    "error": "HTTP Error 522: <none>"
   },
   {
     "pool_name": "Xdag1Usa",
@@ -18258,6 +18200,15 @@
     "error": null
   },
   {
+    "pool_name": "xppool.in",
+    "url": "https://xec.xppool.in/",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
     "pool_name": "xvg-pool.com",
     "url": "https://xvg-pool.com/",
     "ok": true,
@@ -18317,7 +18268,7 @@
     "ok": false,
     "used_cache": false,
     "records": 0,
-    "error": "HTTP Error 526: <none>"
+    "error": "HTTP Error 522: <none>"
   },
   {
     "pool_name": "Yadapool",
@@ -18678,10 +18629,38 @@
   {
     "pool_name": "Ztcpool",
     "url": "https://ztcpool.sytes.net/",
-    "ok": false,
+    "ok": true,
     "used_cache": false,
     "records": 0,
-    "error": "<urlopen error timed out>"
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Ztcpool",
+    "url": "https://ztcpool.sytes.net/#getting_started",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Ztcpool",
+    "url": "https://ztcpool.sytes.net/#pool_blocks",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
+  },
+  {
+    "pool_name": "Ztcpool",
+    "url": "https://ztcpool.sytes.net/#top10miners",
+    "ok": true,
+    "used_cache": false,
+    "records": 0,
+    "blockchain_nodes": 0,
+    "error": null
   },
   {
     "pool_name": "zulupool.com",
