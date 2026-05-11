@@ -11,8 +11,8 @@
     "source_url": "https://erg.2miners.com/help",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table."
   },
   {
@@ -27,8 +27,8 @@
     "source_url": "https://erg.2miners.com/help",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table."
   },
   {
@@ -43,8 +43,8 @@
     "source_url": "https://erg.2miners.com/help",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table."
   },
   {
@@ -59,8 +59,8 @@
     "source_url": "https://erg.2miners.com/help",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table."
   },
   {
@@ -75,8 +75,8 @@
     "source_url": "https://erg.2miners.com/help",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table."
   },
   {
@@ -91,8 +91,8 @@
     "source_url": "https://erg.2miners.com/help",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table."
   },
   {
@@ -107,8 +107,8 @@
     "source_url": "https://ethw.2miners.com/help",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table."
   },
   {
@@ -123,8 +123,8 @@
     "source_url": "https://ethw.2miners.com/help",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table."
   },
   {
@@ -139,8 +139,8 @@
     "source_url": "https://ethw.2miners.com/help",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table."
   },
   {
@@ -155,8 +155,8 @@
     "source_url": "https://ethw.2miners.com/help",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table."
   },
   {
@@ -171,8 +171,8 @@
     "source_url": "https://ethw.2miners.com/help",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table."
   },
   {
@@ -187,57 +187,9 @@
     "source_url": "https://ethw.2miners.com/help",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table."
-  },
-  {
-    "domain": "ss.antpool.com",
-    "port": 25,
-    "scheme": "stratum+tcp",
-    "pool_name": "AntPool",
-    "coin": "BTC/BCH",
-    "algorithm": "SHA-256",
-    "region": "Global",
-    "source_type": "official",
-    "source_url": "https://antpoolsupport-hc.zendesk.com/hc/en-us/articles/5984340865177-BTC-BCH-Mining-Tutorial",
-    "confidence": "confirmed",
-    "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
-    "notes": "Discovered by antpool_btc_bch using html_stratum_extract. Official BTC/BCH setup guide."
-  },
-  {
-    "domain": "ss.antpool.com",
-    "port": 443,
-    "scheme": "stratum+tcp",
-    "pool_name": "AntPool",
-    "coin": "BTC/BCH",
-    "algorithm": "SHA-256",
-    "region": "Global",
-    "source_type": "official",
-    "source_url": "https://antpoolsupport-hc.zendesk.com/hc/en-us/articles/5984340865177-BTC-BCH-Mining-Tutorial",
-    "confidence": "confirmed",
-    "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
-    "notes": "Discovered by antpool_btc_bch using html_stratum_extract. Official BTC/BCH setup guide."
-  },
-  {
-    "domain": "ss.antpool.com",
-    "port": 3333,
-    "scheme": "stratum+tcp",
-    "pool_name": "AntPool",
-    "coin": "BTC/BCH",
-    "algorithm": "SHA-256",
-    "region": "Global",
-    "source_type": "official",
-    "source_url": "https://antpoolsupport-hc.zendesk.com/hc/en-us/articles/5984340865177-BTC-BCH-Mining-Tutorial",
-    "confidence": "confirmed",
-    "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
-    "notes": "Discovered by antpool_btc_bch using html_stratum_extract. Official BTC/BCH setup guide."
   },
   {
     "domain": "stratum-etc.antpool.com",
@@ -251,8 +203,8 @@
     "source_url": "https://antpoolsupport-hc.zendesk.com/hc/en-us/articles/5984283054745-ETC-Mining-Instruction",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by antpool_etc using html_stratum_extract. Official ETC setup guide."
   },
   {
@@ -267,8 +219,8 @@
     "source_url": "https://antpoolsupport-hc.zendesk.com/hc/en-us/articles/5984283054745-ETC-Mining-Instruction",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by antpool_etc using html_stratum_extract. Official ETC setup guide."
   },
   {
@@ -283,8 +235,8 @@
     "source_url": "https://antpoolsupport-hc.zendesk.com/hc/en-us/articles/5984283054745-ETC-Mining-Instruction",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by antpool_etc using html_stratum_extract. Official ETC setup guide."
   },
   {
@@ -299,8 +251,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -315,8 +267,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -331,8 +283,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -347,8 +299,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -363,8 +315,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -379,8 +331,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -395,8 +347,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -408,11 +360,11 @@
     "algorithm": "SHA-256",
     "region": "Africa",
     "source_type": "official",
-    "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool; https://f2pool.zendesk.com/hc/en-us/articles/360058669631-BTC-mining-guide",
+    "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -424,11 +376,11 @@
     "algorithm": "SHA-256",
     "region": "Asia",
     "source_type": "official",
-    "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool; https://f2pool.zendesk.com/hc/en-us/articles/360058669631-BTC-mining-guide",
+    "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -440,11 +392,11 @@
     "algorithm": "SHA-256",
     "region": "Europe",
     "source_type": "official",
-    "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool; https://f2pool.zendesk.com/hc/en-us/articles/360058669631-BTC-mining-guide",
+    "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -456,11 +408,11 @@
     "algorithm": "SHA-256",
     "region": "Latin America",
     "source_type": "official",
-    "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool; https://f2pool.zendesk.com/hc/en-us/articles/360058669631-BTC-mining-guide",
+    "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -472,44 +424,12 @@
     "algorithm": "SHA-256",
     "region": "North America",
     "source_type": "official",
-    "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool; https://f2pool.zendesk.com/hc/en-us/articles/360058669631-BTC-mining-guide",
+    "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
-  },
-  {
-    "domain": "btc.f2pool.com",
-    "port": 25,
-    "scheme": "stratum+tcp",
-    "pool_name": "F2Pool",
-    "coin": "BTC",
-    "algorithm": "SHA-256",
-    "region": "Global",
-    "source_type": "official",
-    "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058669631-BTC-mining-guide",
-    "confidence": "confirmed",
-    "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
-    "notes": "Discovered by f2pool_btc_guide using html_stratum_extract. Official BTC-specific setup guide."
-  },
-  {
-    "domain": "btc.f2pool.com",
-    "port": 1314,
-    "scheme": "stratum+tcp",
-    "pool_name": "F2Pool",
-    "coin": "BTC",
-    "algorithm": "SHA-256",
-    "region": "Global",
-    "source_type": "official",
-    "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058669631-BTC-mining-guide",
-    "confidence": "confirmed",
-    "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
-    "notes": "Discovered by f2pool_btc_guide using html_stratum_extract. Official BTC-specific setup guide."
   },
   {
     "domain": "btc.f2pool.com",
@@ -520,11 +440,11 @@
     "algorithm": "SHA-256",
     "region": "Global",
     "source_type": "official",
-    "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool; https://f2pool.zendesk.com/hc/en-us/articles/360058669631-BTC-mining-guide",
+    "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -536,11 +456,11 @@
     "algorithm": "SHA-256",
     "region": "Global",
     "source_type": "official",
-    "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool; https://f2pool.zendesk.com/hc/en-us/articles/360058669631-BTC-mining-guide",
+    "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -555,8 +475,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -571,8 +491,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -587,8 +507,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -603,8 +523,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -619,8 +539,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -635,8 +555,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -651,8 +571,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -667,8 +587,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -683,8 +603,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -699,8 +619,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -715,8 +635,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -731,8 +651,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -747,8 +667,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -763,8 +683,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -779,8 +699,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -795,8 +715,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -811,8 +731,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -827,8 +747,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -843,8 +763,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -859,8 +779,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -875,8 +795,8 @@
     "source_url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -891,8 +811,8 @@
     "source_url": "https://docs.luxor.tech/mining/getting-started",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table."
   },
   {
@@ -907,8 +827,8 @@
     "source_url": "https://docs.luxor.tech/mining/getting-started",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table."
   },
   {
@@ -923,8 +843,8 @@
     "source_url": "https://docs.luxor.tech/mining/getting-started",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table."
   },
   {
@@ -939,8 +859,8 @@
     "source_url": "https://docs.luxor.tech/mining/getting-started",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table."
   },
   {
@@ -955,8 +875,8 @@
     "source_url": "https://minerstat.com/help/how-to-set-up-nicehash-mining",
     "confidence": "candidate",
     "status": "unknown",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by minerstat_nicehash_help using html_stratum_extract. Public aggregator/help source; outputs candidate records only."
   },
   {
@@ -971,8 +891,8 @@
     "source_url": "https://www.ravenminer.com/ravencoin/howto",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports."
   },
   {
@@ -987,8 +907,8 @@
     "source_url": "https://www.ravenminer.com/ravencoin/howto",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports."
   },
   {
@@ -1003,8 +923,8 @@
     "source_url": "https://www.ravenminer.com/ravencoin/howto",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports."
   },
   {
@@ -1019,8 +939,8 @@
     "source_url": "https://www.ravenminer.com/ravencoin/howto",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports."
   },
   {
@@ -1035,8 +955,8 @@
     "source_url": "https://www.ravenminer.com/ravencoin/howto",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports."
   },
   {
@@ -1051,8 +971,8 @@
     "source_url": "https://www.ravenminer.com/ravencoin/howto",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports."
   },
   {
@@ -1067,8 +987,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1083,8 +1003,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1099,8 +1019,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1115,8 +1035,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1131,8 +1051,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1147,8 +1067,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1163,8 +1083,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1179,8 +1099,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/7207401012879-BTC-Mining",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_btc_guide using html_stratum_extract. Official BTC-specific setup guide."
   },
   {
@@ -1195,8 +1115,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/7207401012879-BTC-Mining",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_btc_guide using html_stratum_extract. Official BTC-specific setup guide."
   },
   {
@@ -1211,8 +1131,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1227,8 +1147,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1243,8 +1163,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1259,8 +1179,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1275,8 +1195,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1291,8 +1211,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1307,8 +1227,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/7207401012879-BTC-Mining",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_btc_guide using html_stratum_extract. Official BTC-specific setup guide."
   },
   {
@@ -1323,8 +1243,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information; https://support.viabtc.com/hc/en-us/articles/7207401012879-BTC-Mining",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1339,8 +1259,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1355,8 +1275,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1371,8 +1291,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1387,8 +1307,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1403,8 +1323,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1419,8 +1339,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1435,8 +1355,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1451,8 +1371,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1467,8 +1387,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1483,8 +1403,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1499,8 +1419,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1515,8 +1435,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1531,8 +1451,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1547,8 +1467,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1563,8 +1483,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1579,8 +1499,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1595,8 +1515,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1611,8 +1531,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1627,8 +1547,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1643,8 +1563,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1659,8 +1579,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1675,8 +1595,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1691,8 +1611,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1707,8 +1627,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1723,8 +1643,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1739,8 +1659,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1755,8 +1675,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1771,8 +1691,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1787,8 +1707,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1803,8 +1723,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1819,8 +1739,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   },
   {
@@ -1835,8 +1755,8 @@
     "source_url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
     "confidence": "confirmed",
     "status": "active",
-    "first_seen": "2026-05-04",
-    "last_seen": "2026-05-04",
+    "first_seen": "2026-05-11",
+    "last_seen": "2026-05-11",
     "notes": "Discovered by viabtc_pool_info using html_stratum_extract. Official multi-coin pool URL table."
   }
 ]
