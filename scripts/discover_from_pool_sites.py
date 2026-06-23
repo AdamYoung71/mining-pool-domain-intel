@@ -211,6 +211,10 @@ def is_valid_endpoint(endpoint: dict[str, Any]) -> bool:
         return False
     if re.fullmatch(r"(?:\d{1,3}\.){3}\d{1,3}", domain):
         return is_public_ip_literal(domain)
+    # Reject bare hostnames (e.g. Docker container names like "node-a").
+    # All real mining pool Stratum endpoints use public FQDNs.
+    if "." not in domain:
+        return False
     return True
 
 

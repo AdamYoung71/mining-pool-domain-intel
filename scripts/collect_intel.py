@@ -211,6 +211,9 @@ def extract_endpoints(text: str, source: dict[str, Any]) -> list[dict[str, Any]]
         parsed = parse_endpoint(f"{scheme.lower()}://{domain}:{port}")
         if suffixes and not suffix_allowed(parsed["domain"], suffixes):
             continue
+        # Reject bare hostnames — all real mining pool endpoints use public FQDNs.
+        if "." not in parsed["domain"]:
+            continue
         key = (parsed["domain"], parsed["port"], parsed["scheme"])
         endpoints[key] = parsed
 
