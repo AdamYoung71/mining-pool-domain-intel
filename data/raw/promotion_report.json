@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-06-24T06:09:10Z",
-  "seed_records": 1565,
+  "generated_at": "2026-06-29T07:39:42Z",
+  "seed_records": 1619,
   "input_records": {
     "priority_sources": 23,
-    "official_site_crawl": 1184,
+    "official_site_crawl": 1180,
     "github_code_search": 109,
     "ip_endpoint_candidates": 2
   },
-  "output_records": 1619,
-  "inserted": 54,
-  "updated": 1152,
-  "unchanged": 413,
+  "output_records": 1628,
+  "inserted": 9,
+  "updated": 1193,
+  "unchanged": 426,
   "skipped": 0,
   "skipped_examples": [],
   "confidence_counts": {
-    "candidate": 1263,
+    "candidate": 1272,
     "confirmed": 356
   },
   "status_counts": {
-    "unknown": 1263,
+    "unknown": 1272,
     "active": 356
   }
 }
