@@ -5,8 +5,8 @@
     "ok": true,
     "used_cache": false,
     "status": 200,
-    "sha256": "a455fa0f2e40e61e65e85db054e20f3c6aa9a5aeedd4db926a5d95878b3a7806",
-    "bytes": 322331,
+    "sha256": "3a041cc1eec63addee9cd9ca8127cf218a0da3bb0faf7f4915290362547de9c2",
+    "bytes": 322660,
     "records": 231,
     "error": null
   },
@@ -2095,9 +2095,9 @@
     "ok": true,
     "used_cache": false,
     "status": 200,
-    "sha256": "a5922d0fe17cbaf88edb01a46087c0d9048a8499ad799f64ac102837d46f493a",
-    "bytes": 63378,
-    "records": 677,
+    "sha256": "a70676e4dab534e8768bd8980787c4067796556eb651e39eea0ada1ce0c15032",
+    "bytes": 63655,
+    "records": 680,
     "error": null
   },
   {
@@ -2124,7 +2124,7 @@
     "url": "https://miningpoolstats.stream/5gcash",
     "ok": true,
     "used_cache": false,
-    "records": 3,
+    "records": 2,
     "error": null
   },
   {
@@ -2169,7 +2169,7 @@
     "url": "https://miningpoolstats.stream/aegisum",
     "ok": true,
     "used_cache": false,
-    "records": 4,
+    "records": 3,
     "error": null
   },
   {
@@ -2394,7 +2394,7 @@
     "url": "https://miningpoolstats.stream/arielcoin",
     "ok": true,
     "used_cache": false,
-    "records": 2,
+    "records": 4,
     "error": null
   },
   {
@@ -2439,7 +2439,7 @@
     "url": "https://miningpoolstats.stream/artbyte",
     "ok": true,
     "used_cache": false,
-    "records": 3,
+    "records": 2,
     "error": null
   },
   {
@@ -2493,7 +2493,7 @@
     "url": "https://miningpoolstats.stream/auroracoin-qubit",
     "ok": true,
     "used_cache": false,
-    "records": 5,
+    "records": 6,
     "error": null
   },
   {
@@ -2511,7 +2511,7 @@
     "url": "https://miningpoolstats.stream/auroracoin-sha",
     "ok": true,
     "used_cache": false,
-    "records": 10,
+    "records": 11,
     "error": null
   },
   {
@@ -2538,7 +2538,7 @@
     "url": "https://miningpoolstats.stream/aurumcrypto",
     "ok": true,
     "used_cache": false,
-    "records": 5,
+    "records": 6,
     "error": null
   },
   {
@@ -2565,7 +2565,7 @@
     "url": "https://miningpoolstats.stream/avian-minotaurx",
     "ok": true,
     "used_cache": false,
-    "records": 6,
+    "records": 5,
     "error": null
   },
   {
@@ -2574,7 +2574,7 @@
     "url": "https://miningpoolstats.stream/avian-x16rt",
     "ok": true,
     "used_cache": false,
-    "records": 5,
+    "records": 6,
     "error": null
   },
   {
@@ -2583,7 +2583,7 @@
     "url": "https://miningpoolstats.stream/axerunners",
     "ok": true,
     "used_cache": false,
-    "records": 2,
+    "records": 4,
     "error": null
   },
   {
@@ -2628,7 +2628,7 @@
     "url": "https://miningpoolstats.stream/beerscoin",
     "ok": true,
     "used_cache": false,
-    "records": 2,
+    "records": 1,
     "error": null
   },
   {
@@ -2646,7 +2646,7 @@
     "url": "https://miningpoolstats.stream/bellscoin",
     "ok": true,
     "used_cache": false,
-    "records": 24,
+    "records": 23,
     "error": null
   },
   {
@@ -2709,7 +2709,7 @@
     "url": "https://miningpoolstats.stream/bitcoin",
     "ok": true,
     "used_cache": false,
-    "records": 139,
+    "records": 153,
     "error": null
   },
   {
@@ -2718,7 +2718,7 @@
     "url": "https://miningpoolstats.stream/bitcoin3",
     "ok": true,
     "used_cache": false,
-    "records": 12,
+    "records": 13,
     "error": null
   },
   {
@@ -2754,7 +2754,7 @@
     "url": "https://miningpoolstats.stream/bitcoincash",
     "ok": true,
     "used_cache": false,
-    "records": 102,
+    "records": 111,
     "error": null
   },
   {
@@ -2763,7 +2763,7 @@
     "url": "https://miningpoolstats.stream/bitcoincash2",
     "ok": true,
     "used_cache": false,
-    "records": 29,
+    "records": 31,
     "error": null
   },
   {
@@ -2790,7 +2790,7 @@
     "url": "https://miningpoolstats.stream/bitcoingold",
     "ok": true,
     "used_cache": false,
-    "records": 8,
+    "records": 6,
     "error": null
   },
   {
@@ -2799,7 +2799,7 @@
     "url": "https://miningpoolstats.stream/bitcoinii",
     "ok": true,
     "used_cache": false,
-    "records": 37,
+    "records": 40,
     "error": null
   },
   {
@@ -2835,7 +2835,7 @@
     "url": "https://miningpoolstats.stream/bitcoinsilver",
     "ok": true,
     "used_cache": false,
-    "records": 19,
+    "records": 22,
     "error": null
   },
   {
@@ -2853,7 +2853,7 @@
     "url": "https://miningpoolstats.stream/bitcoinsv",
     "ok": true,
     "used_cache": false,
-    "records": 11,
+    "records": 10,
     "error": null
   },
   {
@@ -2862,7 +2862,7 @@
     "url": "https://miningpoolstats.stream/bitcoinvalue",
     "ok": true,
     "used_cache": false,
-    "records": 7,
+    "records": 6,
     "error": null
   },
   {
@@ -3114,7 +3114,7 @@
     "url": "https://miningpoolstats.stream/bonkcoin",
     "ok": true,
     "used_cache": false,
-    "records": 5,
+    "records": 3,
     "error": null
   },
   {
@@ -3168,7 +3168,7 @@
     "url": "https://miningpoolstats.stream/btgscoin",
     "ok": true,
     "used_cache": false,
-    "records": 20,
+    "records": 17,
     "error": null
   },
   {
@@ -3177,7 +3177,7 @@
     "url": "https://miningpoolstats.stream/btxchain",
     "ok": true,
     "used_cache": false,
-    "records": 10,
+    "records": 11,
     "error": null
   },
   {
@@ -3231,7 +3231,7 @@
     "url": "https://miningpoolstats.stream/c64chain",
     "ok": true,
     "used_cache": false,
-    "records": 7,
+    "records": 6,
     "error": null
   },
   {
@@ -3256,9 +3256,9 @@
     "source_id": "miningpoolstats_sitemap_data",
     "coin": "cannabiscoin",
     "url": "https://miningpoolstats.stream/cannabiscoin",
-    "ok": false,
+    "ok": true,
     "used_cache": false,
-    "records": 0,
+    "records": 1,
     "error": null
   },
   {
@@ -3285,7 +3285,7 @@
     "url": "https://miningpoolstats.stream/cascoin-minotaurx",
     "ok": true,
     "used_cache": false,
-    "records": 4,
+    "records": 3,
     "error": null
   },
   {
@@ -3294,7 +3294,7 @@
     "url": "https://miningpoolstats.stream/cascoin-sha",
     "ok": true,
     "used_cache": false,
-    "records": 10,
+    "records": 11,
     "error": null
   },
   {
@@ -3321,7 +3321,7 @@
     "url": "https://miningpoolstats.stream/cereblix",
     "ok": true,
     "used_cache": false,
-    "records": 8,
+    "records": 9,
     "error": null
   },
   {
@@ -3357,7 +3357,7 @@
     "url": "https://miningpoolstats.stream/cheetahcoin",
     "ok": true,
     "used_cache": false,
-    "records": 9,
+    "records": 7,
     "error": null
   },
   {
@@ -3402,7 +3402,7 @@
     "url": "https://miningpoolstats.stream/cmusicai",
     "ok": true,
     "used_cache": false,
-    "records": 3,
+    "records": 2,
     "error": null
   },
   {
@@ -3573,7 +3573,7 @@
     "url": "https://miningpoolstats.stream/dash",
     "ok": true,
     "used_cache": false,
-    "records": 22,
+    "records": 21,
     "error": null
   },
   {
@@ -3591,7 +3591,7 @@
     "url": "https://miningpoolstats.stream/debitmydata",
     "ok": true,
     "used_cache": false,
-    "records": 4,
+    "records": 5,
     "error": null
   },
   {
@@ -3609,7 +3609,7 @@
     "url": "https://miningpoolstats.stream/deeponion",
     "ok": true,
     "used_cache": false,
-    "records": 3,
+    "records": 2,
     "error": null
   },
   {
@@ -3672,7 +3672,7 @@
     "url": "https://miningpoolstats.stream/devault",
     "ok": true,
     "used_cache": false,
-    "records": 2,
+    "records": 3,
     "error": null
   },
   {
@@ -3708,7 +3708,7 @@
     "url": "https://miningpoolstats.stream/digibyte-scrypt",
     "ok": true,
     "used_cache": false,
-    "records": 18,
+    "records": 17,
     "error": null
   },
   {
@@ -3717,7 +3717,7 @@
     "url": "https://miningpoolstats.stream/digibyte-sha",
     "ok": true,
     "used_cache": false,
-    "records": 54,
+    "records": 57,
     "error": null
   },
   {
@@ -3735,7 +3735,7 @@
     "url": "https://miningpoolstats.stream/digitalcoin-scrypt",
     "ok": true,
     "used_cache": false,
-    "records": 5,
+    "records": 4,
     "error": null
   },
   {
@@ -3753,7 +3753,7 @@
     "url": "https://miningpoolstats.stream/digitalcoin-x11",
     "ok": true,
     "used_cache": false,
-    "records": 4,
+    "records": 3,
     "error": null
   },
   {
@@ -3780,7 +3780,7 @@
     "url": "https://miningpoolstats.stream/dimecoin",
     "ok": true,
     "used_cache": false,
-    "records": 2,
+    "records": 3,
     "error": null
   },
   {
@@ -3807,7 +3807,7 @@
     "url": "https://miningpoolstats.stream/dingocoin",
     "ok": true,
     "used_cache": false,
-    "records": 20,
+    "records": 19,
     "error": null
   },
   {
@@ -3852,7 +3852,7 @@
     "url": "https://miningpoolstats.stream/dogegpu",
     "ok": true,
     "used_cache": false,
-    "records": 4,
+    "records": 2,
     "error": null
   },
   {
@@ -3879,7 +3879,7 @@
     "url": "https://miningpoolstats.stream/dogmcoin",
     "ok": true,
     "used_cache": false,
-    "records": 7,
+    "records": 6,
     "error": null
   },
   {
@@ -3942,7 +3942,7 @@
     "url": "https://miningpoolstats.stream/ecash",
     "ok": true,
     "used_cache": false,
-    "records": 32,
+    "records": 30,
     "error": null
   },
   {
@@ -3951,7 +3951,7 @@
     "url": "https://miningpoolstats.stream/egulden",
     "ok": true,
     "used_cache": false,
-    "records": 3,
+    "records": 4,
     "error": null
   },
   {
@@ -3969,7 +3969,7 @@
     "url": "https://miningpoolstats.stream/elastos",
     "ok": true,
     "used_cache": false,
-    "records": 4,
+    "records": 2,
     "error": null
   },
   {
@@ -3978,7 +3978,7 @@
     "url": "https://miningpoolstats.stream/elevenseventyfive",
     "ok": true,
     "used_cache": false,
-    "records": 4,
+    "records": 5,
     "error": null
   },
   {
@@ -4003,9 +4003,9 @@
     "source_id": "miningpoolstats_sitemap_data",
     "coin": "emerald",
     "url": "https://miningpoolstats.stream/emerald",
-    "ok": true,
+    "ok": false,
     "used_cache": false,
-    "records": 1,
+    "records": 0,
     "error": null
   },
   {
@@ -4014,7 +4014,7 @@
     "url": "https://miningpoolstats.stream/emercoin",
     "ok": true,
     "used_cache": false,
-    "records": 4,
+    "records": 3,
     "error": null
   },
   {
@@ -4050,7 +4050,7 @@
     "url": "https://miningpoolstats.stream/epiccash-progpow",
     "ok": true,
     "used_cache": false,
-    "records": 3,
+    "records": 2,
     "error": null
   },
   {
@@ -4059,7 +4059,7 @@
     "url": "https://miningpoolstats.stream/epiccash-randomx",
     "ok": true,
     "used_cache": false,
-    "records": 3,
+    "records": 2,
     "error": null
   },
   {
@@ -4077,7 +4077,7 @@
     "url": "https://miningpoolstats.stream/ergo",
     "ok": true,
     "used_cache": false,
-    "records": 18,
+    "records": 17,
     "error": null
   },
   {
@@ -4086,7 +4086,7 @@
     "url": "https://miningpoolstats.stream/ergon",
     "ok": true,
     "used_cache": false,
-    "records": 4,
+    "records": 5,
     "error": null
   },
   {
@@ -4095,7 +4095,7 @@
     "url": "https://miningpoolstats.stream/ethereumclassic",
     "ok": true,
     "used_cache": false,
-    "records": 43,
+    "records": 44,
     "error": null
   },
   {
@@ -4239,7 +4239,7 @@
     "url": "https://miningpoolstats.stream/fedoracoin",
     "ok": true,
     "used_cache": false,
-    "records": 2,
+    "records": 1,
     "error": null
   },
   {
@@ -4248,7 +4248,7 @@
     "url": "https://miningpoolstats.stream/fennec",
     "ok": true,
     "used_cache": false,
-    "records": 6,
+    "records": 7,
     "error": null
   },
   {
@@ -4293,7 +4293,7 @@
     "url": "https://miningpoolstats.stream/fiurycoin",
     "ok": true,
     "used_cache": false,
-    "records": 1,
+    "records": 2,
     "error": null
   },
   {
@@ -4302,7 +4302,7 @@
     "url": "https://miningpoolstats.stream/fixedcoin",
     "ok": true,
     "used_cache": false,
-    "records": 19,
+    "records": 18,
     "error": null
   },
   {
@@ -4334,11 +4334,20 @@
   },
   {
     "source_id": "miningpoolstats_sitemap_data",
+    "coin": "floofychain",
+    "url": "https://miningpoolstats.stream/floofychain",
+    "ok": true,
+    "used_cache": false,
+    "records": 4,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
     "coin": "flopcoin",
     "url": "https://miningpoolstats.stream/flopcoin",
     "ok": true,
     "used_cache": false,
-    "records": 8,
+    "records": 7,
     "error": null
   },
   {
@@ -4514,6 +4523,15 @@
   },
   {
     "source_id": "miningpoolstats_sitemap_data",
+    "coin": "gaelium",
+    "url": "https://miningpoolstats.stream/gaelium",
+    "ok": true,
+    "used_cache": false,
+    "records": 6,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
     "coin": "gainprox",
     "url": "https://miningpoolstats.stream/gainprox",
     "ok": true,
@@ -4608,7 +4626,7 @@
     "url": "https://miningpoolstats.stream/ghostridercoin",
     "ok": true,
     "used_cache": false,
-    "records": 2,
+    "records": 3,
     "error": null
   },
   {
@@ -4635,7 +4653,7 @@
     "url": "https://miningpoolstats.stream/gobyte",
     "ok": true,
     "used_cache": false,
-    "records": 4,
+    "records": 5,
     "error": null
   },
   {
@@ -4653,7 +4671,7 @@
     "url": "https://miningpoolstats.stream/goldcoin",
     "ok": true,
     "used_cache": false,
-    "records": 6,
+    "records": 9,
     "error": null
   },
   {
@@ -4662,7 +4680,7 @@
     "url": "https://miningpoolstats.stream/gorbaniov",
     "ok": true,
     "used_cache": false,
-    "records": 2,
+    "records": 1,
     "error": null
   },
   {
@@ -4734,7 +4752,7 @@
     "url": "https://miningpoolstats.stream/groestlcoin",
     "ok": true,
     "used_cache": false,
-    "records": 7,
+    "records": 6,
     "error": null
   },
   {
@@ -4842,7 +4860,7 @@
     "url": "https://miningpoolstats.stream/hoosat",
     "ok": true,
     "used_cache": false,
-    "records": 9,
+    "records": 3,
     "error": null
   },
   {
@@ -4869,7 +4887,7 @@
     "url": "https://miningpoolstats.stream/hthcoin",
     "ok": true,
     "used_cache": false,
-    "records": 2,
+    "records": 3,
     "error": null
   },
   {
@@ -4887,7 +4905,7 @@
     "url": "https://miningpoolstats.stream/hypercoin",
     "ok": true,
     "used_cache": false,
-    "records": 15,
+    "records": 13,
     "error": null
   },
   {
@@ -4932,7 +4950,7 @@
     "url": "https://miningpoolstats.stream/infinitecoin",
     "ok": true,
     "used_cache": false,
-    "records": 6,
+    "records": 7,
     "error": null
   },
   {
@@ -4950,7 +4968,7 @@
     "url": "https://miningpoolstats.stream/innova",
     "ok": true,
     "used_cache": false,
-    "records": 2,
+    "records": 1,
     "error": null
   },
   {
@@ -5004,7 +5022,7 @@
     "url": "https://miningpoolstats.stream/junkcoin",
     "ok": true,
     "used_cache": false,
-    "records": 17,
+    "records": 16,
     "error": null
   },
   {
@@ -5031,7 +5049,7 @@
     "url": "https://miningpoolstats.stream/kaspa",
     "ok": true,
     "used_cache": false,
-    "records": 44,
+    "records": 42,
     "error": null
   },
   {
@@ -5040,7 +5058,7 @@
     "url": "https://miningpoolstats.stream/kaspaclassic",
     "ok": true,
     "used_cache": false,
-    "records": 1,
+    "records": 2,
     "error": null
   },
   {
@@ -5067,7 +5085,7 @@
     "url": "https://miningpoolstats.stream/kerrigan-equihash",
     "ok": true,
     "used_cache": false,
-    "records": 12,
+    "records": 11,
     "error": null
   },
   {
@@ -5094,7 +5112,7 @@
     "url": "https://miningpoolstats.stream/kerrigan-x11",
     "ok": true,
     "used_cache": false,
-    "records": 12,
+    "records": 11,
     "error": null
   },
   {
@@ -5128,9 +5146,9 @@
     "source_id": "miningpoolstats_sitemap_data",
     "coin": "kingpepe",
     "url": "https://miningpoolstats.stream/kingpepe",
-    "ok": false,
+    "ok": true,
     "used_cache": false,
-    "records": 0,
+    "records": 1,
     "error": null
   },
   {
@@ -5220,7 +5238,7 @@
     "url": "https://miningpoolstats.stream/kylacoin",
     "ok": true,
     "used_cache": false,
-    "records": 4,
+    "records": 3,
     "error": null
   },
   {
@@ -5319,7 +5337,7 @@
     "url": "https://miningpoolstats.stream/litecoin",
     "ok": true,
     "used_cache": false,
-    "records": 65,
+    "records": 64,
     "error": null
   },
   {
@@ -5418,7 +5436,7 @@
     "url": "https://miningpoolstats.stream/magi",
     "ok": true,
     "used_cache": false,
-    "records": 3,
+    "records": 2,
     "error": null
   },
   {
@@ -5454,7 +5472,7 @@
     "url": "https://miningpoolstats.stream/marscoin",
     "ok": true,
     "used_cache": false,
-    "records": 8,
+    "records": 7,
     "error": null
   },
   {
@@ -5499,7 +5517,7 @@
     "url": "https://miningpoolstats.stream/mateablecoin-scrypt",
     "ok": true,
     "used_cache": false,
-    "records": 7,
+    "records": 5,
     "error": null
   },
   {
@@ -5544,7 +5562,7 @@
     "url": "https://miningpoolstats.stream/maximus",
     "ok": true,
     "used_cache": false,
-    "records": 4,
+    "records": 3,
     "error": null
   },
   {
@@ -5607,7 +5625,7 @@
     "url": "https://miningpoolstats.stream/meowcoin-scrypt",
     "ok": true,
     "used_cache": false,
-    "records": 5,
+    "records": 4,
     "error": null
   },
   {
@@ -5634,7 +5652,7 @@
     "url": "https://miningpoolstats.stream/microbitcoin",
     "ok": true,
     "used_cache": false,
-    "records": 3,
+    "records": 4,
     "error": null
   },
   {
@@ -5643,7 +5661,7 @@
     "url": "https://miningpoolstats.stream/microvisionchain",
     "ok": true,
     "used_cache": false,
-    "records": 6,
+    "records": 4,
     "error": null
   },
   {
@@ -5715,7 +5733,7 @@
     "url": "https://miningpoolstats.stream/monero",
     "ok": true,
     "used_cache": false,
-    "records": 55,
+    "records": 56,
     "error": null
   },
   {
@@ -5742,7 +5760,7 @@
     "url": "https://miningpoolstats.stream/mooncoin",
     "ok": true,
     "used_cache": false,
-    "records": 4,
+    "records": 3,
     "error": null
   },
   {
@@ -5769,7 +5787,7 @@
     "url": "https://miningpoolstats.stream/mydogecoin",
     "ok": true,
     "used_cache": false,
-    "records": 14,
+    "records": 13,
     "error": null
   },
   {
@@ -5828,11 +5846,20 @@
   },
   {
     "source_id": "miningpoolstats_sitemap_data",
+    "coin": "mytcoin",
+    "url": "https://miningpoolstats.stream/mytcoin",
+    "ok": true,
+    "used_cache": false,
+    "records": 1,
+    "error": null
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
     "coin": "mytherra",
     "url": "https://miningpoolstats.stream/mytherra",
     "ok": true,
     "used_cache": false,
-    "records": 15,
+    "records": 16,
     "error": null
   },
   {
@@ -5841,7 +5868,7 @@
     "url": "https://miningpoolstats.stream/namecoin",
     "ok": true,
     "used_cache": false,
-    "records": 12,
+    "records": 13,
     "error": null
   },
   {
@@ -5850,7 +5877,7 @@
     "url": "https://miningpoolstats.stream/napcoin",
     "ok": true,
     "used_cache": false,
-    "records": 2,
+    "records": 1,
     "error": null
   },
   {
@@ -5868,7 +5895,7 @@
     "url": "https://miningpoolstats.stream/neoxa",
     "ok": true,
     "used_cache": false,
-    "records": 8,
+    "records": 9,
     "error": null
   },
   {
@@ -5904,7 +5931,7 @@
     "url": "https://miningpoolstats.stream/neurai",
     "ok": true,
     "used_cache": false,
-    "records": 23,
+    "records": 21,
     "error": null
   },
   {
@@ -5913,7 +5940,7 @@
     "url": "https://miningpoolstats.stream/newenglandcoin",
     "ok": true,
     "used_cache": false,
-    "records": 7,
+    "records": 6,
     "error": null
   },
   {
@@ -6003,7 +6030,7 @@
     "url": "https://miningpoolstats.stream/nitocoin",
     "ok": true,
     "used_cache": false,
-    "records": 13,
+    "records": 14,
     "error": null
   },
   {
@@ -6066,7 +6093,7 @@
     "url": "https://miningpoolstats.stream/octaspace",
     "ok": true,
     "used_cache": false,
-    "records": 14,
+    "records": 12,
     "error": null
   },
   {
@@ -6084,7 +6111,7 @@
     "url": "https://miningpoolstats.stream/oggcoin",
     "ok": true,
     "used_cache": false,
-    "records": 7,
+    "records": 6,
     "error": null
   },
   {
@@ -6120,7 +6147,7 @@
     "url": "https://miningpoolstats.stream/opticalbitcoin",
     "ok": true,
     "used_cache": false,
-    "records": 1,
+    "records": 3,
     "error": null
   },
   {
@@ -6138,7 +6165,7 @@
     "url": "https://miningpoolstats.stream/ordexcoin",
     "ok": true,
     "used_cache": false,
-    "records": 14,
+    "records": 12,
     "error": null
   },
   {
@@ -6210,7 +6237,7 @@
     "url": "https://miningpoolstats.stream/pearl",
     "ok": true,
     "used_cache": false,
-    "records": 35,
+    "records": 36,
     "error": null
   },
   {
@@ -6219,7 +6246,7 @@
     "url": "https://miningpoolstats.stream/peercoin",
     "ok": true,
     "used_cache": false,
-    "records": 20,
+    "records": 23,
     "error": null
   },
   {
@@ -6228,7 +6255,7 @@
     "url": "https://miningpoolstats.stream/pepecoin",
     "ok": true,
     "used_cache": false,
-    "records": 30,
+    "records": 28,
     "error": null
   },
   {
@@ -6237,7 +6264,7 @@
     "url": "https://miningpoolstats.stream/pepepow",
     "ok": true,
     "used_cache": false,
-    "records": 6,
+    "records": 4,
     "error": null
   },
   {
@@ -6255,7 +6282,7 @@
     "url": "https://miningpoolstats.stream/pepperscore",
     "ok": true,
     "used_cache": false,
-    "records": 2,
+    "records": 1,
     "error": null
   },
   {
@@ -6417,7 +6444,7 @@
     "url": "https://miningpoolstats.stream/qogecoin",
     "ok": true,
     "used_cache": false,
-    "records": 4,
+    "records": 6,
     "error": null
   },
   {
@@ -6426,7 +6453,7 @@
     "url": "https://miningpoolstats.stream/quai-kawpow",
     "ok": true,
     "used_cache": false,
-    "records": 8,
+    "records": 7,
     "error": null
   },
   {
@@ -6435,7 +6462,7 @@
     "url": "https://miningpoolstats.stream/quai-scrypt",
     "ok": true,
     "used_cache": false,
-    "records": 10,
+    "records": 9,
     "error": null
   },
   {
@@ -6444,7 +6471,7 @@
     "url": "https://miningpoolstats.stream/quai-sha",
     "ok": true,
     "used_cache": false,
-    "records": 12,
+    "records": 11,
     "error": null
   },
   {
@@ -6525,7 +6552,7 @@
     "url": "https://miningpoolstats.stream/radiant",
     "ok": true,
     "used_cache": false,
-    "records": 16,
+    "records": 17,
     "error": null
   },
   {
@@ -6534,7 +6561,7 @@
     "url": "https://miningpoolstats.stream/raptoreum",
     "ok": true,
     "used_cache": false,
-    "records": 25,
+    "records": 24,
     "error": null
   },
   {
@@ -6552,7 +6579,7 @@
     "url": "https://miningpoolstats.stream/ravencoin",
     "ok": true,
     "used_cache": false,
-    "records": 48,
+    "records": 47,
     "error": null
   },
   {
@@ -6570,7 +6597,7 @@
     "url": "https://miningpoolstats.stream/reaction",
     "ok": true,
     "used_cache": false,
-    "records": 3,
+    "records": 2,
     "error": null
   },
   {
@@ -6588,7 +6615,7 @@
     "url": "https://miningpoolstats.stream/rebelcoin",
     "ok": true,
     "used_cache": false,
-    "records": 5,
+    "records": 6,
     "error": null
   },
   {
@@ -6759,7 +6786,7 @@
     "url": "https://miningpoolstats.stream/satoshicash",
     "ok": true,
     "used_cache": false,
-    "records": 10,
+    "records": 8,
     "error": null
   },
   {
@@ -6840,7 +6867,7 @@
     "url": "https://miningpoolstats.stream/shibacoin",
     "ok": true,
     "used_cache": false,
-    "records": 11,
+    "records": 10,
     "error": null
   },
   {
@@ -6876,7 +6903,7 @@
     "url": "https://miningpoolstats.stream/skydoge",
     "ok": true,
     "used_cache": false,
-    "records": 8,
+    "records": 7,
     "error": null
   },
   {
@@ -7002,7 +7029,7 @@
     "url": "https://miningpoolstats.stream/sparkspay",
     "ok": true,
     "used_cache": false,
-    "records": 3,
+    "records": 4,
     "error": null
   },
   {
@@ -7020,7 +7047,7 @@
     "url": "https://miningpoolstats.stream/spiderbyte",
     "ok": true,
     "used_cache": false,
-    "records": 2,
+    "records": 1,
     "error": null
   },
   {
@@ -7029,7 +7056,7 @@
     "url": "https://miningpoolstats.stream/sprintpay",
     "ok": true,
     "used_cache": false,
-    "records": 4,
+    "records": 3,
     "error": null
   },
   {
@@ -7074,7 +7101,7 @@
     "url": "https://miningpoolstats.stream/stohncoin",
     "ok": true,
     "used_cache": false,
-    "records": 11,
+    "records": 10,
     "error": null
   },
   {
@@ -7146,7 +7173,7 @@
     "url": "https://miningpoolstats.stream/swampcoin",
     "ok": true,
     "used_cache": false,
-    "records": 5,
+    "records": 7,
     "error": null
   },
   {
@@ -7245,7 +7272,7 @@
     "url": "https://miningpoolstats.stream/telestai",
     "ok": true,
     "used_cache": false,
-    "records": 4,
+    "records": 2,
     "error": null
   },
   {
@@ -7263,7 +7290,7 @@
     "url": "https://miningpoolstats.stream/terracoin",
     "ok": true,
     "used_cache": false,
-    "records": 8,
+    "records": 5,
     "error": null
   },
   {
@@ -7371,7 +7398,7 @@
     "url": "https://miningpoolstats.stream/trezarcoin",
     "ok": true,
     "used_cache": false,
-    "records": 3,
+    "records": 2,
     "error": null
   },
   {
@@ -7380,7 +7407,7 @@
     "url": "https://miningpoolstats.stream/trumpow",
     "ok": true,
     "used_cache": false,
-    "records": 9,
+    "records": 8,
     "error": null
   },
   {
@@ -7434,7 +7461,7 @@
     "url": "https://miningpoolstats.stream/ukkeycoin",
     "ok": true,
     "used_cache": false,
-    "records": 1,
+    "records": 2,
     "error": null
   },
   {
@@ -7578,7 +7605,7 @@
     "url": "https://miningpoolstats.stream/veco",
     "ok": true,
     "used_cache": false,
-    "records": 5,
+    "records": 6,
     "error": null
   },
   {
@@ -7749,7 +7776,7 @@
     "url": "https://miningpoolstats.stream/veruscoin",
     "ok": true,
     "used_cache": false,
-    "records": 17,
+    "records": 18,
     "error": null
   },
   {
@@ -7803,7 +7830,7 @@
     "url": "https://miningpoolstats.stream/vivo",
     "ok": true,
     "used_cache": false,
-    "records": 4,
+    "records": 2,
     "error": null
   },
   {
@@ -7857,7 +7884,7 @@
     "url": "https://miningpoolstats.stream/waglayla",
     "ok": true,
     "used_cache": false,
-    "records": 4,
+    "records": 2,
     "error": null
   },
   {
@@ -7911,7 +7938,7 @@
     "url": "https://miningpoolstats.stream/wojakcoin",
     "ok": true,
     "used_cache": false,
-    "records": 19,
+    "records": 17,
     "error": null
   },
   {
@@ -7983,7 +8010,7 @@
     "url": "https://miningpoolstats.stream/xelis",
     "ok": true,
     "used_cache": false,
-    "records": 20,
+    "records": 19,
     "error": null
   },
   {
@@ -8037,7 +8064,7 @@
     "url": "https://miningpoolstats.stream/yerbas",
     "ok": true,
     "used_cache": false,
-    "records": 7,
+    "records": 6,
     "error": null
   },
   {
@@ -8046,7 +8073,7 @@
     "url": "https://miningpoolstats.stream/zano",
     "ok": true,
     "used_cache": false,
-    "records": 18,
+    "records": 17,
     "error": null
   },
   {
@@ -8064,7 +8091,7 @@
     "url": "https://miningpoolstats.stream/zcash",
     "ok": true,
     "used_cache": false,
-    "records": 27,
+    "records": 29,
     "error": null
   },
   {
@@ -8145,16 +8172,16 @@
     "url": "https://miningpoolstats.stream/zeroonecoin",
     "ok": true,
     "used_cache": false,
-    "records": 2,
+    "records": 1,
     "error": null
   },
   {
     "source_id": "miningpoolstats_sitemap_data",
     "coin": "zerozed",
     "url": "https://miningpoolstats.stream/zerozed",
-    "ok": true,
+    "ok": false,
     "used_cache": false,
-    "records": 1,
+    "records": 0,
     "error": null
   },
   {
