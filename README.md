@@ -10,19 +10,19 @@
 | 指标 | 上次结果 |
 | --- | --- |
 | 运行状态 | `success` |
-| 上次运行时间 | 2026-08-10 12:14:41 北京时间 |
-| 耗时 | 27分02秒 |
+| 上次运行时间 | 2026-08-17 11:28:07 北京时间 |
+| 耗时 | 27分50秒 |
 | 触发方式 | `schedule` |
 | 参数 | MiningPoolStats=0, directory_workers=4, 官网=0, 每站页面=4, 站点间隔=0.5s, 页面间隔=1.0s, site_workers=4, GitHub=false |
-| 官网域名 | 总数 951，新增 27 |
-| Stratum 域名/IP | 总数 523，新增 27 |
-| Stratum 记录 | 总数 1324，新增 46 |
+| 官网域名 | 总数 954，新增 4 |
+| Stratum 域名/IP | 总数 505，新增 5 |
+| Stratum 记录 | 总数 1252，新增 21 |
 | 裸 IP:port 候选 | 总数 2，新增 0 |
-| 区块链接入节点候选 | 总数 578，新增 98 |
-| 最终情报库 | 总数 1777，新增 41 |
+| 区块链接入节点候选 | 总数 580，新增 93 |
+| 最终情报库 | 总数 1791，新增 14 |
 | 告警建议集 | 总数 375 |
-| 源抓取状态 | 成功 2932，失败 359，使用缓存 0 |
-| 运行链接 | [GitHub Actions](https://github.com/AdamYoung71/mining-pool-domain-intel/actions/runs/31354866207) |
+| 源抓取状态 | 成功 2886，失败 368，使用缓存 0 |
+| 运行链接 | [GitHub Actions](https://github.com/AdamYoung71/mining-pool-domain-intel/actions/runs/31991243674) |
 <!-- intel-status:end -->
 
 ## 快速开始
