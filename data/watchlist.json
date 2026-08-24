@@ -12,7 +12,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-08-10",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain 0x.al. auto_source=official_site_crawl"
   },
   {
@@ -28,7 +28,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources"
   },
   {
@@ -44,7 +44,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources"
   },
   {
@@ -60,7 +60,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Official 2Miners ERG pool endpoint. | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by shallow crawling official website domain erg.2miners.com. auto_source=official_site_crawl | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by shallow crawling official website domain erg.2miners.com. auto_source=official_site_crawl | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by shallow crawling official website domain erg.2miners.com. auto_source=official_site_crawl | Extracted from public GitHub code search query stratum_tcp_json; repo=DcTyle/QuantumMiner; path=miner/miner_runtime_config.json.bak_ascii; review before promotion."
   },
   {
@@ -76,7 +76,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Official 2Miners ERG SSL endpoint. | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_"
   },
   {
@@ -92,7 +92,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Official 2Miners ERG regional endpoint. | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table."
   },
   {
@@ -108,7 +108,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources"
   },
   {
@@ -124,7 +124,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain 2miners.com. auto_source=official_site_crawl | Extracted from public GitHub code search query stratum_tcp_json; repo=DcTyle/QuantumMiner; path=miner/miner_runtime_config.json.bak_ascii; review before promotion. auto_source=github_code_search | Discovered by shallow crawling official website domain 2miners.com. auto_source=official_site_crawl | Extracted from public GitHub code search query stratum_tcp_json; repo=DcTyle/QuantumMiner; path=miner/miner_runtime_config.json.bak_ascii; review before promotion. auto_source=github_code_search | Discovered by shallow crawling official website domain 2miners.com. auto_source=official_site_crawl | Extracted from public GitHub code search query stratum_tcp_json; repo=DcTyle/QuantumMiner; path=miner/miner_runtime_config.json.bak_ascii; review before promotion. auto_source=github_code_search | Dis"
   },
   {
@@ -140,7 +140,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources"
   },
   {
@@ -156,7 +156,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources"
   },
   {
@@ -172,7 +172,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Official 2Miners ETHW endpoint. | Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources | Discovered by shallow crawling official website domain ethw.2miners.com. auto_source=official_site_crawl | Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources | Discovered by shallow crawling official website domain ethw.2miners.com. auto_source=official_site_crawl | Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources | Discovered by shallow crawling official website domain ethw.2miners.com. auto_source=official_site_crawl | Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources | Discovered by shallow crawlin"
   },
   {
@@ -188,7 +188,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources | Discovered by shallow crawling official website domain 2miners.com. auto_source=official_site_crawl | Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources | Discovered by shallow crawling official website domain 2miners.com. auto_source=official_site_crawl | Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources | Discovered by shallow crawling official website domain 2miners.com. auto_source=official_site_crawl | Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources | Discovered by shallow crawling official website domain 2miners.com. auto_sourc"
   },
   {
@@ -204,7 +204,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources"
   },
   {
@@ -220,7 +220,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources"
   },
   {
@@ -236,7 +236,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain 2miners.com. auto_source=official_site_crawl | Extracted from public GitHub code search query stratum_tcp_json; repo=DcTyle/QuantumMiner; path=miner/miner_runtime_config.json.bak_ascii; review before promotion. auto_source=github_code_search | Discovered by shallow crawling official website domain 2miners.com. auto_source=official_site_crawl | Extracted from public GitHub code search query stratum_tcp_json; repo=DcTyle/QuantumMiner; path=miner/miner_runtime_config.json.bak_ascii; review before promotion. auto_source=github_code_search | Discovered by shallow crawling official website domain 2miners.com. auto_source=official_site_crawl | Extracted from public GitHub code search query stratum_tcp_json; repo=DcTyle/QuantumMiner; path=miner/miner_runtime_config.json.bak_ascii; review before promotion. auto_source=github_code_search | Dis"
   },
   {
@@ -252,7 +252,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain 2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -268,7 +268,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain 2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -332,7 +332,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -396,7 +396,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solo-bch.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -412,7 +412,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solo-btc.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -476,7 +476,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain ckb.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -492,7 +492,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain ckb.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -508,7 +508,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solo-ckb.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -524,7 +524,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solo-ckb.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -540,7 +540,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solo-erg.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -556,7 +556,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solo-erg.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -572,7 +572,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solo-etc.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -588,7 +588,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solo-etc.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -604,7 +604,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain ethw.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -620,7 +620,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solo-ethw.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -636,7 +636,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solo-ethw.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -652,7 +652,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain kas.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -668,7 +668,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain kas.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -684,7 +684,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain kas.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -700,7 +700,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain kas.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -716,7 +716,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solo-kas.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -732,7 +732,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solo-kas.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -748,7 +748,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solo-kas.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -764,7 +764,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solo-kas.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -780,7 +780,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain nexa.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -796,7 +796,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain nexa.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -812,7 +812,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solo-nexa.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -828,7 +828,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solo-nexa.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -844,7 +844,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain rvn.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -860,7 +860,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain rvn.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -876,7 +876,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solo-rvn.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -892,7 +892,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solo-rvn.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -908,7 +908,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solo-zec.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -924,7 +924,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solo-zec.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -940,7 +940,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain zec.2miners.com. auto_source=official_site_crawl"
   },
   {
@@ -956,7 +956,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-07-20",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.88pool.com. auto_source=official_site_crawl"
   },
   {
@@ -972,7 +972,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-07-20",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.88pool.com. auto_source=official_site_crawl"
   },
   {
@@ -988,7 +988,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-08-10",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.88pool.com. auto_source=official_site_crawl"
   },
   {
@@ -1004,7 +1004,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-08-10",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.88pool.com. auto_source=official_site_crawl"
   },
   {
@@ -1020,7 +1020,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-08-10",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.88pool.com. auto_source=official_site_crawl"
   },
   {
@@ -1036,7 +1036,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-08-10",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.88pool.com. auto_source=official_site_crawl"
   },
   {
@@ -1148,7 +1148,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.ee. auto_source=official_site_crawl"
   },
   {
@@ -1164,7 +1164,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-08-10",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.ee. auto_source=official_site_crawl"
   },
   {
@@ -1180,7 +1180,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1196,7 +1196,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1212,7 +1212,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1228,7 +1228,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1244,7 +1244,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1260,7 +1260,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1276,7 +1276,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1292,7 +1292,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1308,7 +1308,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Official regional BTC pool server. | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Extracted from public GitHub code search query mining_subscribe; repo=cgminer-rs/cgminer-rs; path=docs/stratum-testing.md; review before promotion. auto_source=github_code_search | D"
   },
   {
@@ -1324,7 +1324,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1340,7 +1340,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1356,7 +1356,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1388,7 +1388,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_btc_guide using html_stratum_extract. Official BTC-specific setup guide. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_btc_guide using html_stratum_extract. Official BTC-specific setup guide. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_btc_guide using html_stratum_extract. Official BTC-specific setup guide. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Extracted from public GitHub code search query stratum_tcp_json; repo=DcTyle/QuantumMiner; path=miner/miner_runtime_config.json; review before promotion. auto_source=github_code_search | Discovered by shallow crawling offi"
   },
   {
@@ -1420,7 +1420,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Official SSL BTC pool server. | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool"
   },
   {
@@ -1436,7 +1436,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1452,7 +1452,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1468,7 +1468,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1484,7 +1484,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1500,7 +1500,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1516,7 +1516,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1532,7 +1532,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1548,7 +1548,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1564,7 +1564,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1580,7 +1580,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1596,7 +1596,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1612,7 +1612,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Official KAS pool server. | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com"
   },
   {
@@ -1628,7 +1628,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1644,7 +1644,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1660,7 +1660,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1676,7 +1676,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1692,7 +1692,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl"
   },
   {
@@ -1724,7 +1724,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1756,7 +1756,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1772,7 +1772,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_crawl | Discovered by f2pool_pool_info using html_stratum_extract. Official multi-coin pool URL table. auto_source=priority_sources | Discovered by shallow crawling official website domain f2pool.com. auto_source=official_site_"
   },
   {
@@ -1788,7 +1788,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain harshy.site. auto_source=official_site_crawl"
   },
   {
@@ -1804,7 +1804,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain harshy.site. auto_source=official_site_crawl"
   },
   {
@@ -1820,7 +1820,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain k"
   },
   {
@@ -1836,7 +1836,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain k"
   },
   {
@@ -1852,7 +1852,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain k"
   },
   {
@@ -1868,7 +1868,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain k"
   },
   {
@@ -1900,7 +1900,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain k"
   },
   {
@@ -1916,7 +1916,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain k"
   },
   {
@@ -1932,7 +1932,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain k"
   },
   {
@@ -1964,7 +1964,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl | Discovered by shallow crawling official website domain k"
   },
   {
@@ -1980,7 +1980,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain k1pool.com. auto_source=official_site_crawl"
   },
   {
@@ -1996,7 +1996,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain k1pool.com. auto_source=official_site_crawl"
   },
   {
@@ -2012,7 +2012,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain k1pool.com. auto_source=official_site_crawl"
   },
   {
@@ -2028,7 +2028,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain k1pool.com. auto_source=official_site_crawl"
   },
   {
@@ -2044,7 +2044,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain k1pool.com. auto_source=official_site_crawl"
   },
   {
@@ -2060,7 +2060,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain k1pool.com. auto_source=official_site_crawl"
   },
   {
@@ -2076,7 +2076,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain k1pool.com. auto_source=official_site_crawl"
   },
   {
@@ -2092,7 +2092,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain k1pool.com. auto_source=official_site_crawl"
   },
   {
@@ -2108,7 +2108,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain k1pool.com. auto_source=official_site_crawl"
   },
   {
@@ -2124,7 +2124,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain luckyfastblocks.com. auto_source=official_site_crawl"
   },
   {
@@ -2140,7 +2140,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Official global BTC stratum. | Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table. auto_source=priority_sources | Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table. auto_source=priority_sources | Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table. auto_source=priority_sources | Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table. auto_source=priority_sources | Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table. auto_source=priority_sources | Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table. auto_source=priority_sources | Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table. auto_source=priori"
   },
   {
@@ -2156,7 +2156,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table. auto_source=priority_sources"
   },
   {
@@ -2188,7 +2188,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table. auto_source=priority_sources"
   },
   {
@@ -2204,7 +2204,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table. auto_source=priority_sources"
   },
   {
@@ -2284,7 +2284,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources"
   },
   {
@@ -2300,7 +2300,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources"
   },
   {
@@ -2316,7 +2316,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources"
   },
   {
@@ -2332,7 +2332,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Official universal RVN stratum endpoint. | Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources | Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources | Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources | Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources | Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources | Discovered by ravenminer_rvn_howto using html_s"
   },
   {
@@ -2348,7 +2348,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources"
   },
   {
@@ -2364,7 +2364,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Official regional RVN endpoint. | Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources | Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources | Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources | Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources | Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources | Discovered by ravenminer_rvn_howto using html_stratum_ex"
   },
   {
@@ -2380,7 +2380,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain rupool.pro. auto_source=official_site_crawl"
   },
   {
@@ -2396,7 +2396,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain rupool.pro. auto_source=official_site_crawl"
   },
   {
@@ -2412,7 +2412,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain rupool.pro. auto_source=official_site_crawl"
   },
   {
@@ -2428,7 +2428,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain rupool.pro. auto_source=official_site_crawl"
   },
   {
@@ -2444,7 +2444,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain rupool.pro. auto_source=official_site_crawl"
   },
   {
@@ -2460,7 +2460,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain rupool.pro. auto_source=official_site_crawl"
   },
   {
@@ -2476,7 +2476,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain rupool.pro. auto_source=official_site_crawl"
   },
   {
@@ -2492,7 +2492,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain rupool.pro. auto_source=official_site_crawl"
   },
   {
@@ -2508,7 +2508,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain rupool.pro. auto_source=official_site_crawl"
   },
   {
@@ -2524,7 +2524,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain rupool.pro. auto_source=official_site_crawl"
   },
   {
@@ -2540,7 +2540,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain rupool.pro. auto_source=official_site_crawl"
   },
   {
@@ -2556,7 +2556,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain rupool.pro. auto_source=official_site_crawl"
   },
   {
@@ -2572,7 +2572,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain rupool.pro. auto_source=official_site_crawl"
   },
   {
@@ -2588,7 +2588,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain rupool.pro. auto_source=official_site_crawl"
   },
   {
@@ -2604,7 +2604,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain rupool.pro. auto_source=official_site_crawl"
   },
   {
@@ -2620,7 +2620,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain rupool.pro. auto_source=official_site_crawl"
   },
   {
@@ -2636,7 +2636,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-11",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solo100.org. auto_source=official_site_crawl"
   },
   {
@@ -3436,7 +3436,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bitmernsolo.com. auto_source=official_site_crawl"
   },
   {
@@ -3452,7 +3452,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bitmernsolo.com. auto_source=official_site_crawl"
   },
   {
@@ -3468,7 +3468,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bitmernsolo.com. auto_source=official_site_crawl"
   },
   {
@@ -3484,7 +3484,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bitmernsolo.com. auto_source=official_site_crawl"
   },
   {
@@ -3500,7 +3500,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bitmernsolo.com. auto_source=official_site_crawl"
   },
   {
@@ -3516,7 +3516,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bitmernsolo.com. auto_source=official_site_crawl"
   },
   {
@@ -3532,7 +3532,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bitmernsolo.com. auto_source=official_site_crawl"
   },
   {
@@ -3548,7 +3548,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bitmernsolo.com. auto_source=official_site_crawl"
   },
   {
@@ -3564,7 +3564,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bitmernsolo.com. auto_source=official_site_crawl"
   },
   {
@@ -3580,7 +3580,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bitmernsolo.com. auto_source=official_site_crawl"
   },
   {
@@ -3596,7 +3596,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bitmernsolo.com. auto_source=official_site_crawl"
   },
   {
@@ -3612,7 +3612,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bitmernsolo.com. auto_source=official_site_crawl"
   },
   {
@@ -3628,7 +3628,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-08-10",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain capspool.io. auto_source=official_site_crawl"
   },
   {
@@ -3644,7 +3644,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bitcoin.cedric-crispin.com. auto_source=official_site_crawl"
   },
   {
@@ -3660,7 +3660,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bitcoin.cedric-crispin.com. auto_source=official_site_crawl"
   },
   {
@@ -4108,10 +4108,42 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain f2pool.kz. auto_source=official_site_crawl"
   },
   {
+    "domain": "bch.gokby.com",
+    "port": 7710,
+    "scheme": "stratum+tcp",
+    "pool_name": "gokby.com",
+    "coin": "BCH",
+    "algorithm": "SHA-256",
+    "region": "Global",
+    "source_type": "official",
+    "source_url": "https://gokby.com/; https://gokby.com/getting_started; https://gokby.com/miner_stats; https://gokby.com/support",
+    "confidence": "confirmed",
+    "status": "active",
+    "first_seen": "2026-08-24",
+    "last_seen": "2026-08-24",
+    "notes": "Discovered by shallow crawling official website domain gokby.com. auto_source=official_site_crawl"
+  },
+  {
+    "domain": "bch.gokby.com",
+    "port": 7711,
+    "scheme": "stratum+tcp",
+    "pool_name": "gokby.com",
+    "coin": "BCH",
+    "algorithm": "SHA-256",
+    "region": "Global",
+    "source_type": "official",
+    "source_url": "https://gokby.com/; https://gokby.com/getting_started; https://gokby.com/miner_stats; https://gokby.com/support",
+    "confidence": "confirmed",
+    "status": "active",
+    "first_seen": "2026-08-24",
+    "last_seen": "2026-08-24",
+    "notes": "Discovered by shallow crawling official website domain gokby.com. auto_source=official_site_crawl"
+  },
+  {
     "domain": "btc.gokby.com",
     "port": 3334,
     "scheme": "stratum+ssl",
@@ -4124,7 +4156,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain gokby.com. auto_source=official_site_crawl"
   },
   {
@@ -4140,7 +4172,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain gokby.com. auto_source=official_site_crawl"
   },
   {
@@ -4156,7 +4188,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain gokby.com. auto_source=official_site_crawl"
   },
   {
@@ -4172,7 +4204,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain gokby.com. auto_source=official_site_crawl"
   },
   {
@@ -4188,7 +4220,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain gokby.com. auto_source=official_site_crawl"
   },
   {
@@ -4204,7 +4236,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain gokby.com. auto_source=official_site_crawl"
   },
   {
@@ -4220,7 +4252,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain gokby.com. auto_source=official_site_crawl"
   },
   {
@@ -4236,7 +4268,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain gokby.com. auto_source=official_site_crawl"
   },
   {
@@ -4252,7 +4284,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain gokby.com. auto_source=official_site_crawl"
   },
   {
@@ -4268,7 +4300,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain gokby.com. auto_source=official_site_crawl"
   },
   {
@@ -4284,7 +4316,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain gokby.com. auto_source=official_site_crawl"
   },
   {
@@ -4300,7 +4332,23 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
+    "notes": "Discovered by shallow crawling official website domain gokby.com. auto_source=official_site_crawl"
+  },
+  {
+    "domain": "btc.gokby.com",
+    "port": 6610,
+    "scheme": "stratum+tcp",
+    "pool_name": "gokby.com",
+    "coin": "BTC",
+    "algorithm": "SHA-256",
+    "region": "Global",
+    "source_type": "official",
+    "source_url": "https://gokby.com/; https://gokby.com/getting_started; https://gokby.com/miner_stats; https://gokby.com/support",
+    "confidence": "confirmed",
+    "status": "active",
+    "first_seen": "2026-08-24",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain gokby.com. auto_source=official_site_crawl"
   },
   {
@@ -4316,7 +4364,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-06-01",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain gokby.com. auto_source=official_site_crawl"
   },
   {
@@ -4400,6 +4448,38 @@
     "notes": "Discovered by shallow crawling official website domain gokby.com. auto_source=official_site_crawl"
   },
   {
+    "domain": "ltc.gokby.com",
+    "port": 8810,
+    "scheme": "stratum+tcp",
+    "pool_name": "gokby.com",
+    "coin": "LTC",
+    "algorithm": "Scrypt",
+    "region": "Global",
+    "source_type": "official",
+    "source_url": "https://gokby.com/; https://gokby.com/getting_started; https://gokby.com/miner_stats; https://gokby.com/support",
+    "confidence": "confirmed",
+    "status": "active",
+    "first_seen": "2026-08-24",
+    "last_seen": "2026-08-24",
+    "notes": "Discovered by shallow crawling official website domain gokby.com. auto_source=official_site_crawl"
+  },
+  {
+    "domain": "ltc.gokby.com",
+    "port": 8811,
+    "scheme": "stratum+tcp",
+    "pool_name": "gokby.com",
+    "coin": "LTC",
+    "algorithm": "Scrypt",
+    "region": "Global",
+    "source_type": "official",
+    "source_url": "https://gokby.com/; https://gokby.com/getting_started; https://gokby.com/miner_stats; https://gokby.com/support",
+    "confidence": "confirmed",
+    "status": "active",
+    "first_seen": "2026-08-24",
+    "last_seen": "2026-08-24",
+    "notes": "Discovered by shallow crawling official website domain gokby.com. auto_source=official_site_crawl"
+  },
+  {
     "domain": "btc.heliospool.com",
     "port": 3333,
     "scheme": "stratum+tcp",
@@ -4428,7 +4508,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-18",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4444,7 +4524,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-27",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4460,7 +4540,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-27",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4476,7 +4556,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-27",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4492,7 +4572,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-27",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4508,7 +4588,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-27",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4524,7 +4604,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-11",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4540,7 +4620,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-18",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4556,7 +4636,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-04",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4572,7 +4652,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-04",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4588,7 +4668,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-04",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4604,7 +4684,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-04",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4620,7 +4700,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-04",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4636,7 +4716,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-11",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4652,7 +4732,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-04",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4668,7 +4748,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-04",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4684,7 +4764,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-04",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4700,7 +4780,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-04",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4716,7 +4796,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-04",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4732,7 +4812,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-11",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4748,7 +4828,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-11",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4764,7 +4844,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-04",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4780,7 +4860,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-04",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4796,7 +4876,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-04",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4812,7 +4892,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-04",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4828,7 +4908,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-04",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4844,7 +4924,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-11",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4860,7 +4940,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-05-11",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4876,7 +4956,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-07-20",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain xec.hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4892,7 +4972,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-07-20",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain xec.hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4908,7 +4988,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-07-20",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain xec.hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4924,7 +5004,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-07-20",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain xec.hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4940,7 +5020,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-07-20",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain xec.hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4956,7 +5036,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-07-20",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain xec.hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4972,7 +5052,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-07-20",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain xec.hmpool.io. auto_source=official_site_crawl"
   },
   {
@@ -4988,7 +5068,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain kas.humpool.com. auto_source=official_site_crawl"
   },
   {
@@ -5020,7 +5100,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-27",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain xec.lmwpool.com. auto_source=official_site_crawl"
   },
   {
@@ -5036,7 +5116,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-27",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain xec.lmwpool.com. auto_source=official_site_crawl"
   },
   {
@@ -5500,7 +5580,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain rvn.pool2mine.net. auto_source=official_site_crawl"
   },
   {
@@ -5516,7 +5596,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain doge-stats.qubic.org. auto_source=official_site_crawl"
   },
   {
@@ -5532,7 +5612,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain doge-stats.qubic.org. auto_source=official_site_crawl"
   },
   {
@@ -5548,7 +5628,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.solo-pool.org. auto_source=official_site_crawl"
   },
   {
@@ -5564,7 +5644,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain btc.solo-pool.org. auto_source=official_site_crawl"
   },
   {
@@ -5580,7 +5660,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solofury.com. auto_source=official_site_crawl"
   },
   {
@@ -5596,7 +5676,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solofury.com. auto_source=official_site_crawl"
   },
   {
@@ -5612,7 +5692,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain solofury.com. auto_source=official_site_crawl"
   },
   {
@@ -5692,7 +5772,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain rvn.suprnova.cc. auto_source=official_site_crawl"
   },
   {
@@ -5708,7 +5788,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain zec.suprnova.cc. auto_source=official_site_crawl"
   },
   {
@@ -5724,7 +5804,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain zec.suprnova.cc. auto_source=official_site_crawl"
   },
   {
@@ -5740,7 +5820,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain zec.suprnova.cc. auto_source=official_site_crawl"
   },
   {
@@ -5756,7 +5836,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-08-10",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain bch.vargatech.net. auto_source=official_site_crawl"
   },
   {
@@ -5772,7 +5852,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain whalepool.com. auto_source=official_site_crawl"
   },
   {
@@ -5788,7 +5868,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain whalepool.com. auto_source=official_site_crawl"
   },
   {
@@ -5804,7 +5884,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain whalepool.com. auto_source=official_site_crawl"
   },
   {
@@ -5820,7 +5900,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain whalepool.com. auto_source=official_site_crawl"
   },
   {
@@ -5836,7 +5916,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain whalepool.com. auto_source=official_site_crawl"
   },
   {
@@ -5852,7 +5932,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain whalepool.com. auto_source=official_site_crawl"
   },
   {
@@ -5868,7 +5948,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain whalepool.com. auto_source=official_site_crawl"
   },
   {
@@ -5884,7 +5964,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain whalepool.com. auto_source=official_site_crawl"
   },
   {
@@ -5900,7 +5980,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain whalepool.com. auto_source=official_site_crawl"
   },
   {
@@ -5916,7 +5996,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain whalepool.com. auto_source=official_site_crawl"
   },
   {
@@ -5932,7 +6012,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain whalepool.com. auto_source=official_site_crawl"
   },
   {
@@ -5948,7 +6028,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain whalepool.com. auto_source=official_site_crawl"
   },
   {
@@ -5964,7 +6044,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain whalepool.com. auto_source=official_site_crawl"
   },
   {
@@ -5980,7 +6060,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain whalepool.com. auto_source=official_site_crawl"
   },
   {
@@ -5996,7 +6076,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-08-17",
+    "last_seen": "2026-08-24",
     "notes": "Discovered by shallow crawling official website domain whalepool.com. auto_source=official_site_crawl"
   }
 ]
