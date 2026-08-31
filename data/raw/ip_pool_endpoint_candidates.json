@@ -11,8 +11,8 @@
     "source_url": "https://miningpoolstats.stream/anonymous",
     "confidence": "candidate",
     "status": "unknown",
-    "first_seen": "2026-08-24",
-    "last_seen": "2026-08-24",
+    "first_seen": "2026-08-31",
+    "last_seen": "2026-08-31",
     "notes": "IP:port pool URL extracted from MiningPoolStats data file for anonymous; verify protocol before promotion."
   },
   {
@@ -27,8 +27,8 @@
     "source_url": "https://miningpoolstats.stream/hacash",
     "confidence": "candidate",
     "status": "unknown",
-    "first_seen": "2026-08-24",
-    "last_seen": "2026-08-24",
+    "first_seen": "2026-08-31",
+    "last_seen": "2026-08-31",
     "notes": "IP:port pool URL extracted from MiningPoolStats data file for hacash; verify protocol before promotion."
   }
 ]
