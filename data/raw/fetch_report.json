@@ -2,7 +2,7 @@
   {
     "source_id": "f2pool_pool_info",
     "url": "https://f2pool.zendesk.com/hc/en-us/articles/360058887912-Mining-pools-info-payout-schemes-and-thresholds-at-f2pool",
-    "started_at": "2026-09-14T08:25:50.953519+00:00",
+    "started_at": "2026-09-21T08:29:56.154608+00:00",
     "ok": false,
     "status": null,
     "sha256": null,
@@ -14,7 +14,7 @@
   {
     "source_id": "f2pool_btc_guide",
     "url": "https://f2pool.zendesk.com/hc/en-us/articles/360058669631-BTC-mining-guide",
-    "started_at": "2026-09-14T08:25:53.156144+00:00",
+    "started_at": "2026-09-21T08:29:58.297801+00:00",
     "ok": false,
     "status": null,
     "sha256": null,
@@ -26,7 +26,7 @@
   {
     "source_id": "viabtc_pool_info",
     "url": "https://support.viabtc.com/hc/en-us/articles/14367481714191-Mining-Pools-Information",
-    "started_at": "2026-09-14T08:25:55.268182+00:00",
+    "started_at": "2026-09-21T08:30:00.387436+00:00",
     "ok": false,
     "status": null,
     "sha256": null,
@@ -38,7 +38,7 @@
   {
     "source_id": "viabtc_btc_guide",
     "url": "https://support.viabtc.com/hc/en-us/articles/7207401012879-BTC-Mining",
-    "started_at": "2026-09-14T08:25:57.432616+00:00",
+    "started_at": "2026-09-21T08:30:02.601863+00:00",
     "ok": false,
     "status": null,
     "sha256": null,
@@ -50,7 +50,7 @@
   {
     "source_id": "antpool_btc_bch",
     "url": "https://antpoolsupport-hc.zendesk.com/hc/en-us/articles/5984340865177-BTC-BCH-Mining-Tutorial",
-    "started_at": "2026-09-14T08:25:59.546371+00:00",
+    "started_at": "2026-09-21T08:30:04.666678+00:00",
     "ok": false,
     "status": null,
     "sha256": null,
@@ -62,7 +62,7 @@
   {
     "source_id": "antpool_etc",
     "url": "https://antpoolsupport-hc.zendesk.com/hc/en-us/articles/5984283054745-ETC-Mining-Instruction",
-    "started_at": "2026-09-14T08:26:01.675680+00:00",
+    "started_at": "2026-09-21T08:30:06.772243+00:00",
     "ok": false,
     "status": null,
     "sha256": null,
@@ -74,11 +74,11 @@
   {
     "source_id": "luxor_getting_started",
     "url": "https://docs.luxor.tech/mining/getting-started",
-    "started_at": "2026-09-14T08:26:03.798395+00:00",
+    "started_at": "2026-09-21T08:30:08.861710+00:00",
     "ok": true,
     "status": 200,
-    "sha256": "edd3bf373807aa3518265ba14d5a1219dd39f19fa81161d011734587f91441a8",
-    "bytes": 215115,
+    "sha256": "e67a66d5c2653f3eb7c15c6164b9069fa391a29df251b65d0b7adbbefc2c1fb9",
+    "bytes": 215497,
     "records": 4,
     "used_cache": false,
     "error": null
@@ -86,10 +86,10 @@
   {
     "source_id": "2miners_erg_help",
     "url": "https://erg.2miners.com/help",
-    "started_at": "2026-09-14T08:26:05.311494+00:00",
+    "started_at": "2026-09-21T08:30:10.099143+00:00",
     "ok": true,
     "status": 200,
-    "sha256": "76b4fa4340c7ea5727a676a8701673c820453a2d22ed97369e2f9f26dc451c58",
+    "sha256": "4e76eb84f57bd267da9eafb71791e2b4e1342629698373158168216eef15ea4b",
     "bytes": 61851,
     "records": 6,
     "used_cache": false,
@@ -98,11 +98,11 @@
   {
     "source_id": "2miners_ethw_help",
     "url": "https://ethw.2miners.com/help",
-    "started_at": "2026-09-14T08:26:07.203678+00:00",
+    "started_at": "2026-09-21T08:30:11.913286+00:00",
     "ok": true,
     "status": 200,
-    "sha256": "da83981e5e745879e4ed6353a6e33010736329262d80e1e6eac655b0bd9a162d",
-    "bytes": 64991,
+    "sha256": "0678a60ac83c86a6f85c0c4deefe8590daf578fd652d1682dc005048e9a7a4d1",
+    "bytes": 64977,
     "records": 6,
     "used_cache": false,
     "error": null
@@ -110,10 +110,10 @@
   {
     "source_id": "ravenminer_rvn_howto",
     "url": "https://www.ravenminer.com/ravencoin/howto",
-    "started_at": "2026-09-14T08:26:09.109510+00:00",
+    "started_at": "2026-09-21T08:30:13.620121+00:00",
     "ok": true,
     "status": 200,
-    "sha256": "1fc3671e5c2ead78ebcfe7a4e3db544dc7b11d79f5d7e76172168d532304e5e9",
+    "sha256": "c54f4a1256e498aa60a2e63559936f333a3a55ab0de62ce697add94703abfeb6",
     "bytes": 61120,
     "records": 6,
     "used_cache": false,
@@ -122,11 +122,11 @@
   {
     "source_id": "minerstat_nicehash_help",
     "url": "https://minerstat.com/help/how-to-set-up-nicehash-mining",
-    "started_at": "2026-09-14T08:26:11.011292+00:00",
+    "started_at": "2026-09-21T08:30:15.030476+00:00",
     "ok": true,
     "status": 200,
-    "sha256": "55c276c516dcfbc0041464e8beddb0d4adf90dd0fea12b81eec4b54feff4cb90",
-    "bytes": 271859,
+    "sha256": "ed2ee1564c28c973a6b7713d587dd9c21b3e3b5028fc7e516d1233ed16e09018",
+    "bytes": 271335,
     "records": 0,
     "used_cache": false,
     "error": null
