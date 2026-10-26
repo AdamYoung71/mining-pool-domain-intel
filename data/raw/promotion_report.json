@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-19T08:24:44Z",
-  "seed_records": 2020,
+  "generated_at": "2026-10-26T08:12:39Z",
+  "seed_records": 2108,
   "input_records": {
     "priority_sources": 22,
-    "official_site_crawl": 1005,
+    "official_site_crawl": 0,
     "github_code_search": 109,
-    "ip_endpoint_candidates": 2
+    "ip_endpoint_candidates": 0
   },
   "output_records": 2108,
-  "inserted": 88,
-  "updated": 939,
-  "unchanged": 1081,
+  "inserted": 0,
+  "updated": 22,
+  "unchanged": 2086,
   "skipped": 0,
   "skipped_examples": [],
   "confidence_counts": {

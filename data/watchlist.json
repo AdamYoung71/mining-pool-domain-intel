@@ -28,7 +28,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "notes": "Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources"
   },
   {
@@ -44,7 +44,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "notes": "Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources"
   },
   {
@@ -60,7 +60,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "notes": "Official 2Miners ERG pool endpoint. | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by shallow crawling official website domain erg.2miners.com. auto_source=official_site_crawl | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by shallow crawling official website domain erg.2miners.com. auto_source=official_site_crawl | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by shallow crawling official website domain erg.2miners.com. auto_source=official_site_crawl | Extracted from public GitHub code search query stratum_tcp_json; repo=DcTyle/QuantumMiner; path=miner/miner_runtime_config.json.bak_ascii; review before promotion."
   },
   {
@@ -76,7 +76,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "notes": "Official 2Miners ERG SSL endpoint. | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_"
   },
   {
@@ -92,7 +92,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "notes": "Official 2Miners ERG regional endpoint. | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources | Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table."
   },
   {
@@ -108,7 +108,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "notes": "Discovered by 2miners_erg_help using html_stratum_extract. Official ERG setup and server table. auto_source=priority_sources"
   },
   {
@@ -140,7 +140,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "notes": "Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources"
   },
   {
@@ -156,7 +156,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "notes": "Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources"
   },
   {
@@ -172,7 +172,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "notes": "Official 2Miners ETHW endpoint. | Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources | Discovered by shallow crawling official website domain ethw.2miners.com. auto_source=official_site_crawl | Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources | Discovered by shallow crawling official website domain ethw.2miners.com. auto_source=official_site_crawl | Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources | Discovered by shallow crawling official website domain ethw.2miners.com. auto_source=official_site_crawl | Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources | Discovered by shallow crawlin"
   },
   {
@@ -188,7 +188,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "notes": "Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources | Discovered by shallow crawling official website domain 2miners.com. auto_source=official_site_crawl | Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources | Discovered by shallow crawling official website domain 2miners.com. auto_source=official_site_crawl | Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources | Discovered by shallow crawling official website domain 2miners.com. auto_source=official_site_crawl | Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources | Discovered by shallow crawling official website domain 2miners.com. auto_sourc"
   },
   {
@@ -204,7 +204,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "notes": "Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources"
   },
   {
@@ -220,7 +220,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "notes": "Discovered by 2miners_ethw_help using html_stratum_extract. Official ETHW setup and server table. auto_source=priority_sources"
   },
   {
@@ -2140,7 +2140,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "notes": "Official global BTC stratum. | Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table. auto_source=priority_sources | Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table. auto_source=priority_sources | Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table. auto_source=priority_sources | Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table. auto_source=priority_sources | Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table. auto_source=priority_sources | Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table. auto_source=priority_sources | Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table. auto_source=priori"
   },
   {
@@ -2156,7 +2156,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "notes": "Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table. auto_source=priority_sources"
   },
   {
@@ -2188,7 +2188,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "notes": "Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table. auto_source=priority_sources"
   },
   {
@@ -2204,7 +2204,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "notes": "Discovered by luxor_getting_started using html_stratum_extract. Official global stratum table. auto_source=priority_sources"
   },
   {
@@ -2284,7 +2284,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "notes": "Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources"
   },
   {
@@ -2300,7 +2300,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "notes": "Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources"
   },
   {
@@ -2316,7 +2316,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "notes": "Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources"
   },
   {
@@ -2332,7 +2332,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "notes": "Official universal RVN stratum endpoint. | Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources | Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources | Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources | Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources | Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources | Discovered by ravenminer_rvn_howto using html_s"
   },
   {
@@ -2348,7 +2348,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-21",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "notes": "Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources"
   },
   {
@@ -2364,7 +2364,7 @@
     "confidence": "confirmed",
     "status": "active",
     "first_seen": "2026-04-17",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-26",
     "notes": "Official regional RVN endpoint. | Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources | Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources | Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources | Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources | Discovered by ravenminer_rvn_howto using html_stratum_extract. Official RVN setup guide with TCP, regional, static, and TLS ports. auto_source=priority_sources | Discovered by ravenminer_rvn_howto using html_stratum_ex"
   },
   {
