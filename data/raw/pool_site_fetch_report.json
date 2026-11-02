@@ -5,8 +5,8 @@
     "ok": true,
     "used_cache": false,
     "status": 200,
-    "sha256": "b3e76b9228055f961818b4df80f47df218b1dd72e2af5eafd2396d786e1e9a20",
-    "bytes": 124276,
+    "sha256": "84e7cfdaaf639ca68a75cf4bf7cbbd0e2d3b5ad3bc5257caef07be0d964f06ff",
+    "bytes": 125003,
     "records": 0,
     "error": null
   },
@@ -16,9 +16,9 @@
     "ok": true,
     "used_cache": false,
     "status": 200,
-    "sha256": "c1034d3a26fb6649e8c4174f9fd5230c850cb63f38405d308490893d610a79f3",
-    "bytes": 63741,
-    "records": 681,
+    "sha256": "9536553a961a1921a06a28f370a70835f3e821e0bc68f0def639b39b04bf1284",
+    "bytes": 65137,
+    "records": 696,
     "error": null
   },
   {
@@ -401,6 +401,15 @@
   },
   {
     "source_id": "miningpoolstats_sitemap_data",
+    "coin": "aurora",
+    "url": "https://miningpoolstats.stream/aurora",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "No MiningPoolStats data file preload URL found."
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
     "coin": "auroracoin-groestl",
     "url": "https://miningpoolstats.stream/auroracoin-groestl",
     "ok": false,
@@ -716,6 +725,24 @@
   },
   {
     "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoinknots",
+    "url": "https://miningpoolstats.stream/bitcoinknots",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "No MiningPoolStats data file preload URL found."
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoinknotscash",
+    "url": "https://miningpoolstats.stream/bitcoinknotscash",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "No MiningPoolStats data file preload URL found."
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
     "coin": "bitcoinmono",
     "url": "https://miningpoolstats.stream/bitcoinmono",
     "ok": false,
@@ -727,6 +754,15 @@
     "source_id": "miningpoolstats_sitemap_data",
     "coin": "bitcoinoil",
     "url": "https://miningpoolstats.stream/bitcoinoil",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "No MiningPoolStats data file preload URL found."
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "bitcoinpurity",
+    "url": "https://miningpoolstats.stream/bitcoinpurity",
     "ok": false,
     "used_cache": false,
     "records": 0,
@@ -1751,6 +1787,15 @@
   },
   {
     "source_id": "miningpoolstats_sitemap_data",
+    "coin": "dogecoin2",
+    "url": "https://miningpoolstats.stream/dogecoin2",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "No MiningPoolStats data file preload URL found."
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
     "coin": "dogecoinev",
     "url": "https://miningpoolstats.stream/dogecoinev",
     "ok": false,
@@ -2329,6 +2374,15 @@
     "source_id": "miningpoolstats_sitemap_data",
     "coin": "frencoin",
     "url": "https://miningpoolstats.stream/frencoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "No MiningPoolStats data file preload URL found."
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "friotaioch",
+    "url": "https://miningpoolstats.stream/friotaioch",
     "ok": false,
     "used_cache": false,
     "records": 0,
@@ -3094,6 +3148,15 @@
     "source_id": "miningpoolstats_sitemap_data",
     "coin": "koto",
     "url": "https://miningpoolstats.stream/koto",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "No MiningPoolStats data file preload URL found."
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "kpowbit",
+    "url": "https://miningpoolstats.stream/kpowbit",
     "ok": false,
     "used_cache": false,
     "records": 0,
@@ -3976,6 +4039,24 @@
     "source_id": "miningpoolstats_sitemap_data",
     "coin": "noxcoin",
     "url": "https://miningpoolstats.stream/noxcoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "No MiningPoolStats data file preload URL found."
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "numen",
+    "url": "https://miningpoolstats.stream/numen",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "No MiningPoolStats data file preload URL found."
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "nusacoin",
+    "url": "https://miningpoolstats.stream/nusacoin",
     "ok": false,
     "used_cache": false,
     "records": 0,
@@ -4919,6 +5000,15 @@
   },
   {
     "source_id": "miningpoolstats_sitemap_data",
+    "coin": "soqucoin",
+    "url": "https://miningpoolstats.stream/soqucoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "No MiningPoolStats data file preload URL found."
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
     "coin": "sorachancoin",
     "url": "https://miningpoolstats.stream/sorachancoin",
     "ok": false,
@@ -5155,6 +5245,15 @@
     "source_id": "miningpoolstats_sitemap_data",
     "coin": "talleo",
     "url": "https://miningpoolstats.stream/talleo",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "No MiningPoolStats data file preload URL found."
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "tarcoin",
+    "url": "https://miningpoolstats.stream/tarcoin",
     "ok": false,
     "used_cache": false,
     "records": 0,
@@ -5513,6 +5612,15 @@
   },
   {
     "source_id": "miningpoolstats_sitemap_data",
+    "coin": "vargamesh",
+    "url": "https://miningpoolstats.stream/vargamesh",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "No MiningPoolStats data file preload URL found."
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
     "coin": "varsechain",
     "url": "https://miningpoolstats.stream/varsechain",
     "ok": false,
@@ -5704,6 +5812,24 @@
     "source_id": "miningpoolstats_sitemap_data",
     "coin": "veruscoin",
     "url": "https://miningpoolstats.stream/veruscoin",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "No MiningPoolStats data file preload URL found."
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "vexta-randomx",
+    "url": "https://miningpoolstats.stream/vexta-randomx",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "No MiningPoolStats data file preload URL found."
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "vexta-sha",
+    "url": "https://miningpoolstats.stream/vexta-sha",
     "ok": false,
     "used_cache": false,
     "records": 0,
@@ -6145,6 +6271,15 @@
     "source_id": "miningpoolstats_sitemap_data",
     "coin": "zilliqa",
     "url": "https://miningpoolstats.stream/zilliqa",
+    "ok": false,
+    "used_cache": false,
+    "records": 0,
+    "error": "No MiningPoolStats data file preload URL found."
+  },
+  {
+    "source_id": "miningpoolstats_sitemap_data",
+    "coin": "zkas",
+    "url": "https://miningpoolstats.stream/zkas",
     "ok": false,
     "used_cache": false,
     "records": 0,
