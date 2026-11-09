@@ -10,7 +10,7 @@
 | 指标 | 上次结果 |
 | --- | --- |
 | 运行状态 | `success` |
-| 上次运行时间 | 2026-11-02 17:51:56 北京时间 |
+| 上次运行时间 | 2026-11-09 18:11:11 北京时间 |
 | 耗时 | 9分42秒 |
 | 触发方式 | `schedule` |
 | 参数 | MiningPoolStats=0, directory_workers=4, 官网=0, 每站页面=4, 站点间隔=0.5s, 页面间隔=1.0s, site_workers=4, GitHub=false |
@@ -22,7 +22,7 @@
 | 最终情报库 | 总数 2108，新增 0 |
 | 告警建议集 | 总数 466 |
 | 源抓取状态 | 成功 191，失败 702，使用缓存 0 |
-| 运行链接 | [GitHub Actions](https://github.com/AdamYoung71/mining-pool-domain-intel/actions/runs/41424096270) |
+| 运行链接 | [GitHub Actions](https://github.com/AdamYoung71/mining-pool-domain-intel/actions/runs/42599001958) |
 <!-- intel-status:end -->
 
 ## 快速开始
